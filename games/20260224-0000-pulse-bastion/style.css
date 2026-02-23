@@ -1,0 +1,97 @@
+:root {
+  --bg: #06111b;
+  --panel: #0e2234;
+  --ink: #e2f0ff;
+  --accent: #38c7ff;
+  --warn: #ff8b4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #113357 0%, var(--bg) 62%);
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+.sub {
+  margin: 6px 0 14px;
+  color: #b9d6ef;
+}
+
+canvas {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+  border: 2px solid #2d597b;
+  border-radius: 10px;
+  background: #040c14;
+  touch-action: none;
+}
+
+.hud {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #081a2b;
+  border: 1px solid #244760;
+  font-size: 14px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+button {
+  border: 1px solid #2f617f;
+  background: var(--panel);
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.help {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #264c67;
+  background: rgba(2, 8, 15, 0.7);
+  font-size: 14px;
+}
+
+.help h2 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.help p {
+  margin: 4px 0;
+}
+
+@media (max-width: 720px) {
+  .controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pulse Bastion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Pulse Bastion</h1>
+    <p class="sub">Tower defense lite: lock lanes, upgrade batteries, survive six waves.</p>
+
+    <canvas id="game" width="960" height="540" aria-label="Pulse Bastion game canvas"></canvas>
+
+    <section class="hud" id="hud"></section>
+
+    <section class="controls" aria-label="Touch controls">
+      <button id="placeBtn">Place (Space)</button>
+      <button id="upgradeBtn">Upgrade (U)</button>
+      <button id="sellBtn">Sell (X)</button>
+      <button id="startBtn">Start Wave (Enter)</button>
+      <button id="restartBtn">Restart (R)</button>
+    </section>
+
+    <section class="help">
+      <h2>Controls</h2>
+      <p><strong>Keyboard:</strong> WASD/Arrows move cursor, Space place/select, U upgrade, X sell, Enter start wave, R restart.</p>
+      <p><strong>Touch:</strong> Tap grid to select/place, then use on-screen action buttons.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

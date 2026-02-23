@@ -1,6 +1,6 @@
 # Latest Report
 
-- Run: 20260223-2300-hazard-serve
-- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/
-- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2300-hazard-serve.md
-- Summary: Hazard Serve shipped as a Canvas 2D brick-breaker with charge-angle serving, combo chains, timed hazard rows, and between-wave perk picks.
+- Run: 20260224-0000-pulse-bastion
+- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/
+- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0000-pulse-bastion.md
+- Summary: Pulse Bastion shipped as a Canvas 2D tower defense lite with placement, upgrades, sell economy, and six-wave lane defense pressure.

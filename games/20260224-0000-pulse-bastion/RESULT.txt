@@ -1,0 +1,9 @@
+English: Built Pulse Bastion, a Canvas 2D tower-defense-lite game with build/upgrade/sell phases, lane pressure, and keyboard-touch parity.
+Korean: Pulse Bastion은 설치/업그레이드/판매 빌드 페이즈와 레인 방어 압박, 키보드·터치 동등 조작을 갖춘 Canvas 2D 타워디펜스 라이트 게임입니다.
+Genre: Tower defense lite
+Core loop: plan-place-upgrade-hold-lane-economy-cycle
+Previous vs Current Improvement: Hazard Serve 대비 (1) 반사신경 중심 루프에서 배치·경제·업그레이드 전략 루프로 확장 (2) 웨이브/누수 기반 장기 압박 구조 추가 (3) 빌드 액션 전부 키보드·터치 동등 지원
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0000-pulse-bastion.md
+Vercel URL: pending

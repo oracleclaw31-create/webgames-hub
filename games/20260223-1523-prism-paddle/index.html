@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prism Paddle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Prism Paddle</h1>
+    <p class="sub">Brick-breaker: clear all bricks before lives run out.</p>
+    <section class="hud">
+      <div>Lives: <span id="lives">3</span></div>
+      <div>Bricks: <span id="bricks">0</span></div>
+      <button id="resetBtn">Restart</button>
+    </section>
+    <canvas id="game" width="720" height="480" aria-label="Prism Paddle"></canvas>
+    <section class="touch">
+      <button data-dir="left">Left</button>
+      <button data-dir="right">Right</button>
+    </section>
+    <p class="help">Keyboard: Left/Right arrows or A/D.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #081226; color: #e8f0ff; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 16px; }
+.sub, .help { color: #adc0e5; }
+.hud { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.hud button, .touch button { border: 0; border-radius: 8px; background: #274573; color: #fff; padding: 8px 12px; font-weight: 700; }
+canvas { width: 100%; border: 2px solid #2f4d80; border-radius: 12px; background: linear-gradient(#4da3ff 0%, #89d8ff 60%, #1f7a35 60%, #2f9546 100%); display: block; }
+.touch { margin-top: 10px; display: flex; gap: 8px; }

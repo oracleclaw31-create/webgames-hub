@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vector Siege</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Vector Siege</h1>
+    <p class="sub">Top-down shooter: survive, clear drones, hold the arena.</p>
+    <section class="hud">
+      <div>HP: <span id="hp">3</span></div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Time: <span id="time">60</span>s</div>
+      <button id="resetBtn">Restart</button>
+    </section>
+    <canvas id="game" width="640" height="640" aria-label="Vector Siege"></canvas>
+    <section class="touch" aria-label="Touch controls">
+      <div class="row"><button data-dir="up">Up</button></div>
+      <div class="row">
+        <button data-dir="left">Left</button>
+        <button id="fireBtn">Fire</button>
+        <button data-dir="right">Right</button>
+      </div>
+      <div class="row"><button data-dir="down">Down</button></div>
+    </section>
+    <p class="help">Keyboard: WASD/Arrows move, Space fires in current facing direction.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Glyph Weave</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Glyph Weave</h1>
+    <p class="sub">Puzzle: slide tiles to restore the 1-8 glyph order.</p>
+    <section class="hud">
+      <div>Moves: <span id="moves">0</span></div>
+      <div>Status: <span id="status">SOLVING</span></div>
+      <button id="resetBtn">Shuffle</button>
+    </section>
+    <canvas id="game" width="480" height="480" aria-label="Glyph Weave"></canvas>
+    <section class="touch">
+      <button data-dir="up">Up</button>
+      <button data-dir="left">Left</button>
+      <button data-dir="right">Right</button>
+      <button data-dir="down">Down</button>
+    </section>
+    <p class="help">Keyboard: Arrow keys move the empty slot. Touch buttons do the same.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

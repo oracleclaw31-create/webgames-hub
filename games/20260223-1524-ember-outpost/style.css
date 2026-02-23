@@ -1,0 +1,7 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f140f; color: #edf6e8; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
+.sub, .help { color: #bfd0b8; }
+.hud { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
+button { border: 0; border-radius: 8px; background: #3c6339; color: #fff; padding: 8px 12px; font-weight: 700; }
+canvas { width: 100%; border: 2px solid #567c54; border-radius: 12px; background: #1a2a18; display: block; }

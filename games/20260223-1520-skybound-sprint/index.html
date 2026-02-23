@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skybound Sprint</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Skybound Sprint</h1>
+    <p class="sub">Platformer: collect all stars, then reach the goal flag.</p>
+    <section class="hud">
+      <div>Stars: <span id="stars">0</span>/5</div>
+      <div>Time: <span id="time">60</span>s</div>
+      <div>Status: <span id="status">RUN</span></div>
+      <button id="resetBtn">Restart</button>
+    </section>
+    <canvas id="game" width="800" height="450" aria-label="Skybound Sprint"></canvas>
+    <section class="touch" aria-label="Touch controls">
+      <button data-dir="left">Left</button>
+      <button data-dir="right">Right</button>
+      <button id="jumpBtn">Jump</button>
+    </section>
+    <p class="help">Keyboard: A/D or Arrow keys to move, W/Up/Space to jump.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

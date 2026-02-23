@@ -16,5 +16,50 @@
     "readme": "games/20260223-1501-neon-harvest/README.md",
     "coreLoop": "collect-evade-bank",
     "improvementAgainstPrevious": "higher action pacing, risk-reward banking, clearer feedback loop"
+  },
+  {
+    "id": "20260223-1520-skybound-sprint",
+    "slug": "skybound-sprint",
+    "title": "Skybound Sprint",
+    "path": "games/20260223-1520-skybound-sprint/index.html",
+    "readme": "games/20260223-1520-skybound-sprint/README.md",
+    "coreLoop": "run-jump-collect-finish",
+    "improvementAgainstPrevious": "adds vertical traversal and jump timing with a clear objective gate"
+  },
+  {
+    "id": "20260223-1521-vector-siege",
+    "slug": "vector-siege",
+    "title": "Vector Siege",
+    "path": "games/20260223-1521-vector-siege/index.html",
+    "readme": "games/20260223-1521-vector-siege/README.md",
+    "coreLoop": "move-aim-shoot-survive",
+    "improvementAgainstPrevious": "switches to continuous combat pressure and directional firing"
+  },
+  {
+    "id": "20260223-1522-glyph-weave",
+    "slug": "glyph-weave",
+    "title": "Glyph Weave",
+    "path": "games/20260223-1522-glyph-weave/index.html",
+    "readme": "games/20260223-1522-glyph-weave/README.md",
+    "coreLoop": "slide-reorder-solve",
+    "improvementAgainstPrevious": "pivots from reflex action to deterministic logic puzzle play"
+  },
+  {
+    "id": "20260223-1523-prism-paddle",
+    "slug": "prism-paddle",
+    "title": "Prism Paddle",
+    "path": "games/20260223-1523-prism-paddle/index.html",
+    "readme": "games/20260223-1523-prism-paddle/README.md",
+    "coreLoop": "paddle-bounce-break",
+    "improvementAgainstPrevious": "introduces kinetic physics loop with progressive brick clearing"
+  },
+  {
+    "id": "20260223-1524-ember-outpost",
+    "slug": "ember-outpost",
+    "title": "Ember Outpost",
+    "path": "games/20260223-1524-ember-outpost/index.html",
+    "readme": "games/20260223-1524-ember-outpost/README.md",
+    "coreLoop": "build-defend-upgrade",
+    "improvementAgainstPrevious": "adds strategic placement and wave management over direct control"
   }
 ]

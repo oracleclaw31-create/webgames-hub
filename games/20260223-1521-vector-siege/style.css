@@ -1,0 +1,9 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #071019; color: #e3f1ff; }
+.wrap { max-width: 700px; margin: 0 auto; padding: 16px; }
+.sub, .help { color: #a8c0d8; }
+.hud { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.hud button, .touch button { border: 0; border-radius: 8px; background: #255067; color: #fff; padding: 8px 12px; font-weight: 700; }
+canvas { width: 100%; border: 2px solid #2a5a74; border-radius: 12px; background: #0d1f2b; display: block; }
+.touch { display: grid; gap: 8px; justify-content: center; margin-top: 10px; }
+.row { display: flex; justify-content: center; gap: 8px; }

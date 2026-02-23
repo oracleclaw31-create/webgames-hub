@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ember Outpost</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Ember Outpost</h1>
+    <p class="sub">Tower defense lite: build posts to stop raiders before base integrity falls.</p>
+    <section class="hud">
+      <div>Gold: <span id="gold">0</span></div>
+      <div>Base HP: <span id="hp">10</span></div>
+      <div>Wave: <span id="wave">1</span></div>
+      <button id="buildBtn">Build (15g)</button>
+      <button id="resetBtn">Restart</button>
+    </section>
+    <canvas id="game" width="900" height="420" aria-label="Ember Outpost"></canvas>
+    <p class="help">Tap/click a build slot after pressing Build. Keyboard: `B` toggles build mode.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

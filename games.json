@@ -115,5 +115,14 @@
     "readme": "games/20260223-2100-anchor-ascent/README.md",
     "coreLoop": "run-jump-grapple-tag-extract",
     "improvementAgainstPrevious": "adds grapple-assisted vertical traversal depth, deterministic beacon-tag objective gating, and clearer failure-state readability"
+  },
+  {
+    "id": "20260223-2200-circuit-weaver",
+    "slug": "circuit-weaver",
+    "title": "Circuit Weaver",
+    "path": "games/20260223-2200-circuit-weaver/index.html",
+    "readme": "games/20260223-2200-circuit-weaver/README.md",
+    "coreLoop": "inspect-route-rotate-power-all-terminals-before-move-limit",
+    "improvementAgainstPrevious": "adds deterministic multi-board logic progression, explicit move-economy planning pressure, and direct tap-to-rotate puzzle interaction"
   }
 ]

@@ -1,0 +1,130 @@
+:root {
+  --bg: #081220;
+  --panel: #10233d;
+  --line: #2f5e8f;
+  --ink: #e6f4ff;
+  --accent: #78f2bc;
+  --warn: #ffd479;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 15% 10%, #12375f 0%, var(--bg) 45%, #040810 100%);
+  color: var(--ink);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.wrap {
+  width: min(92vw, 820px);
+  margin: 0 auto;
+  padding: 1rem 0 2rem;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+.subtitle {
+  margin: 0.35rem 0 0.75rem;
+  color: #beddff;
+}
+
+.hud {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 0.5rem;
+  margin: 0.5rem 0 0.8rem;
+}
+
+.hud div {
+  background: color-mix(in srgb, var(--panel) 84%, black);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+canvas {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 1;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(180deg, #0e2b49, #081423);
+  display: block;
+  touch-action: none;
+}
+
+.controls {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.dpad,
+.actions {
+  background: color-mix(in srgb, var(--panel) 85%, black);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.dpad {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.dpad div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.actions {
+  display: grid;
+  gap: 0.45rem;
+}
+
+button {
+  border: 1px solid #4f8ec7;
+  background: #174069;
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 0.65rem;
+  font-size: 1rem;
+}
+
+button:active {
+  transform: translateY(1px) scale(0.99);
+  filter: brightness(1.15);
+}
+
+.message {
+  margin: 0.75rem 0 0;
+  min-height: 1.4rem;
+  color: #d3e9ff;
+}
+
+.message.warn {
+  color: var(--warn);
+}
+
+.message.win {
+  color: var(--accent);
+}
+
+@media (max-width: 700px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .hud {
+    grid-template-columns: 1fr;
+  }
+}

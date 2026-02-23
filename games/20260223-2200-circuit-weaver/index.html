@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Circuit Weaver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Circuit Weaver</h1>
+    <p class="subtitle">Rotate tiles to power every terminal before moves run out.</p>
+
+    <section class="hud" aria-live="polite">
+      <div><strong>Level:</strong> <span id="level">1</span>/3</div>
+      <div><strong>Moves:</strong> <span id="moves">0</span></div>
+      <div><strong>Powered:</strong> <span id="powered">0</span>/3</div>
+    </section>
+
+    <canvas id="game" width="720" height="720" aria-label="Circuit Weaver puzzle board"></canvas>
+
+    <section class="controls" aria-label="Touch controls">
+      <div class="dpad">
+        <button id="btn-up" type="button">Up</button>
+        <div>
+          <button id="btn-left" type="button">Left</button>
+          <button id="btn-right" type="button">Right</button>
+        </div>
+        <button id="btn-down" type="button">Down</button>
+      </div>
+      <div class="actions">
+        <button id="btn-rotate" type="button">Rotate</button>
+        <button id="btn-restart" type="button">Restart</button>
+      </div>
+    </section>
+
+    <p id="message" class="message">Arrow keys to move cursor, Space to rotate. Tap tiles or use buttons on touch.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Genre: Puzzle (grid/logic)
+Core loop: inspect-route-rotate-power-all-terminals-before-move-limit
+
+Previous vs Current improvements:
+- Added deterministic multi-level mission progression (3 escalating boards) instead of a single traversal objective.
+- Added strategic planning pressure through visible move budget and tile-rotation economy.
+- Added direct tile tap-rotate interaction on top of button controls for faster mobile puzzle play.
+
+Controls:
+- Keyboard: Arrow keys/WASD move cursor, Space/R rotate, Enter continue, Esc restart level.
+- Touch: Tap tile to select/rotate, or use Up/Down/Left/Right, Rotate, Restart buttons.
+
+Known limitations:
+- Uses authored puzzle layouts with shuffled rotations, so board topology is not fully procedural.
+- No undo stack; mistaken rotations cost moves.
+- Audio and haptic feedback are not implemented.

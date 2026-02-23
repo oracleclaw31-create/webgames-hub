@@ -79,5 +79,14 @@
     "readme": "games/20260223-1702-gravity-gauntlet/README.md",
     "coreLoop": "thrust-drift-ricochet-shatter-reactor-clear-extract",
     "improvementAgainstPrevious": "adds objective extraction mission, momentum ricochet mastery layer, and clearer instant-retry HUD flow"
+  },
+  {
+    "id": "20260223-1822-phase-vault",
+    "slug": "phase-vault",
+    "title": "Phase Vault",
+    "path": "games/20260223-1822-phase-vault/index.html",
+    "readme": "games/20260223-1822-phase-vault/README.md",
+    "coreLoop": "jump-wallkick-phase-toggle-relic-extract",
+    "improvementAgainstPrevious": "adds authored platform route, A/B phase-state puzzle traversal, and simpler touch-first control mapping"
   }
 ]

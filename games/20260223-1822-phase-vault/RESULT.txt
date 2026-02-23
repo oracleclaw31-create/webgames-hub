@@ -1,0 +1,7 @@
+Phase Vault ships a new Canvas 2D platformer with wall-kick phase-toggle relic extraction.
+Phase Vault는 벽차기와 위상 전환으로 유물을 회수해 탈출하는 새로운 Canvas 2D 플랫포머입니다.
+Genre: Platformer / Core loop: jump-wallkick-phase-toggle-relic-extract / Previous vs Current Improvements: authored relic-gate route objective, A/B phase-platform puzzle traversal, simplified touch-first controls
+Game folder path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1822-phase-vault/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1822-phase-vault/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-1822-phase-vault.md
+Vercel URL: https://webgames-hub.vercel.app

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Phase Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hud-top">
+      <h1>Phase Vault</h1>
+      <p>Collect 3 relics, toggle phase gates, reach the exit.</p>
+    </header>
+
+    <section class="game-wrap">
+      <canvas id="game" width="960" height="540" aria-label="Phase Vault game canvas"></canvas>
+
+      <div class="hud" id="hud">
+        <span id="relics">Relics: 0/3</span>
+        <span id="phase">Phase: Solid</span>
+        <span id="time">Time: 0.0s</span>
+      </div>
+
+      <div class="overlay" id="overlay">
+        <div class="panel">
+          <h2 id="overlayTitle">Phase Vault</h2>
+          <p id="overlayText">Wall-kick and phase-toggle your way through the vault.</p>
+          <button id="startBtn">Start Run</button>
+          <ul>
+            <li>Keyboard: A/D or Arrow move, W/Up/Space jump, E toggle phase, R restart</li>
+            <li>Touch: Left/Right, Jump, Phase</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="touch" id="touchControls">
+        <button class="touch-btn" data-key="left">◀</button>
+        <button class="touch-btn" data-key="right">▶</button>
+        <button class="touch-btn action" data-key="jump">JUMP</button>
+        <button class="touch-btn action" data-key="phase">PHASE</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

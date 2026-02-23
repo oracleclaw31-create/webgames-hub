@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kinetic Smash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Kinetic Smash</h1>
+    <p class="hint">Drag/hold to charge and release the core. Keyboard: WASD/Arrows aim, Space charge, release Space to launch, R restart.</p>
+    <canvas id="game" width="960" height="540" aria-label="Kinetic Smash canvas game"></canvas>
+    <div class="hud" id="hud"></div>
+    <div class="touch" id="touchControls">
+      <button data-dir="up">▲</button>
+      <div class="mid"><button data-dir="left">◀</button><button data-charge="1">CHARGE</button><button data-dir="right">▶</button></div>
+      <button data-dir="down">▼</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

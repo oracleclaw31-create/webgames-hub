@@ -1,0 +1,11 @@
+:root{color-scheme:dark}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:#070b1a;color:#e8eeff}
+.wrap{max-width:980px;margin:0 auto;padding:16px}
+h1{margin:0 0 8px}
+.hint{margin:0 0 10px;color:#a8b6e9;font-size:14px}
+canvas{width:100%;height:auto;border:1px solid #29407a;border-radius:10px;background:radial-gradient(circle at 50% 40%,#111b3c,#060914)}
+.hud{margin-top:10px;font-weight:600}
+.touch{display:grid;gap:6px;margin-top:10px;max-width:260px;user-select:none}
+.touch button{padding:10px;border-radius:8px;border:1px solid #2f4e95;background:#16295e;color:#eff3ff;font-weight:700}
+.touch .mid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}
+@media (min-width:900px){.touch{opacity:.65}}

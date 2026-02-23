@@ -1,0 +1,11 @@
+English: Built and deployed Signal Breach, a new Canvas 2D top-down shooter with a non-duplicate strafe-mark-detonate-hack-extract loop.
+Korean: 중복 없는 strafe-mark-detonate-hack-extract 코어 루프로 Signal Breach(Canvas 2D 탑다운 슈터)를 제작하고 배포했습니다.
+Genre: Top-down shooter
+Core loop: strafe-mark-detonate-hack-extract
+Improvements: Orbit Forge 대비 (1) mark→detonate 전술 체인 추가 (2) 이중 relay hack 기반 추출 목표/가시성 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2000-signal-breach/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2000-signal-breach/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2000-signal-breach.md
+Vercel URL: https://webgames-hub.vercel.app
+Git push: done
+Status: completed

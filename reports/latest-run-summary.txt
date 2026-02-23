@@ -1,12 +1,12 @@
-English: Built Circuit Weaver, a new Canvas 2D grid-logic puzzle with rotate-and-route terminal power objectives.
-Korean: 단말 전력 연결을 목표로 하는 rotate-and-route 기반 Canvas 2D 그리드 로직 퍼즐 Circuit Weaver를 제작했습니다.
-Genre: Puzzle (grid/logic)
-Core loop: inspect-route-rotate-power-all-terminals-before-move-limit
-Improvements: Anchor Ascent 대비 (1) 3단계 결정적 논리 퍼즐 진행 구조 추가 (2) 제한 이동 수 기반 전략 자원 관리 추가 (3) 터치 타일 직접 회전 상호작용 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2200-circuit-weaver/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2200-circuit-weaver/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2200-circuit-weaver.md
+English: Built Hazard Serve, a new Canvas 2D brick-breaker featuring charge-angle serving, chain multipliers, timed hazard rows, and between-wave perks.
+Korean: charge-angle 서브, 콤보 배수, 타이머 hazard row, 웨이브 사이 perk 선택을 결합한 Canvas 2D 브릭브레이커 Hazard Serve를 제작했습니다.
+Genre: Brick-breaker
+Core loop: charge-angle-serve-chain-multiplier-survive-hazard-rows-pick-perk-between-waves
+Improvements: Circuit Weaver 대비 (1) 실시간 액션 숙련 루프(각도/차지 서브+패들 인터셉트) 추가 (2) 주기적 hazard row 하강으로 시간 압박 도입 (3) 웨이브 사이 perk 선택으로 런 빌드 다양성 추가
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2300-hazard-serve.md
 Vercel URL: https://webgames-hub.vercel.app
-Git push: success
-Deploy: success
+Git push: pending
+Deploy: pending
 Status: completed

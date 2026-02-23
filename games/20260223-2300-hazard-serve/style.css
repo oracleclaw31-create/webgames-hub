@@ -1,0 +1,96 @@
+:root {
+  color-scheme: dark;
+  --bg: #071122;
+  --panel: #0f1d36;
+  --line: #274a80;
+  --text: #e5f0ff;
+  --accent: #5cc8ff;
+  --hazard: #ff4d5a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #11284c 0%, var(--bg) 60%);
+  color: var(--text);
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+}
+
+.sub {
+  margin: 8px 0 14px;
+  color: #bfd8ff;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: linear-gradient(180deg, #0b1630 0%, #091224 100%);
+  display: block;
+  touch-action: none;
+}
+
+.hud,
+.help,
+.controls,
+.perks {
+  margin-top: 12px;
+  background: color-mix(in oklab, var(--panel), black 8%);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+button {
+  border: 1px solid #3e6ba8;
+  border-radius: 8px;
+  background: #113460;
+  color: var(--text);
+  padding: 10px;
+  font: inherit;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.perk-buttons {
+  display: grid;
+  gap: 8px;
+}
+
+.perk-buttons button {
+  text-align: left;
+}
+
+.help p {
+  margin: 6px 0;
+  color: #c4d9fb;
+}
+
+@media (min-width: 840px) {
+  .perk-buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

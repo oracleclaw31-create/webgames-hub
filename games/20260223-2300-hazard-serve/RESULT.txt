@@ -1,0 +1,13 @@
+Run ID: 20260223-2300-hazard-serve
+Game: Hazard Serve
+Status: completed
+
+Implemented:
+- Canvas 2D brick-breaker gameplay with keyboard and touch controls.
+- Charge-angle-serve launch mechanic as the primary loop.
+- Chain multiplier scoring for consecutive brick destruction.
+- Timed hazard rows that descend and increase pressure.
+- Between-wave perk selection (3 choices each wave clear).
+
+Required sanity:
+- script.js passes `node --check`.

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Hazard Serve</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Hazard Serve</h1>
+    <p class="sub">Charge your launch angle, chain brick breaks, survive timed hazard rows, pick perks between waves.</p>
+
+    <canvas id="game" width="900" height="600" aria-label="Hazard Serve game canvas"></canvas>
+
+    <section class="hud" id="hud"></section>
+
+    <section class="controls" aria-label="Touch controls">
+      <button id="leftBtn">Left</button>
+      <button id="serveBtn">Charge/Serve</button>
+      <button id="rightBtn">Right</button>
+    </section>
+
+    <section class="perks" id="perkPanel" hidden>
+      <h2>Choose Perk</h2>
+      <div id="perkButtons" class="perk-buttons"></div>
+      <p>Keyboard: press 1 / 2 / 3</p>
+    </section>
+
+    <section class="help">
+      <p><strong>Keyboard</strong>: A/D or Left/Right move, hold Space to charge serve, release to launch, 1/2/3 choose perk, R restart.</p>
+      <p><strong>Touch</strong>: Hold Left/Right buttons, hold Charge/Serve to charge launch, tap perk buttons between waves.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

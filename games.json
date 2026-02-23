@@ -124,5 +124,14 @@
     "readme": "games/20260223-2200-circuit-weaver/README.md",
     "coreLoop": "inspect-route-rotate-power-all-terminals-before-move-limit",
     "improvementAgainstPrevious": "adds deterministic multi-board logic progression, explicit move-economy planning pressure, and direct tap-to-rotate puzzle interaction"
+  },
+  {
+    "id": "20260223-2300-hazard-serve",
+    "slug": "hazard-serve",
+    "title": "Hazard Serve",
+    "path": "games/20260223-2300-hazard-serve/index.html",
+    "readme": "games/20260223-2300-hazard-serve/README.md",
+    "coreLoop": "charge-angle-serve-chain-hazard-rows-perk-draft",
+    "improvementAgainstPrevious": "adds real-time arcade execution pressure, streak-based scoring momentum, and between-wave perk adaptation over static puzzle pacing"
   }
 ]

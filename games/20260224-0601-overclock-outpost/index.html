@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Overclock Outpost</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Overclock Outpost</h1>
+    <p class="subtitle">Tower defense lite: build turrets, manage heat, manually vent before overload.</p>
+
+    <section class="hud" aria-live="polite">
+      <div><span>Wave</span><strong id="wave">1</strong></div>
+      <div><span>Core HP</span><strong id="coreHp">20</strong></div>
+      <div><span>Credits</span><strong id="credits">120</strong></div>
+      <div><span>Enemies</span><strong id="enemies">0</strong></div>
+      <div><span>Selected Heat</span><strong id="heat">-</strong></div>
+    </section>
+
+    <canvas id="game" width="960" height="540" aria-label="Overclock Outpost game canvas"></canvas>
+
+    <section class="controls">
+      <button id="startWave">Start Wave</button>
+      <button id="buildSell">Build / Sell (Space)</button>
+      <button id="overclock">Overclock (E)</button>
+      <button id="vent">Vent (Q)</button>
+      <button id="restart">Restart (R)</button>
+    </section>
+
+    <section class="touch">
+      <button id="left">◀</button>
+      <button id="up">▲</button>
+      <button id="down">▼</button>
+      <button id="right">▶</button>
+    </section>
+
+    <p class="help">Keyboard: Arrow keys/WASD move cursor, Space build/sell, E overclock selected turret, Q vent selected turret, Enter start wave, R restart.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

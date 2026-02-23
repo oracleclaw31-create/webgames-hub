@@ -1,0 +1,8 @@
+Run: 20260224-0601-overclock-outpost
+Status: DONE
+Game: games/20260224-0601-overclock-outpost/
+Genre: Tower defense lite
+Core loop: place-aim-manage-heat-overclock-vent-hold-wave
+Controls: Keyboard + Touch
+Vercel URL: https://webgames-hub.vercel.app
+Notes: Hub/report artifacts updated, deployment attempted.

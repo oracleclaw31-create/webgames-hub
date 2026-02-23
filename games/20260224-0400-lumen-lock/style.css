@@ -1,0 +1,6 @@
+body{margin:0;background:#0a0f1f;color:#eaf0ff;font-family:system-ui;display:grid;place-items:center;min-height:100vh}
+main{width:min(96vw,520px);text-align:center}
+canvas{width:100%;height:auto;background:#111a33;border:2px solid #3851a8;border-radius:12px;touch-action:none}
+#hud{margin:10px 0;font-weight:600}
+.touch{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.touch button{padding:10px;border-radius:8px;border:1px solid #4b67c8;background:#1b2d66;color:#fff}

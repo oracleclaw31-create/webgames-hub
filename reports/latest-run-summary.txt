@@ -1,10 +1,10 @@
-English: Built Ion Drift Siege, a Canvas 2D top-down shooter where you kite enemy swarms, capture 3 uplinks, and survive escalating waves.
-Korean: Ion Drift Siege는 적 무리를 유인·사격하고 3개의 업링크를 점령해 웨이브를 버티는 Canvas 2D 탑다운 슈터입니다.
-Genre: Top-down shooter
-Core loop: kite-shoot-capture-uplinks-survive-wave
-Improvements: Switchback Signal 대비 (1) 원거리 전투+추적 AI 도입 (2) 웨이브 처치와 업링크 점령의 이중 목표 루프 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0300-ion-drift-siege/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0300-ion-drift-siege/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0300-ion-drift-siege.md
-Vercel URL: pending
+English: Built Lumen Lock, a Canvas 2D rhythm/timing puzzle where you match target glyph grids under pressure.
+Korean: Lumen Lock은 제한 시간 안에 목표 그리드를 맞추는 Canvas 2D 리듬/타이밍 퍼즐입니다.
+Genre: Rhythm/timing
+Core loop: scan-target-navigate-cursor-timed-cross-toggle-clear-pattern-gain-time
+Improvements: Ion Drift Siege 대비 (1) 목표 상태 기반 논리 퍼즐 도입 (2) 시간 압박+보너스 타임 루프 추가
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0400-lumen-lock/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0400-lumen-lock/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0400-lumen-lock.md
+Vercel URL: https://webgames-hub.vercel.app
 Git push: pending

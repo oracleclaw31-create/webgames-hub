@@ -160,5 +160,14 @@
     "readme": "games/20260224-0300-ion-drift-siege/README.md",
     "coreLoop": "kite-shoot-capture-uplinks-survive-wave",
     "improvementAgainstPrevious": "Added ranged-combat pursuit AI and dual objective uplink-capture loop"
+  },
+  {
+    "id": "20260224-0400-lumen-lock",
+    "slug": "lumen-lock",
+    "title": "Lumen Lock",
+    "path": "games/20260224-0400-lumen-lock/index.html",
+    "readme": "games/20260224-0400-lumen-lock/README.md",
+    "coreLoop": "scan-target-navigate-cursor-timed-cross-toggle-clear-pattern-gain-time",
+    "improvementAgainstPrevious": "Ion Drift Siege 대비 (1) 목표 상태 기반 논리 퍼즐 루프 도입 (2) 타이머+보너스 시간으로 리듬 압박 추가 (3) 보드 직접 터치 상호작용 강화"
   }
 ]

@@ -6,7 +6,7 @@ Improvements: Circuit Weaver 대비 (1) 실시간 액션 숙련 루프(각도/�
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2300-hazard-serve.md
-Vercel URL: https://webgames-hub.vercel.app
-Git push: success
-Deploy: success
+Vercel URL: N/A (deploy failed: DNS resolution for api.vercel.com)
+Git push: failed (DNS resolution for github.com)
+Deploy: failed (DNS resolution for api.vercel.com)
 Status: completed

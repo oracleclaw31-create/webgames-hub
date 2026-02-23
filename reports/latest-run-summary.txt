@@ -1,10 +1,9 @@
-English: Built Lumen Lock, a Canvas 2D rhythm/timing puzzle where you match target glyph grids under pressure.
-Korean: Lumen Lock은 제한 시간 안에 목표 그리드를 맞추는 Canvas 2D 리듬/타이밍 퍼즐입니다.
-Genre: Rhythm/timing
-Core loop: scan-target-navigate-cursor-timed-cross-toggle-clear-pattern-gain-time
-Improvements: Ion Drift Siege 대비 (1) 목표 상태 기반 논리 퍼즐 도입 (2) 시간 압박+보너스 타임 루프 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0400-lumen-lock/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0400-lumen-lock/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0400-lumen-lock.md
+Flux Bricks is now deployed as a Canvas 2D brick-breaker with magnet-pulse shot shaping and full keyboard/touch parity.
+플럭스 브릭스는 자력 펄스 샷 제어와 키보드/터치 입력을 모두 지원하는 Canvas 2D 브릭브레이커로 배포되었습니다.
+Genre: Brick-breaker
+Core loop: position-pulse-curve-break-chain-clear-stage
+Previous vs Current Improvement: Lumen Lock 대비 연속 물리 반사 액션 루프 전환 + magnet pulse 숙련 요소 추가 + 터치 버튼/드래그 병행 조작 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0500-flux-bricks/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0500-flux-bricks/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0500-flux-bricks.md
 Vercel URL: https://webgames-hub.vercel.app
-Git push: pending

@@ -169,5 +169,14 @@
     "readme": "games/20260224-0400-lumen-lock/README.md",
     "coreLoop": "scan-target-navigate-cursor-timed-cross-toggle-clear-pattern-gain-time",
     "improvementAgainstPrevious": "Ion Drift Siege 대비 (1) 목표 상태 기반 논리 퍼즐 루프 도입 (2) 타이머+보너스 시간으로 리듬 압박 추가 (3) 보드 직접 터치 상호작용 강화"
+  },
+  {
+    "id": "20260224-0500-flux-bricks",
+    "slug": "flux-bricks",
+    "title": "Flux Bricks",
+    "path": "games/20260224-0500-flux-bricks/index.html",
+    "readme": "games/20260224-0500-flux-bricks/README.md",
+    "coreLoop": "position-pulse-curve-break-chain-clear-stage",
+    "improvementAgainstPrevious": "Lumen Lock 대비 (1) 격자 토글 퍼즐에서 연속 물리 반사 액션 루프로 전환 (2) 쿨다운 기반 magnet pulse 샷-커브 숙련층 추가 (3) 버튼+드래그 터치 조작 동시 지원"
   }
 ]

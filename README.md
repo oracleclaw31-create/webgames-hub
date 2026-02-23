@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260223-2000-signal-breach/index.html
-- Report: reports/20260223-2000-signal-breach.md
+- Game: games/20260223-2100-anchor-ascent/index.html
+- Report: reports/20260223-2100-anchor-ascent.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

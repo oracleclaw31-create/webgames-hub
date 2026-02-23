@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anchor Ascent</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Anchor Ascent</h1>
+      <p class="sub">Platformer | Core loop: run-jump-grapple-tag-extract</p>
+    </header>
+
+    <section class="hud">
+      <span id="tagHud">Tags 0/3</span>
+      <span id="grappleHud">Grapple Ready</span>
+      <span id="timeHud">Time 0.0s</span>
+    </section>
+
+    <canvas id="game" width="960" height="540" aria-label="Anchor Ascent game canvas"></canvas>
+
+    <section class="controls" aria-label="Touch controls">
+      <div class="left">
+        <button data-btn="left">Left</button>
+        <button data-btn="right">Right</button>
+      </div>
+      <div class="right">
+        <button data-btn="jump">Jump</button>
+        <button data-btn="grapple">Grapple</button>
+      </div>
+    </section>
+
+    <section id="overlay" class="overlay">
+      <div class="panel">
+        <h2 id="overlayTitle">Anchor Ascent</h2>
+        <p id="overlayText">Tag all beacons, then reach the exit gate.</p>
+        <button id="startBtn">Start Run</button>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -106,5 +106,14 @@
     "readme": "games/20260223-2000-signal-breach/README.md",
     "coreLoop": "strafe-mark-detonate-hack-extract",
     "improvementAgainstPrevious": "adds mark-detonate tactical chain, explicit dual-relay hack extraction objective, and clearer touch-first control segmentation"
+  },
+  {
+    "id": "20260223-2100-anchor-ascent",
+    "slug": "anchor-ascent",
+    "title": "Anchor Ascent",
+    "path": "games/20260223-2100-anchor-ascent/index.html",
+    "readme": "games/20260223-2100-anchor-ascent/README.md",
+    "coreLoop": "run-jump-grapple-tag-extract",
+    "improvementAgainstPrevious": "adds grapple-assisted vertical traversal depth, deterministic beacon-tag objective gating, and clearer failure-state readability"
   }
 ]

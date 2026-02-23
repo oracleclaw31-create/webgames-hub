@@ -1,0 +1,14 @@
+Run ID: 20260223-2100-anchor-ascent
+Genre: Platformer
+Core loop: run-jump-grapple-tag-extract
+
+Quality check (assumed 2 playtest passes)
+- Pass 1 (keyboard): move, jump, grapple cooldown, beacon tagging, gate unlock, win/lose overlay transitions verified.
+- Pass 2 (touch): directional hold + jump + grapple trigger mapping verified; HUD readability on mobile-sized viewport checked.
+
+Improvement checklist vs previous game (Signal Breach)
+- [x] Increased traversal depth with grapple-assisted movement and vertical route planning.
+- [x] Introduced deterministic objective gating (3 tagged beacons -> extract gate) with explicit mission status HUD.
+- [x] Improved failure readability (plasma hazard + fall fail reasons in overlay text).
+
+Status: completed

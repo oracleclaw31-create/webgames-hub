@@ -18,14 +18,47 @@
       <div>Pulse <strong id="pulse">0%</strong></div>
       <div>Kills <strong id="kills">0</strong></div>
       <div>Wave <strong id="wave">1</strong></div>
+      <div>Module <strong id="module">-</strong></div>
     </section>
 
-    <canvas id="game" width="900" height="520" aria-label="Rift Scrappers canvas"></canvas>
+    <section class="arena" aria-label="Game arena">
+      <canvas id="game" width="900" height="520" aria-label="Rift Scrappers canvas"></canvas>
+
+      <div id="startOverlay" class="overlay show" role="dialog" aria-live="polite" aria-label="Run briefing">
+        <h2>Objective</h2>
+        <p>Stay alive, collect scrap, and chain upgrades to push your best time.</p>
+        <p class="hint">Dash through clusters, then pulse when meter reaches 100%.</p>
+
+        <h3>Choose Module (Run Passive)</h3>
+        <div id="modulePicks" class="pick-grid" aria-label="Module choices"></div>
+
+        <div class="overlay-actions">
+          <button id="startBtn" type="button">Start Run</button>
+        </div>
+      </div>
+
+      <div id="upgradeOverlay" class="overlay" role="dialog" aria-live="polite" aria-label="Upgrade choices" hidden>
+        <h2>Upgrade Pick</h2>
+        <p>Choose 1 / 2 / 3 or tap a card.</p>
+        <div id="upgradeCards" class="pick-grid" aria-label="Upgrade cards"></div>
+      </div>
+
+      <div id="touchUI" class="touch-ui" aria-label="Touch controls">
+        <div id="movePad" class="move-pad" role="button" aria-label="Move pad">
+          <div id="moveStick" class="move-stick"></div>
+          <span>Move</span>
+        </div>
+        <div class="action-stack">
+          <button id="dashBtn" class="touch-btn" type="button">Dash</button>
+          <button id="pulseBtn" class="touch-btn pulse" type="button">Pulse</button>
+        </div>
+      </div>
+    </section>
 
     <section class="controls">
       <button id="restartBtn" type="button">Restart (R)</button>
-      <p>Move: WASD/Arrows or left thumb stick. Dash: Space/Shift or right Dash. Pulse: E/F or right Pulse.</p>
-      <p>Upgrade picks: 1/2/3 or tap card.</p>
+      <p>Keyboard: Move WASD/Arrows, Dash Space/Shift, Pulse E/F.</p>
+      <p>Touch: left move pad + right Dash/Pulse buttons.</p>
     </section>
   </main>
   <script src="script.js"></script>

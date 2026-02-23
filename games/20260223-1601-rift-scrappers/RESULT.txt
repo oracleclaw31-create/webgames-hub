@@ -1,6 +1,6 @@
 Run: 20260223-1601-rift-scrappers
 Genre: Survival arena
-Core loop: kite-dash-scrap-pulse-upgrade-survive
-Improvements vs previous: (1) direct dash combat expression, (2) scrap-driven upgrade choices, (3) timed pulse crowd clear.
-Status: Built and integrated into hub.
+Core loop: module-pick -> kite-dash-scrap-pulse-upgrade-survive
+Improvements vs previous: (1) clear onboarding overlay + objective, (2) smoother early difficulty ramp, (3) larger labeled mobile controls, (4) replayable random Module passives, (5) non-blocking upgrade card picks.
+Status: Built as v2 and integrated in static Canvas 2D files.
 Vercel URL: https://webgames-hub.vercel.app

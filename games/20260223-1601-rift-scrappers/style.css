@@ -33,7 +33,7 @@ h1 {
 
 .hud {
   display: grid;
-  grid-template-columns: repeat(6, minmax(70px, 1fr));
+  grid-template-columns: repeat(7, minmax(70px, 1fr));
   gap: 8px;
   margin-bottom: 10px;
 }
@@ -47,6 +47,10 @@ h1 {
   font-size: 14px;
 }
 
+.arena {
+  position: relative;
+}
+
 canvas {
   width: 100%;
   height: auto;
@@ -54,6 +58,140 @@ canvas {
   border-radius: 12px;
   background: linear-gradient(180deg, #0d1f44 0%, #090f21 100%);
   touch-action: none;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 18px;
+  background: rgba(3, 9, 23, 0.78);
+  border-radius: 12px;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+.overlay h2,
+.overlay h3,
+.overlay p {
+  margin: 0;
+}
+
+.overlay h3 {
+  margin-top: 6px;
+  color: #bfe9ff;
+}
+
+.overlay .hint {
+  color: #d6e6ff;
+}
+
+.overlay[hidden] {
+  display: none;
+}
+
+.pick-grid {
+  width: min(760px, 92%);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.pick-card {
+  border: 1px solid #4a84d8;
+  border-radius: 10px;
+  background: rgba(18, 37, 75, 0.95);
+  color: var(--ink);
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.pick-card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.pick-card small {
+  color: #c0ddff;
+}
+
+.pick-card.active {
+  border-color: #80f0ff;
+  box-shadow: 0 0 0 2px rgba(88, 227, 255, 0.24);
+}
+
+.overlay-actions {
+  margin-top: 2px;
+}
+
+.touch-ui {
+  position: absolute;
+  inset: 0;
+  display: none;
+  align-items: flex-end;
+  justify-content: space-between;
+  pointer-events: none;
+  padding: 14px;
+}
+
+.move-pad {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 2px solid rgba(116, 180, 255, 0.95);
+  background: rgba(12, 29, 62, 0.75);
+  position: relative;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+}
+
+.move-pad span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: #d8ecff;
+  font-size: 14px;
+}
+
+.move-stick {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(88, 227, 255, 0.82);
+  border: 2px solid rgba(212, 245, 255, 0.95);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.action-stack {
+  display: grid;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.touch-btn {
+  min-width: 132px;
+  min-height: 76px;
+  border-radius: 14px;
+  font-size: 22px;
+  font-weight: 700;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+
+.touch-btn.pulse {
+  background: #195c93;
+  border-color: #6db8ff;
 }
 
 .controls {
@@ -66,15 +204,46 @@ button {
   background: #173f82;
   color: var(--ink);
   border: 1px solid #4b89f0;
-  padding: 8px 12px;
+  padding: 9px 13px;
   border-radius: 8px;
   cursor: pointer;
 }
 
 button:hover { filter: brightness(1.08); }
 
+@media (max-width: 860px) {
+  .hud {
+    grid-template-columns: repeat(4, minmax(70px, 1fr));
+  }
+
+  .pick-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (pointer: coarse), (max-width: 860px) {
+  .touch-ui {
+    display: flex;
+  }
+
+  .controls {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 680px) {
   .hud {
     grid-template-columns: repeat(3, minmax(70px, 1fr));
+  }
+
+  .move-pad {
+    width: 152px;
+    height: 152px;
+  }
+
+  .touch-btn {
+    min-width: 122px;
+    min-height: 72px;
+    font-size: 20px;
   }
 }

@@ -61,5 +61,14 @@
     "readme": "games/20260223-1524-ember-outpost/README.md",
     "coreLoop": "build-defend-upgrade",
     "improvementAgainstPrevious": "adds strategic placement and wave management over direct control"
+  },
+  {
+    "id": "20260223-1601-rift-scrappers",
+    "slug": "rift-scrappers",
+    "title": "Rift Scrappers",
+    "path": "games/20260223-1601-rift-scrappers/index.html",
+    "readme": "games/20260223-1601-rift-scrappers/README.md",
+    "coreLoop": "kite-dash-scrap-pulse-upgrade-survive",
+    "improvementAgainstPrevious": "adds direct dash combat, scrap-driven build choices, and timed pulse crowd control over slot-only tower placement"
   }
 ]

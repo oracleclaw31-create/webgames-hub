@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rift Scrappers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Rift Scrappers</h1>
+    <p class="tag">Survival arena: dash through swarms, salvage scrap, release pulse.</p>
+
+    <section class="hud" aria-label="Game stats">
+      <div>HP <strong id="hp">100</strong></div>
+      <div>Time <strong id="time">0.0s</strong></div>
+      <div>Scrap <strong id="scrap">0</strong></div>
+      <div>Pulse <strong id="pulse">0%</strong></div>
+      <div>Kills <strong id="kills">0</strong></div>
+      <div>Wave <strong id="wave">1</strong></div>
+    </section>
+
+    <canvas id="game" width="900" height="520" aria-label="Rift Scrappers canvas"></canvas>
+
+    <section class="controls">
+      <button id="restartBtn" type="button">Restart (R)</button>
+      <p>Move: WASD/Arrows or left thumb stick. Dash: Space/Shift or right Dash. Pulse: E/F or right Pulse.</p>
+      <p>Upgrade picks: 1/2/3 or tap card.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

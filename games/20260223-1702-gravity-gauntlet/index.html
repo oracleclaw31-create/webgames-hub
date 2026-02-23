@@ -9,8 +9,14 @@
 <body>
   <main class="wrap">
     <header class="topbar">
-      <h1>Gravity Gauntlet</h1>
-      <p>Physics action: thrust, ricochet, and shatter reactors before time runs out.</p>
+      <div class="title-row">
+        <h1>Gravity Gauntlet</h1>
+        <span class="badge">Physics Action · v2</span>
+      </div>
+      <p>Thrust, ricochet, and shatter reactors before extraction—now with clearer onboarding and stronger mobile UI.</p>
+      <div class="objectives">
+        <strong>Mission:</strong> Break all reactors, avoid mines, then survive to extraction.
+      </div>
     </header>
 
     <section class="game-shell">
@@ -21,8 +27,13 @@
           <h2 id="overlayTitle">Gravity Gauntlet</h2>
           <p id="overlayText">Break all reactors with high-speed impacts. Avoid mines and keep your hull above zero.</p>
           <button id="overlayButton" type="button">Start Run</button>
-          <p class="hint">Keyboard: WASD/Arrows move, Space slam, Shift brake, R restart.</p>
-          <p class="hint">Touch: left stick move, right Slam/Brake buttons.</p>
+          <div class="hint-grid">
+            <div class="hint-chip">Move: WASD / Arrows</div>
+            <div class="hint-chip">Slam: Space</div>
+            <div class="hint-chip">Brake: Shift</div>
+            <div class="hint-chip">Restart: R</div>
+          </div>
+          <p class="hint">Touch: left virtual stick + right SLAM/BRAKE buttons.</p>
         </div>
       </div>
 

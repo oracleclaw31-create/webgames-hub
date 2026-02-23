@@ -1,47 +1,91 @@
 :root {
   color-scheme: dark;
-  --bg: #060b1f;
-  --panel: #0f1838;
-  --line: #2b3d7a;
-  --text: #e8eeff;
+  --bg: #050815;
+  --bg2: #0a1230;
+  --panel: #111a3a;
+  --line: #31458f;
+  --text: #eaf0ff;
   --muted: #9db2ea;
-  --accent: #63e5ff;
+  --accent: #66e8ff;
+  --accent2: #8d7bff;
   --warn: #ff6f8f;
+  --good: #8dffbf;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 20% 0%, #14245a, var(--bg) 45%);
+  min-height: 100dvh;
   color: var(--text);
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: "Inter", "Trebuchet MS", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(1200px 600px at 15% -10%, #1a2f78 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #2b1f5f 0%, transparent 55%),
+    linear-gradient(180deg, var(--bg2), var(--bg));
 }
 
 .wrap {
   width: min(1080px, 100%);
   margin: 0 auto;
-  padding: 14px;
+  padding: 18px;
+}
+
+.topbar {
+  margin-bottom: 12px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .topbar h1 {
-  margin: 0 0 6px;
-  font-size: 1.5rem;
+  margin: 0;
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  letter-spacing: 0.2px;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #4f68bf;
+  background: rgba(30, 45, 96, 0.45);
+  color: #d8e6ff;
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .topbar p {
-  margin: 0 0 10px;
+  margin: 8px 0 0;
   color: var(--muted);
 }
 
+.objectives {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(90, 117, 208, 0.5);
+  background: rgba(10, 20, 52, 0.62);
+  display: grid;
+  gap: 3px;
+  font-size: 0.88rem;
+}
+
+.objectives strong { color: #dff7ff; }
+
 .game-shell {
   position: relative;
-  border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
-  background: #020617;
+  border: 1px solid rgba(78, 103, 188, 0.65);
+  box-shadow:
+    0 24px 48px rgba(3, 8, 24, 0.6),
+    0 0 0 1px rgba(113, 145, 255, 0.15) inset;
+  background: linear-gradient(180deg, #040a1e, #020617);
 }
 
 canvas {
@@ -49,6 +93,7 @@ canvas {
   display: block;
   aspect-ratio: 16 / 9;
   touch-action: none;
+  filter: saturate(1.08) contrast(1.03);
 }
 
 .overlay {
@@ -56,44 +101,56 @@ canvas {
   inset: 0;
   display: grid;
   place-items: center;
-  background: rgba(2, 7, 23, 0.68);
+  background: radial-gradient(circle at 50% 30%, rgba(40, 66, 143, 0.22), rgba(2, 7, 23, 0.86));
+  backdrop-filter: blur(1px);
 }
 
-.overlay.hidden {
-  display: none;
-}
+.overlay.hidden { display: none; }
 
 .panel {
-  width: min(560px, 92%);
-  background: rgba(15, 24, 56, 0.95);
-  border: 1px solid #3851a5;
-  border-radius: 14px;
-  padding: 20px;
+  width: min(620px, 92%);
+  background: linear-gradient(180deg, rgba(20, 31, 72, 0.97), rgba(12, 20, 48, 0.97));
+  border: 1px solid #4b64bc;
+  border-radius: 16px;
+  padding: 22px;
   text-align: center;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5);
 }
 
-.panel h2 {
-  margin-top: 0;
-}
+.panel h2 { margin: 0 0 10px; font-size: 1.5rem; }
 
-.panel p {
-  margin: 8px 0;
-}
+.panel p { margin: 8px 0; color: #dce8ff; }
 
 #overlayButton {
-  margin-top: 10px;
+  margin-top: 12px;
   border: 0;
-  background: linear-gradient(135deg, var(--accent), #8fddff);
-  color: #001a22;
-  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), #b7f4ff);
+  color: #001721;
+  font-weight: 800;
   border-radius: 999px;
-  padding: 12px 22px;
+  padding: 12px 24px;
   cursor: pointer;
+  transition: transform .12s ease, filter .12s ease;
 }
 
-.hint {
-  font-size: 0.9rem;
-  color: var(--muted);
+#overlayButton:hover { transform: translateY(-1px); filter: brightness(1.06); }
+
+.hint { font-size: 0.9rem; color: var(--muted); }
+
+.hint-grid {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.hint-chip {
+  font-size: 0.78rem;
+  border-radius: 10px;
+  border: 1px solid rgba(98, 127, 224, .5);
+  background: rgba(17, 31, 78, .72);
+  padding: 6px 8px;
+  color: #d5e4ff;
 }
 
 .touch-ui {
@@ -103,12 +160,12 @@ canvas {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 14px;
+  padding: 18px;
 }
 
 .stick-wrap {
-  width: 120px;
-  height: 120px;
+  width: 138px;
+  height: 138px;
   position: relative;
   pointer-events: auto;
 }
@@ -117,44 +174,49 @@ canvas {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 2px solid #4d65b7;
-  background: rgba(27, 43, 93, 0.42);
+  border: 2px solid #617dd5;
+  background: radial-gradient(circle at 30% 30%, rgba(79, 113, 210, .45), rgba(22, 36, 84, .45));
+  box-shadow: inset 0 0 24px rgba(116, 157, 255, .25);
 }
 
 .stick-knob {
-  width: 52px;
-  height: 52px;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
-  border: 2px solid #b6f6ff;
-  background: rgba(99, 229, 255, 0.28);
+  border: 2px solid #d4fbff;
+  background: radial-gradient(circle at 30% 30%, rgba(111, 235, 255, .8), rgba(66, 178, 255, .35));
   position: absolute;
-  left: 34px;
-  top: 34px;
+  left: 40px;
+  top: 40px;
 }
 
 .action-wrap {
   display: grid;
-  gap: 10px;
+  gap: 12px;
   pointer-events: auto;
 }
 
 .action-btn {
-  min-width: 118px;
-  border: 1px solid #6acff1;
-  background: rgba(22, 57, 100, 0.88);
-  color: #e5f8ff;
-  padding: 10px 16px;
-  border-radius: 12px;
-  font-weight: 700;
+  min-width: 136px;
+  border: 1px solid #78d9ff;
+  background: linear-gradient(180deg, rgba(35, 89, 150, .95), rgba(22, 57, 100, .95));
+  color: #f0fbff;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .3);
 }
 
 .action-btn.secondary {
   border-color: #e1a8ff;
-  background: rgba(65, 37, 92, 0.88);
+  background: linear-gradient(180deg, rgba(100, 52, 138, .95), rgba(65, 37, 92, .95));
+}
+
+@media (max-width: 760px) {
+  .hint-grid { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 1000px) {
-  .touch-ui {
-    opacity: 0;
-  }
+  .touch-ui { opacity: 0; }
 }

@@ -1,0 +1,20 @@
+Run ID: 20260223-1900-orbit-forge
+Genre: Top-down shooter
+Core loop: orbit-charge-discharge-overload
+
+Previous vs Current Improvements (vs 20260223-1822-phase-vault):
+1) Dual-resource combat pacing (energy budget for both firing and boosting) adds tactical timing beyond platform traversal.
+2) Objective pressure layering (enemy swarms pathing to relay cores + core overload race) introduces simultaneous threat and mission management.
+3) Short-loop readability upgrade with explicit HUD loop status and on-screen touch action cluster.
+
+Playtest Assumption (2 passes):
+- Pass 1: confirmed keyboard controls, projectile collisions, wave progression, and retryability.
+- Pass 2: confirmed touch buttons for movement/fire/boost and HUD state visibility on mobile viewport.
+
+Checklist:
+- [x] Canvas 2D only
+- [x] Keyboard controls
+- [x] Touch controls
+- [x] No build step
+- [x] Core loop non-duplicate vs recent 5
+- [x] Non runner/lane-dodger sequence

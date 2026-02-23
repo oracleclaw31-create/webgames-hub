@@ -88,5 +88,14 @@
     "readme": "games/20260223-1822-phase-vault/README.md",
     "coreLoop": "jump-wallkick-phase-toggle-relic-extract",
     "improvementAgainstPrevious": "adds authored platform route, A/B phase-state puzzle traversal, and simpler touch-first control mapping"
+  },
+  {
+    "id": "20260223-1900-orbit-forge",
+    "slug": "orbit-forge",
+    "title": "Orbit Forge",
+    "path": "games/20260223-1900-orbit-forge/index.html",
+    "readme": "games/20260223-1900-orbit-forge/README.md",
+    "coreLoop": "orbit-charge-discharge-overload",
+    "improvementAgainstPrevious": "adds dual-resource combat pacing, mission-layered core overload objective, and touch-first action HUD clarity"
   }
 ]

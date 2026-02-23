@@ -1,0 +1,10 @@
+:root{color-scheme:dark}
+body{margin:0;background:#070b16;color:#e8ecff;font-family:system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:16px}
+h1{margin:.2rem 0}.sub{color:#aeb8e7}
+canvas{width:100%;border:1px solid #2a3568;border-radius:10px;background:#0d1330;touch-action:none}
+.hud{margin:.7rem 0;color:#9fd0ff;min-height:1.2rem}
+.help{color:#9ba8d8;font-size:.92rem}
+.touch{display:grid;grid-template-columns:repeat(3,64px);gap:8px;max-width:220px;margin-top:10px}
+.touch button{height:44px;border-radius:8px;border:1px solid #2f447d;background:#121d42;color:#e8ecff;font-weight:700}
+@media (min-width:900px){.touch{max-width:420px;grid-template-columns:repeat(6,64px)}}

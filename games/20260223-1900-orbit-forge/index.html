@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Orbit Forge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Orbit Forge</h1>
+    <p class="sub">Top-down shooter: orbit cores, charge shots, discharge to overload relays.</p>
+    <canvas id="game" width="960" height="540" aria-label="Orbit Forge game canvas"></canvas>
+    <div class="hud" id="hud"></div>
+    <div class="touch" aria-label="touch controls">
+      <button data-k="ArrowLeft">◀</button>
+      <button data-k="ArrowUp">▲</button>
+      <button data-k="ArrowDown">▼</button>
+      <button data-k="ArrowRight">▶</button>
+      <button data-k="Space">FIRE</button>
+      <button data-k="ShiftLeft">BOOST</button>
+    </div>
+    <p class="help">Move: WASD/Arrows · Fire: Space · Boost: Shift · Touch buttons supported</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

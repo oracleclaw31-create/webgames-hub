@@ -1,0 +1,98 @@
+:root {
+  color-scheme: dark;
+  --bg: #07111d;
+  --panel: #10243a;
+  --panel-border: #29507a;
+  --text: #e8f2ff;
+  --accent: #8cf4d6;
+  --danger: #ff6f86;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 15% 10%, #15385b, #07111d 58%);
+  color: var(--text);
+}
+
+.wrap {
+  width: min(1000px, 100%);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 4px 0;
+  font-size: 1.9rem;
+}
+
+.subtitle {
+  margin: 0 0 10px;
+  color: #c0d8f7;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--panel-border);
+  border-radius: 10px;
+  background: #081421;
+  display: block;
+}
+
+.hud {
+  margin-top: 10px;
+  min-height: 28px;
+  padding: 8px 10px;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--panel) 82%, transparent);
+  font-size: 0.98rem;
+}
+
+.touch {
+  margin-top: 12px;
+}
+
+.touch-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(64px, 1fr));
+  gap: 8px;
+}
+
+button {
+  padding: 10px 8px;
+  border: 1px solid #3f6ea0;
+  border-radius: 8px;
+  background: #163454;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+button:active,
+button.on {
+  background: #285f94;
+}
+
+.help {
+  color: #b9cde6;
+  font-size: 0.92rem;
+}
+
+kbd {
+  border: 1px solid #5f82ac;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-family: inherit;
+}
+
+@media (max-width: 760px) {
+  .touch-row {
+    grid-template-columns: repeat(3, minmax(72px, 1fr));
+  }
+}

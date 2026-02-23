@@ -1,12 +1,12 @@
-English: Built Pulse Bastion, a Canvas 2D tower-defense-lite game with build/upgrade/sell phases, lane pressure, and keyboard-touch parity.
-Korean: Pulse Bastion은 설치/업그레이드/판매 빌드 페이즈와 레인 방어 압박, 키보드·터치 동등 조작을 갖춘 Canvas 2D 타워디펜스 라이트 게임입니다.
-Genre: Tower defense lite
-Core loop: plan-place-upgrade-hold-lane-economy-cycle
-Improvements: Hazard Serve 대비 (1) 전략적 배치/경제/업그레이드 루프 추가 (2) 웨이브 누수 기반 생존 압박 추가 (3) 빌드 액션 전체 입력 패리티 확장
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0000-pulse-bastion.md
-Vercel URL: https://webgames-hub.vercel.app
-Git push: success
-Deploy: success
+English: Built Switchback Signal, a Canvas 2D platformer where players jump/dash through dynamic hazards, stabilize 3 relays, and extract for a medal time.
+Korean: Switchback Signal은 동적 위험 지형에서 점프/대시로 3개 릴레이를 안정화하고 탈출 시간을 단축하는 Canvas 2D 플랫폼 게임입니다.
+Genre: Platformer
+Core loop: jump-dash-stabilize-relays-extract
+Improvements: Pulse Bastion 대비 (1) 정적 레인 배치 대신 직접 이동/점프/대시 숙련 루프 도입 (2) 코요테 타임+점프 버퍼로 조작 신뢰도 향상 (3) 드론/붕괴 발판 등 동적 위험 추가
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0100-switchback-signal.md
+Vercel URL: pending
+Git push: pending
+Deploy: pending
 Status: completed

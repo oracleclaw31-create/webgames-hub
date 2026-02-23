@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260223-2200-circuit-weaver/index.html
-- Report: reports/20260223-2200-circuit-weaver.md
+- Game: games/20260224-0100-switchback-signal/index.html
+- Report: reports/20260224-0100-switchback-signal.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

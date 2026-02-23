@@ -70,5 +70,14 @@
     "readme": "games/20260223-1601-rift-scrappers/README.md",
     "coreLoop": "kite-dash-scrap-pulse-upgrade-survive",
     "improvementAgainstPrevious": "adds direct dash combat, scrap-driven build choices, and timed pulse crowd control over slot-only tower placement"
+  },
+  {
+    "id": "20260223-1702-gravity-gauntlet",
+    "slug": "gravity-gauntlet",
+    "title": "Gravity Gauntlet",
+    "path": "games/20260223-1702-gravity-gauntlet/index.html",
+    "readme": "games/20260223-1702-gravity-gauntlet/README.md",
+    "coreLoop": "thrust-drift-ricochet-shatter-reactor-clear-extract",
+    "improvementAgainstPrevious": "adds objective extraction mission, momentum ricochet mastery layer, and clearer instant-retry HUD flow"
   }
 ]

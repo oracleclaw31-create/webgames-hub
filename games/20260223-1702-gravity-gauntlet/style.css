@@ -1,0 +1,160 @@
+:root {
+  color-scheme: dark;
+  --bg: #060b1f;
+  --panel: #0f1838;
+  --line: #2b3d7a;
+  --text: #e8eeff;
+  --muted: #9db2ea;
+  --accent: #63e5ff;
+  --warn: #ff6f8f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 0%, #14245a, var(--bg) 45%);
+  color: var(--text);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.wrap {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.topbar h1 {
+  margin: 0 0 6px;
+  font-size: 1.5rem;
+}
+
+.topbar p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.game-shell {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #020617;
+}
+
+canvas {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 9;
+  touch-action: none;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(2, 7, 23, 0.68);
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+.panel {
+  width: min(560px, 92%);
+  background: rgba(15, 24, 56, 0.95);
+  border: 1px solid #3851a5;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.panel p {
+  margin: 8px 0;
+}
+
+#overlayButton {
+  margin-top: 10px;
+  border: 0;
+  background: linear-gradient(135deg, var(--accent), #8fddff);
+  color: #001a22;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.touch-ui {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 14px;
+}
+
+.stick-wrap {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  pointer-events: auto;
+}
+
+.stick-base {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid #4d65b7;
+  background: rgba(27, 43, 93, 0.42);
+}
+
+.stick-knob {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #b6f6ff;
+  background: rgba(99, 229, 255, 0.28);
+  position: absolute;
+  left: 34px;
+  top: 34px;
+}
+
+.action-wrap {
+  display: grid;
+  gap: 10px;
+  pointer-events: auto;
+}
+
+.action-btn {
+  min-width: 118px;
+  border: 1px solid #6acff1;
+  background: rgba(22, 57, 100, 0.88);
+  color: #e5f8ff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.action-btn.secondary {
+  border-color: #e1a8ff;
+  background: rgba(65, 37, 92, 0.88);
+}
+
+@media (min-width: 1000px) {
+  .touch-ui {
+    opacity: 0;
+  }
+}

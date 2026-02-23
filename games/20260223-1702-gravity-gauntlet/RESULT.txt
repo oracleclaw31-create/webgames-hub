@@ -1,0 +1,8 @@
+Run: 20260223-1702-gravity-gauntlet
+Genre: Physics action
+Core loop: thrust-drift-ricochet-shatter-reactor-clear-extract
+Previous vs Current Improvements: (1) objective-based reactor clear + extraction, (2) deeper momentum/ricochet skill layer, (3) clearer HUD and restart loop.
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1702-gravity-gauntlet/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1702-gravity-gauntlet/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-1702-gravity-gauntlet.md
+Vercel URL: pending

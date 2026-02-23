@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gravity Gauntlet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="topbar">
+      <h1>Gravity Gauntlet</h1>
+      <p>Physics action: thrust, ricochet, and shatter reactors before time runs out.</p>
+    </header>
+
+    <section class="game-shell">
+      <canvas id="game" width="960" height="540" aria-label="Gravity Gauntlet game canvas"></canvas>
+
+      <div id="overlay" class="overlay">
+        <div class="panel">
+          <h2 id="overlayTitle">Gravity Gauntlet</h2>
+          <p id="overlayText">Break all reactors with high-speed impacts. Avoid mines and keep your hull above zero.</p>
+          <button id="overlayButton" type="button">Start Run</button>
+          <p class="hint">Keyboard: WASD/Arrows move, Space slam, Shift brake, R restart.</p>
+          <p class="hint">Touch: left stick move, right Slam/Brake buttons.</p>
+        </div>
+      </div>
+
+      <div class="touch-ui" id="touchUi" aria-hidden="true">
+        <div class="stick-wrap" id="stickWrap">
+          <div class="stick-base"></div>
+          <div class="stick-knob" id="stickKnob"></div>
+        </div>
+        <div class="action-wrap">
+          <button id="slamBtn" class="action-btn">SLAM</button>
+          <button id="brakeBtn" class="action-btn secondary">BRAKE</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

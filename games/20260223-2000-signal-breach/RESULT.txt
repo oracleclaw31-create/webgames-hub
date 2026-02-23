@@ -1,0 +1,19 @@
+Run ID: 20260223-2000-signal-breach
+Genre: Top-down shooter
+Core loop: strafe-mark-detonate-hack-extract
+
+Previous vs Current Improvements (vs 20260223-1900-orbit-forge):
+1) Introduces mark-then-detonate combat chain, adding tactical setup over continuous fire-only pressure.
+2) Introduces explicit dual-relay hack objective with extraction state clarity and stronger mission readability.
+
+Playtest Assumption (2 passes):
+- Pass 1: keyboard movement/fire/hack, relay progression, win/lose conditions.
+- Pass 2: touch controls, button responsiveness, mobile readability.
+
+Checklist:
+- [x] Canvas 2D only
+- [x] Keyboard controls
+- [x] Touch controls
+- [x] No build step
+- [x] Core loop non-duplicate vs recent 5
+- [x] Non runner/lane-dodger continuity

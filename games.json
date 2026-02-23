@@ -97,5 +97,14 @@
     "readme": "games/20260223-1900-orbit-forge/README.md",
     "coreLoop": "orbit-charge-discharge-overload",
     "improvementAgainstPrevious": "adds dual-resource combat pacing, mission-layered core overload objective, and touch-first action HUD clarity"
+  },
+  {
+    "id": "20260223-2000-signal-breach",
+    "slug": "signal-breach",
+    "title": "Signal Breach",
+    "path": "games/20260223-2000-signal-breach/index.html",
+    "readme": "games/20260223-2000-signal-breach/README.md",
+    "coreLoop": "strafe-mark-detonate-hack-extract",
+    "improvementAgainstPrevious": "adds mark-detonate tactical chain, explicit dual-relay hack extraction objective, and clearer touch-first control segmentation"
   }
 ]

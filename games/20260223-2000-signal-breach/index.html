@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Signal Breach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Signal Breach</h1>
+    <p>Top-down tactical shooter — mark drones, detonate links, hack relays, extract.</p>
+    <canvas id="game" width="960" height="540" aria-label="Signal Breach game canvas"></canvas>
+    <div class="touch" id="touchControls">
+      <button data-k="ArrowUp">▲</button>
+      <div>
+        <button data-k="ArrowLeft">◀</button>
+        <button data-k="Space">FIRE</button>
+        <button data-k="KeyE">HACK</button>
+        <button data-k="ArrowRight">▶</button>
+      </div>
+      <button data-k="ArrowDown">▼</button>
+    </div>
+    <p id="hud"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

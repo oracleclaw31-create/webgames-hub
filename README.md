@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260223-1900-orbit-forge/index.html
-- Report: reports/20260223-1900-orbit-forge.md
+- Game: games/20260223-2000-signal-breach/index.html
+- Report: reports/20260223-2000-signal-breach.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

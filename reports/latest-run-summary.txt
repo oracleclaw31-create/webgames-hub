@@ -6,7 +6,7 @@ Improvements: Anchor Ascent 대비 (1) 3단계 결정적 논리 퍼즐 진행 �
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2200-circuit-weaver/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2200-circuit-weaver/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2200-circuit-weaver.md
-Vercel URL: pending
-Git push: pending
-Deploy: pending
-Status: in-progress
+Vercel URL: https://webgames-hub.vercel.app
+Git push: success
+Deploy: success
+Status: completed

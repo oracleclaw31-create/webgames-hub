@@ -1,6 +1,6 @@
 Run ID: 20260224-0100-switchback-signal
 Game: Switchback Signal
-Status: completed
+Status: best-effort-complete
 
 Implemented:
 - Canvas 2D platformer with side-scrolling traversal, three relay objectives, and exit unlock.
@@ -23,5 +23,5 @@ Paths:
 - Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0100-switchback-signal.md
 
 Remote operations:
-- git add/commit/push: pending
-- vercel deploy: pending
+- git push origin main: failed (`github.com` DNS resolution error)
+- vercel --prod --yes: failed (`api.vercel.com` DNS resolution error)

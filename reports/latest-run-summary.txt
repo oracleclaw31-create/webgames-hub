@@ -6,7 +6,8 @@ Improvements: Pulse Bastion 대비 (1) 정적 레인 배치 대신 직접 이동
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0100-switchback-signal.md
-Vercel URL: pending
-Git push: pending
-Deploy: pending
-Status: completed
+Vercel URL: pending (deploy blocked by DNS/network: api.vercel.com EAI_AGAIN)
+Git push: failed (github.com DNS resolution)
+Deploy: failed (api.vercel.com DNS resolution)
+Pending steps: rerun `git push origin HEAD:main` and `vercel --prod --yes` after network recovery.
+Status: best-effort-complete

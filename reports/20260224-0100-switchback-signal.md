@@ -41,5 +41,6 @@
 - Rotation required only if active entries exceed 30, so no archive move in this run.
 
 ## Deployment status
-- Git push: pending
-- Vercel deploy: pending
+- Git push: failed (`ssh: Could not resolve hostname github.com`)
+- Vercel deploy: failed (`getaddrinfo EAI_AGAIN api.vercel.com`)
+- Pending steps: rerun `git push origin HEAD:main` and `vercel --prod --yes` once network/DNS access is restored.

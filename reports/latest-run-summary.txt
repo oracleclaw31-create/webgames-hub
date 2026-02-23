@@ -1,5 +1,5 @@
-English: Built and deployed Anchor Ascent, a new Canvas 2D platformer with a non-duplicate run-jump-grapple-tag-extract loop.
-Korean: 중복 없는 run-jump-grapple-tag-extract 코어 루프로 Anchor Ascent(Canvas 2D 플랫포머)를 제작하고 배포했습니다.
+English: Built Anchor Ascent, a new Canvas 2D platformer with a non-duplicate run-jump-grapple-tag-extract loop.
+Korean: 중복 없는 run-jump-grapple-tag-extract 코어 루프로 Anchor Ascent(Canvas 2D 플랫포머)를 제작했습니다.
 Genre: Platformer
 Core loop: run-jump-grapple-tag-extract
 Improvements: Signal Breach 대비 (1) grapple 기반 수직 이동/루트 숙련도 추가 (2) 3개 beacon 태깅 후 탈출하는 결정적 목표 게이팅 및 실패 피드백 강화
@@ -7,5 +7,6 @@ Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2100-a
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2100-anchor-ascent/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2100-anchor-ascent.md
 Vercel URL: https://webgames-hub.vercel.app
-Git push: pending
-Status: completed
+Git push: failed (DNS resolution issue to github.com)
+Deploy: failed (DNS resolution issue to api.vercel.com)
+Status: completed (local artifacts and hub updates done)

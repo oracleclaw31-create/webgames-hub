@@ -5,4 +5,4 @@ Previous vs Current Improvements: (1) objective-based reactor clear + extraction
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1702-gravity-gauntlet/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-1702-gravity-gauntlet/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-1702-gravity-gauntlet.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app

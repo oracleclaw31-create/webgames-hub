@@ -49,3 +49,6 @@ Checklist:
 ## 7) Summary Lines
 - EN: Gravity Gauntlet ships a physics-action Canvas run focused on momentum ricochet reactor-clearing and extraction under time pressure.
 - KO: Gravity Gauntlet은 관성/반사 기반 조작으로 반응로를 파괴하고 탈출하는 물리 액션 Canvas 게임으로 배포되었습니다.
+
+## 8) Deployment
+- Vercel: https://webgames-hub.vercel.app

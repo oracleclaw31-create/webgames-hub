@@ -1,0 +1,8 @@
+:root{color-scheme:dark}
+body{margin:0;background:#070b1d;color:#dbe7ff;font-family:system-ui}
+.wrap{max-width:980px;margin:0 auto;padding:12px}
+h1{margin:8px 0}
+canvas{width:100%;height:auto;border:1px solid #2c3e84;border-radius:10px;background:#050915}
+.hud{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;opacity:.9;margin:8px 0}
+.touch{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:360px}
+.touch button{padding:10px;border-radius:8px;border:1px solid #3f53ad;background:#131f4a;color:#eaf0ff}

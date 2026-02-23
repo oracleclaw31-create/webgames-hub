@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260224-0601-overclock-outpost/index.html
-- Report: reports/20260224-0601-overclock-outpost.md
+- Game: games/20260224-0703-neon-laststand/index.html
+- Report: reports/20260224-0703-neon-laststand.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

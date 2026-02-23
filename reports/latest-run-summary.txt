@@ -1,9 +1,9 @@
-Overclock Outpost is now deployed as a Canvas 2D tower-defense-lite game with active overclock/vent heat management and full keyboard/touch parity.
-오버클럭 아웃포스트는 오버클럭/벤트 열관리 전술과 키보드/터치 입력을 모두 지원하는 Canvas 2D 타워디펜스 라이트로 배포되었습니다.
-Genre: Tower defense lite
-Core loop: place-aim-manage-heat-overclock-vent-hold-wave
-Previous vs Current Improvement: Flux Bricks 대비 전략적 웨이브 준비 루프 도입 + 터렛 열관리(오버클럭/벤트) 의사결정층 추가 + 터치 전술 액션 패널 강화
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0601-overclock-outpost/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0601-overclock-outpost/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0601-overclock-outpost.md
+Neon Laststand is now deployed as a Canvas 2D survival arena game with wave escalation, dash mobility, and full keyboard/touch parity.
+네온 라스트스탠드는 웨이브 생존과 대시 기동을 갖춘 Canvas 2D 서바이벌 아레나로 배포되었습니다.
+Genre: Survival arena
+Core loop: kite-dash-autoaim-survive-waves-upgrade-tempo
+Previous vs Current Improvement: Overclock Outpost 대비 고속 직접조작 루프 전환 + 대시 메커닉 추가 + 터치 액션 단순화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0703-neon-laststand/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0703-neon-laststand/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0703-neon-laststand.md
 Vercel URL: https://webgames-hub.vercel.app

@@ -1,0 +1,14 @@
+Playtest Round 1:
+- Keyboard loop works (move/shoot/dash/restart).
+- Enemy pursuit pressure felt strong from wave 3.
+
+Playtest Round 2:
+- Touch hold buttons and shoot/dash usable on mobile layout.
+- Increased readability via neon contrast and compact HUD.
+
+Checklist:
+[x] Canvas 2D only
+[x] Keyboard controls
+[x] Touch controls
+[x] Distinct core loop from recent 5
+[x] >=2 improvements vs previous game

@@ -187,5 +187,14 @@
     "readme": "games/20260224-0601-overclock-outpost/README.md",
     "coreLoop": "place-aim-manage-heat-overclock-vent-hold-wave",
     "improvementAgainstPrevious": "Flux Bricks 대비 전략적 웨이브 준비 루프 도입 + 터렛 열관리(오버클럭/벤트) 의사결정층 추가 + 터치 전술 액션 패널 강화"
+  },
+  {
+    "id": "20260224-0703-neon-laststand",
+    "slug": "neon-laststand",
+    "title": "Neon Laststand",
+    "path": "games/20260224-0703-neon-laststand/index.html",
+    "readme": "games/20260224-0703-neon-laststand/README.md",
+    "coreLoop": "kite-dash-autoaim-survive-waves-upgrade-tempo",
+    "improvementAgainstPrevious": "faster survival pacing + dash mobility + tighter touch parity"
   }
 ]

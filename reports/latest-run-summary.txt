@@ -1,12 +1,12 @@
-English: Built Hazard Serve, a new Canvas 2D brick-breaker featuring charge-angle serving, chain multipliers, timed hazard rows, and between-wave perks.
-Korean: charge-angle 서브, 콤보 배수, 타이머 hazard row, 웨이브 사이 perk 선택을 결합한 Canvas 2D 브릭브레이커 Hazard Serve를 제작했습니다.
-Genre: Brick-breaker
-Core loop: charge-angle-serve-chain-multiplier-survive-hazard-rows-pick-perk-between-waves
-Improvements: Circuit Weaver 대비 (1) 실시간 액션 숙련 루프(각도/차지 서브+패들 인터셉트) 추가 (2) 주기적 hazard row 하강으로 시간 압박 도입 (3) 웨이브 사이 perk 선택으로 런 빌드 다양성 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260223-2300-hazard-serve/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260223-2300-hazard-serve.md
-Vercel URL: N/A (deploy failed: DNS resolution for api.vercel.com)
-Git push: failed (DNS resolution for github.com)
-Deploy: failed (DNS resolution for api.vercel.com)
+English: Built Pulse Bastion, a Canvas 2D tower-defense-lite game with build/upgrade/sell phases, lane pressure, and keyboard-touch parity.
+Korean: Pulse Bastion은 설치/업그레이드/판매 빌드 페이즈와 레인 방어 압박, 키보드·터치 동등 조작을 갖춘 Canvas 2D 타워디펜스 라이트 게임입니다.
+Genre: Tower defense lite
+Core loop: plan-place-upgrade-hold-lane-economy-cycle
+Improvements: Hazard Serve 대비 (1) 전략적 배치/경제/업그레이드 루프 추가 (2) 웨이브 누수 기반 생존 압박 추가 (3) 빌드 액션 전체 입력 패리티 확장
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0000-pulse-bastion/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0000-pulse-bastion.md
+Vercel URL: https://webgames-hub.vercel.app
+Git push: success
+Deploy: success
 Status: completed

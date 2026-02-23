@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neon Harvest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Neon Harvest</h1>
+    <p class="sub">Collect shards, dodge drones, and bank safely before overload.</p>
+
+    <section class="hud">
+      <div>Time: <span id="time">45</span>s</div>
+      <div>Carry: <span id="carry">0</span></div>
+      <div>Banked: <span id="banked">0</span>/20</div>
+      <div>HP: <span id="hp">3</span></div>
+      <button id="resetBtn">Restart</button>
+    </section>
+
+    <canvas id="game" width="560" height="560" aria-label="Neon Harvest game area"></canvas>
+    <p id="msg" class="msg"></p>
+
+    <section class="touch" aria-label="Touch controls">
+      <div class="row"><button data-dir="up">▲</button></div>
+      <div class="row">
+        <button data-dir="left">◀</button>
+        <button id="bankBtn">BANK</button>
+        <button data-dir="right">▶</button>
+      </div>
+      <div class="row"><button data-dir="down">▼</button></div>
+    </section>
+
+    <p class="help">Keyboard: Arrow/WASD move, Space/Enter to bank at base. Touch: D-pad + BANK button.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

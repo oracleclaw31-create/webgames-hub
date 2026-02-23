@@ -1,0 +1,20 @@
+[
+  {
+    "id": "20260223-1417-relay-grid",
+    "slug": "relay-grid",
+    "title": "Relay Grid",
+    "path": "games/20260223-1417-relay-grid/index.html",
+    "readme": "games/20260223-1417-relay-grid/README.md",
+    "coreLoop": "route-and-toggle",
+    "improvementAgainstPrevious": "playable game + reporting"
+  },
+  {
+    "id": "20260223-1501-neon-harvest",
+    "slug": "neon-harvest",
+    "title": "Neon Harvest",
+    "path": "games/20260223-1501-neon-harvest/index.html",
+    "readme": "games/20260223-1501-neon-harvest/README.md",
+    "coreLoop": "collect-evade-bank",
+    "improvementAgainstPrevious": "higher action pacing, risk-reward banking, clearer feedback loop"
+  }
+]

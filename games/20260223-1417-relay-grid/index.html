@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Relay Grid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Relay Grid</h1>
+    <p class="sub">Route power from <b>S</b> to <b>G</b> by stepping and toggling relays.</p>
+
+    <section class="hud">
+      <div>Level: <span id="level">1</span></div>
+      <div>Time: <span id="time">60</span>s</div>
+      <div>Energy: <span id="energy">0</span>%</div>
+      <button id="resetBtn">Reset Level</button>
+    </section>
+
+    <div id="grid" class="grid" aria-label="game grid"></div>
+
+    <section class="controls">
+      <button data-dir="up">↑</button>
+      <div>
+        <button data-dir="left">←</button>
+        <button id="toggleBtn">Toggle Relay</button>
+        <button data-dir="right">→</button>
+      </div>
+      <button data-dir="down">↓</button>
+    </section>
+
+    <p class="help">Keyboard: Arrow / WASD move, Space toggles adjacent relay. Touch: arrows + tap tile + Toggle.</p>
+    <p id="msg" class="msg"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

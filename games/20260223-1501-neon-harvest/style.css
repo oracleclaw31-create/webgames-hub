@@ -1,0 +1,13 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #070b1a; color: #e7ecff; }
+.wrap { max-width: 640px; margin: 0 auto; padding: 16px; }
+h1 { margin: 0 0 6px; }
+.sub { margin: 0 0 12px; color: #a7b2dd; }
+.hud { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
+.hud button { border: 0; background: #26315f; color: #fff; border-radius: 8px; padding: 8px 12px; }
+#game { width: 100%; max-width: 560px; border: 2px solid #2a3a7a; border-radius: 12px; background: radial-gradient(circle at 30% 20%, #121a3f, #0b0f23); display: block; }
+.msg { min-height: 24px; font-weight: 700; color: #7ef7c8; margin: 10px 0; }
+.touch { margin-top: 10px; display: grid; gap: 8px; justify-content: center; }
+.touch .row { display: flex; gap: 8px; justify-content: center; }
+.touch button { min-width: 76px; padding: 10px 12px; border-radius: 10px; border: 0; background: #2e3f83; color: #fff; font-weight: 700; }
+.help { color: #a7b2dd; font-size: 14px; }

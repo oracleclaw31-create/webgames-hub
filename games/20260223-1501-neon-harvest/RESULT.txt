@@ -1,0 +1,25 @@
+Status: COMPLETE
+Run ID: 20260223-1501-neon-harvest
+Game: Neon Harvest
+
+Previous Analysis:
+- Previous game: Relay Grid (route-and-toggle puzzle).
+- Recent 5 games: relay-grid only.
+- Overlap check: avoided route/toggle puzzle loop; switched to collect-evade-bank arcade loop.
+
+Improvement Goals:
+1) Increase pacing and moment-to-moment tension with moving enemies and risk-reward banking.
+2) Improve readability with single-canvas action field + immediate hit/bank feedback.
+3) Preserve accessibility with keyboard + touch parity.
+
+Playtest Assumptions:
+- PT1: First-time players understand objective in under 20 seconds.
+- PT2: Risk decision (keep collecting vs bank now) creates repeated engagement.
+
+Checklist:
+- [x] no-build HTML/CSS/JS
+- [x] keyboard + touch
+- [x] thumbnail created
+- [x] reports and hub updated
+- [x] vercel production deploy completed
+- [!] git push blocked (origin remote not configured)

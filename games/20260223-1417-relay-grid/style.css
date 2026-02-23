@@ -1,0 +1,20 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+.wrap { max-width: 780px; margin: 0 auto; padding: 16px; }
+h1 { margin: 0 0 8px; }
+.sub { color: #94a3b8; margin-bottom: 12px; }
+.hud { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.hud button { padding: 8px 12px; border: 0; border-radius: 8px; background: #334155; color: #fff; }
+.grid { display: grid; gap: 6px; grid-template-columns: repeat(8, 1fr); background: #111827; padding: 10px; border-radius: 10px; }
+.cell { aspect-ratio: 1/1; border-radius: 8px; display: grid; place-items: center; font-weight: 700; user-select: none; }
+.wall { background: #1f2937; }
+.path { background: #1e293b; }
+.player { outline: 3px solid #f59e0b; }
+.source { background: #0ea5e9; color: #001018; }
+.goal { background: #22c55e; color: #012b10; }
+.relay.off { background: #475569; }
+.relay.on { background: #f97316; color: #180a00; }
+.controls { margin-top: 14px; display: grid; gap: 8px; justify-content: center; }
+.controls button { min-width: 76px; padding: 10px 12px; border-radius: 10px; border: 0; background: #334155; color: #fff; }
+.help { margin-top: 10px; color: #94a3b8; font-size: 14px; }
+.msg { min-height: 24px; font-weight: 700; }

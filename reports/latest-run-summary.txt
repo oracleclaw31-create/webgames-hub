@@ -1,13 +1,10 @@
-English: Built Switchback Signal, a Canvas 2D platformer where players jump/dash through dynamic hazards, stabilize 3 relays, and extract for a medal time.
-Korean: Switchback Signal은 동적 위험 지형에서 점프/대시로 3개 릴레이를 안정화하고 탈출 시간을 단축하는 Canvas 2D 플랫폼 게임입니다.
-Genre: Platformer
-Core loop: jump-dash-stabilize-relays-extract
-Improvements: Pulse Bastion 대비 (1) 정적 레인 배치 대신 직접 이동/점프/대시 숙련 루프 도입 (2) 코요테 타임+점프 버퍼로 조작 신뢰도 향상 (3) 드론/붕괴 발판 등 동적 위험 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0100-switchback-signal/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0100-switchback-signal.md
-Vercel URL: pending (deploy blocked by DNS/network: api.vercel.com EAI_AGAIN)
-Git push: failed (github.com DNS resolution)
-Deploy: failed (api.vercel.com DNS resolution)
-Pending steps: rerun `git push origin HEAD:main` and `vercel --prod --yes` after network recovery.
-Status: best-effort-complete
+English: Built Ion Drift Siege, a Canvas 2D top-down shooter where you kite enemy swarms, capture 3 uplinks, and survive escalating waves.
+Korean: Ion Drift Siege는 적 무리를 유인·사격하고 3개의 업링크를 점령해 웨이브를 버티는 Canvas 2D 탑다운 슈터입니다.
+Genre: Top-down shooter
+Core loop: kite-shoot-capture-uplinks-survive-wave
+Improvements: Switchback Signal 대비 (1) 원거리 전투+추적 AI 도입 (2) 웨이브 처치와 업링크 점령의 이중 목표 루프 추가
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0300-ion-drift-siege/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0300-ion-drift-siege/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0300-ion-drift-siege.md
+Vercel URL: pending
+Git push: pending

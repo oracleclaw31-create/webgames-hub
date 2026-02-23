@@ -1,0 +1,12 @@
+Result: COMPLETE
+Genre: Top-down shooter (Canvas 2D)
+Core loop: kite enemies -> shoot -> capture uplinks -> survive wave
+
+Playtest assumption
+- Pass 1: verified keyboard movement/fire/dash and wave progression
+- Pass 2: verified touch controls and lose/restart flow
+
+Improvements vs previous game (Switchback Signal)
+1) Added ranged combat + pursuit AI for combat readability and stronger moment-to-moment decisions.
+2) Added dual objective layer (enemy clear + uplink capture) instead of pure traversal objective.
+3) Added explicit touch button cluster for full parity on mobile.

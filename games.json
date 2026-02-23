@@ -151,5 +151,14 @@
     "readme": "games/20260224-0100-switchback-signal/README.md",
     "coreLoop": "jump-dash-stabilize-relays-extract",
     "improvementAgainstPrevious": "Pulse Bastion 대비 정적 배치에서 동적 플랫폼 이동/대시 숙련 루프로 전환하고, 코요테 타임+점프 버퍼 및 위험 구간 리플레이 피드백을 추가"
+  },
+  {
+    "id": "20260224-0300-ion-drift-siege",
+    "slug": "ion-drift-siege",
+    "title": "Ion Drift Siege",
+    "path": "games/20260224-0300-ion-drift-siege/index.html",
+    "readme": "games/20260224-0300-ion-drift-siege/README.md",
+    "coreLoop": "kite-shoot-capture-uplinks-survive-wave",
+    "improvementAgainstPrevious": "Added ranged-combat pursuit AI and dual objective uplink-capture loop"
   }
 ]

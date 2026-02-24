@@ -1,0 +1,75 @@
+:root {
+  color-scheme: dark;
+  --bg: #07111f;
+  --panel: #0f1f34;
+  --accent: #34d3ff;
+  --accent2: #ffa84d;
+  --text: #e8f3ff;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 10%, #12365b 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+.game-shell {
+  width: min(980px, 100vw);
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.hud-top h1 { margin: 0 0 4px; font-size: 1.6rem; }
+.hud-top p { margin: 0 0 10px; opacity: 0.9; }
+
+canvas {
+  width: 100%;
+  border: 2px solid #2f5f8a;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #0a1930 0%, #081223 100%);
+}
+
+.hud-bottom {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-weight: 700;
+}
+.controls-help { opacity: 0.85; font-size: 0.94rem; }
+
+.touch-controls {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 8px;
+  color: #04111f;
+  font-weight: 800;
+  font-size: 1rem;
+  background: linear-gradient(180deg, #b7ecff, #62cfff);
+}
+button:active,
+button.active {
+  transform: translateY(1px);
+  filter: brightness(0.84);
+}
+.focus-btn {
+  background: linear-gradient(180deg, #ffd3a3, #ffa84d);
+}
+
+@media (max-width: 700px) {
+  .touch-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .focus-btn { grid-column: span 3; }
+  .controls-help { font-size: 0.85rem; }
+}

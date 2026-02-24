@@ -93,8 +93,8 @@
     "id": "20260223-1900-orbit-forge",
     "slug": "orbit-forge",
     "title": "Orbit Forge",
-    "path": "games/20260223-1900-orbit-forge/index.html",
-    "readme": "games/20260223-1900-orbit-forge/README.md",
+    "path": "archive/20260223-1900-orbit-forge/index.html",
+    "readme": "archive/20260223-1900-orbit-forge/README.md",
     "coreLoop": "orbit-charge-discharge-overload",
     "improvementAgainstPrevious": "adds dual-resource combat pacing, mission-layered core overload objective, and touch-first action HUD clarity"
   },
@@ -358,5 +358,14 @@
     "readme": "games/20260225-0000-polarity-pendulum/README.md",
     "coreLoop": "swing-flip-polarity-collide-shatter-maintain-control",
     "improvementAgainstPrevious": "Storm Salvager 대비 (1) pendulum 장력/관성 물리 루프 (2) polarity flip + pulse burst 이중 메커닉"
+  },
+  {
+    "id": "20260225-0201-reactor-rhythm",
+    "slug": "reactor-rhythm",
+    "title": "Reactor Rhythm",
+    "path": "games/20260225-0201-reactor-rhythm/index.html",
+    "readme": "games/20260225-0201-reactor-rhythm/README.md",
+    "coreLoop": "read-cue-time-lane-hits-build-focus-maintain-stability",
+    "improvementAgainstPrevious": "Polarity Pendulum 대비 박자 판정 중심 리듬 루프 + Focus 자원 운영 + 터치 레인 피드백 강화"
   }
 ]

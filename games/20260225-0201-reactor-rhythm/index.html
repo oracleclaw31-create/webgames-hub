@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reactor Rhythm</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <header class="hud-top">
+      <h1>Reactor Rhythm</h1>
+      <p>Hit notes on time, keep reactor stability above zero.</p>
+    </header>
+
+    <canvas id="game" width="960" height="540" aria-label="Reactor Rhythm game canvas"></canvas>
+
+    <section class="hud-bottom">
+      <div class="stats">
+        <span id="score">Score: 0</span>
+        <span id="combo">Combo: 0</span>
+        <span id="stability">Stability: 100</span>
+        <span id="focus">Focus: 0%</span>
+      </div>
+      <div class="controls-help">
+        <span>Keyboard: A S K L hit lanes, Space = Focus, Enter = restart</span>
+      </div>
+    </section>
+
+    <section class="touch-controls" aria-label="Touch controls">
+      <button class="lane-btn" data-lane="0">A</button>
+      <button class="lane-btn" data-lane="1">S</button>
+      <button class="lane-btn" data-lane="2">K</button>
+      <button class="lane-btn" data-lane="3">L</button>
+      <button id="focusBtn" class="focus-btn">FOCUS</button>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

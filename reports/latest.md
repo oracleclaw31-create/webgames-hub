@@ -1,4 +1,4 @@
 # Latest Report
 
-- 20260225-0000-polarity-pendulum
-- ./reports/20260225-0000-polarity-pendulum.md
+- 20260225-0201-reactor-rhythm
+- ./reports/20260225-0201-reactor-rhythm.md

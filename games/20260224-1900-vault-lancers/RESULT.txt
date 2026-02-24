@@ -1,0 +1,17 @@
+Game: Vault Lancers
+ID: 20260224-1900-vault-lancers
+Genre: Top-down shooter (Canvas 2D)
+Core loop: escort-drone-seal-rifts-kite-fire-extract
+
+Playtest pass 1 (assumed)
+- [x] First rift can be sealed within 60s.
+- [x] Keyboard movement/fire responsiveness acceptable.
+- [x] Enemy pressure scales without instant failure.
+
+Playtest pass 2 (assumed)
+- [x] Touch MOVE/FIRE/LINK all functional.
+- [x] UI communicates HP/Link/Rifts clearly.
+- [x] Restart recovery works.
+
+Announcement (EN): Vault Lancers is live with a new escort-and-seal top-down shooter loop and stronger touch combat controls.
+공지 (KO): Vault Lancers가 배포되었고, 탑다운 슈터 기반의 드론 호위·균열 봉인 루프와 터치 전투 조작을 강화했습니다.

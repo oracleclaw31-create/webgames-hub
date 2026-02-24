@@ -39,8 +39,8 @@
     "id": "20260223-1522-glyph-weave",
     "slug": "glyph-weave",
     "title": "Glyph Weave",
-    "path": "games/20260223-1522-glyph-weave/index.html",
-    "readme": "games/20260223-1522-glyph-weave/README.md",
+    "path": "archive/20260223-1522-glyph-weave/index.html",
+    "readme": "archive/20260223-1522-glyph-weave/README.md",
     "coreLoop": "slide-reorder-solve",
     "improvementAgainstPrevious": "pivots from reflex action to deterministic logic puzzle play"
   },
@@ -304,5 +304,14 @@
     "readme": "games/20260224-1837-relay-ruins/README.md",
     "coreLoop": "jump-dash-activate-relays-extract",
     "improvementAgainstPrevious": "Tempo Forge 대비 리듬 입력 중심에서 수직 플랫폼 이동+대시 숙련 루프로 전환, 3개 릴레이 활성화 후 탈출하는 다중 목표 구조 추가, 터치 방향/점프/대시 동시 입력 패리티 강화"
+  },
+  {
+    "id": "20260224-1900-vault-lancers",
+    "slug": "vault-lancers",
+    "title": "Vault Lancers",
+    "path": "games/20260224-1900-vault-lancers/index.html",
+    "readme": "games/20260224-1900-vault-lancers/README.md",
+    "coreLoop": "escort-drone-seal-rifts-kite-fire-extract",
+    "improvementAgainstPrevious": "Relay Ruins 대비 호위+목표 봉인 전투 루프 추가, 링크 미터 리스크 관리 추가, FIRE/LINK 터치 전투 입력 강화"
   }
 ]

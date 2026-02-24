@@ -1,0 +1,131 @@
+:root {
+  color-scheme: dark;
+  --bg: #061018;
+  --panel: #0d1a26;
+  --ink: #e5f0ff;
+  --accent: #3dd2ff;
+  --warn: #ff7b7b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #10253a, var(--bg) 65%);
+  color: var(--ink);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.wrap {
+  width: min(980px, 96vw);
+  margin: 16px auto 28px;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+.subtitle {
+  margin-top: 6px;
+  color: #9ac6db;
+}
+
+canvas {
+  width: 100%;
+  border: 2px solid #1f4158;
+  border-radius: 12px;
+  background: #030910;
+  touch-action: none;
+}
+
+.hud {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.hud div {
+  background: var(--panel);
+  border: 1px solid #1f4158;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.left-pad {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px dashed #3a6278;
+  display: grid;
+  place-items: center;
+  user-select: none;
+  touch-action: none;
+}
+
+.right-pad {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  height: 64px;
+  border: 1px solid #26688b;
+  border-radius: 10px;
+  background: #123047;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+button:active,
+button.is-down {
+  background: #1a5479;
+}
+
+.help {
+  margin-top: 8px;
+  color: #9ac6db;
+}
+
+kbd {
+  border: 1px solid #33596f;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 1px 5px;
+  background: #0e1f2d;
+}
+
+@media (max-width: 720px) {
+  .hud {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .controls {
+    position: sticky;
+    bottom: 8px;
+  }
+
+  .left-pad {
+    width: 110px;
+    height: 110px;
+  }
+
+  button {
+    width: 88px;
+    height: 58px;
+  }
+}

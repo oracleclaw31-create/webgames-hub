@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260224-1837-relay-ruins/index.html
-- Report: reports/20260224-1837-relay-ruins.md
+- Game: games/20260224-1900-vault-lancers/index.html
+- Report: reports/20260224-1900-vault-lancers.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

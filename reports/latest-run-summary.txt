@@ -1,8 +1,7 @@
-genre: Platformer (Canvas 2D)
-core_loop: jump-dash-activate-relays-extract
-improvements: Tempo Forge 대비 리듬 루프에서 수직 플랫폼 이동/대시 숙련 전환 + 3릴레이 활성화 후 탈출 다중 목표 추가 + 터치/키보드 입력 패리티 강화
-game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/
-thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/thumbnail.png
-report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1837-relay-ruins.md
+genre: Top-down shooter (Canvas 2D)
+core_loop: escort-drone-seal-rifts-kite-fire-extract
+improvements: Relay Ruins 대비 (1) 플랫폼 이동 중심에서 드론 호위+균열 봉인 목표 루프로 전환 (2) 링크 미터/부스트로 리스크-회복 계층 추가 (3) FIRE/LINK 터치 액션으로 전투 입력 명확화
+game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1900-vault-lancers/
+thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1900-vault-lancers/thumbnail.png
+report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1900-vault-lancers.md
 vercel_url: https://webgames-hub.vercel.app
-git_push: success (master -> master, 811ca3a)

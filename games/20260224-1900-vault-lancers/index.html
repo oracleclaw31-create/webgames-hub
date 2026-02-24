@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vault Lancers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Vault Lancers</h1>
+    <p class="subtitle">Top-down shooter: escort your drone, seal 3 rifts, extract alive.</p>
+    <canvas id="game" width="960" height="540"></canvas>
+    <section class="hud">
+      <div>HP <span id="hp">100</span></div><div>Rifts <span id="rifts">0/3</span></div><div>Link <span id="link">100</span></div><div>Time <span id="time">0.0</span>s</div><div id="state">Ready</div>
+    </section>
+    <section class="controls">
+      <div class="left-pad" id="touchMove">MOVE</div>
+      <div class="right-pad"><button id="touchFire">FIRE</button><button id="touchLink">LINK</button></div>
+    </section>
+    <p class="help">WASD/Arrows move · Space fire · E link boost · R restart</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+status: complete-local
+id: 20260225-0401-signal-evac
+genre: Top-down shooter
+core_loop: sweep-shoot-rescue-escort-extract
+controls: keyboard+touch
+playtest_passes: 2
+improvements_checklist:
+- [x] Higher input depth than previous game (move+aim+dash)
+- [x] Objective complexity increased (escort/extract civilians)
+- [x] Distinct core loop vs recent 5

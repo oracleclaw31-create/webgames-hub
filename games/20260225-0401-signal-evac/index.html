@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Signal Evac</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Signal Evac</h1>
+    <canvas id="game" width="960" height="540" aria-label="Signal Evac canvas game"></canvas>
+    <p class="hint">Keyboard: WASD move, Arrow keys fire, Shift dash, R restart. Touch controls supported below.</p>
+    <section id="touch" aria-label="Touch controls">
+      <div class="group">
+        <button data-key="up">▲</button>
+        <button data-key="left">◀</button>
+        <button data-key="down">▼</button>
+        <button data-key="right">▶</button>
+      </div>
+      <div class="group">
+        <button data-key="fireUp">Shoot ▲</button>
+        <button data-key="fireLeft">Shoot ◀</button>
+        <button data-key="fireDown">Shoot ▼</button>
+        <button data-key="fireRight">Shoot ▶</button>
+        <button data-key="dash">DASH</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

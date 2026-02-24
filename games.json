@@ -111,8 +111,8 @@
     "id": "20260223-2100-anchor-ascent",
     "slug": "anchor-ascent",
     "title": "Anchor Ascent",
-    "path": "games/20260223-2100-anchor-ascent/index.html",
-    "readme": "games/20260223-2100-anchor-ascent/README.md",
+    "path": "archive/20260223-2100-anchor-ascent/index.html",
+    "readme": "archive/20260223-2100-anchor-ascent/README.md",
     "coreLoop": "run-jump-grapple-tag-extract",
     "improvementAgainstPrevious": "adds grapple-assisted vertical traversal depth, deterministic beacon-tag objective gating, and clearer failure-state readability"
   },
@@ -376,5 +376,14 @@
     "readme": "games/20260225-0301-grapple-grotto/README.md",
     "coreLoop": "run-jump-grapple-route-relic-extract",
     "improvementAgainstPrevious": "Reactor Rhythm 대비 (1) 레인 타이밍에서 공간 플랫폼 경로 계획으로 전환 (2) 그래플 이동 메커닉과 점프 복구 의사결정층 추가 (3) 물리 착지/낙하 리스크 관리 루프 도입"
+  },
+  {
+    "id": "20260225-0401-signal-evac",
+    "slug": "signal-evac",
+    "title": "Signal Evac",
+    "path": "games/20260225-0401-signal-evac/index.html",
+    "readme": "games/20260225-0401-signal-evac/README.md",
+    "coreLoop": "sweep-shoot-rescue-escort-extract",
+    "improvementAgainstPrevious": "dual-axis shooting + escort extraction objective + dash resource layer"
   }
 ]

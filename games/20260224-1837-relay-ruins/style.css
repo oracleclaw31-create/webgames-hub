@@ -1,0 +1,6 @@
+body{margin:0;background:#0a0f1f;color:#e6edff;font-family:system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:16px;text-align:center}
+canvas{width:100%;height:auto;border:2px solid #2f4276;border-radius:10px;background:#101a34}
+.sub,.tips{opacity:.85}
+.hud{display:flex;justify-content:center;gap:8px;margin-top:10px;flex-wrap:wrap}
+button{background:#23335e;color:#fff;border:1px solid #4d6ec1;border-radius:8px;padding:10px 14px;font-weight:700}

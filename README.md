@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260224-1700-tempo-forge/index.html
-- Report: reports/20260224-1700-tempo-forge.md
+- Game: games/20260224-1837-relay-ruins/index.html
+- Report: reports/20260224-1837-relay-ruins.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

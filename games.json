@@ -30,8 +30,8 @@
     "id": "20260223-1521-vector-siege",
     "slug": "vector-siege",
     "title": "Vector Siege",
-    "path": "games/20260223-1521-vector-siege/index.html",
-    "readme": "games/20260223-1521-vector-siege/README.md",
+    "path": "archive/20260223-1521-vector-siege/index.html",
+    "readme": "archive/20260223-1521-vector-siege/README.md",
     "coreLoop": "move-aim-shoot-survive",
     "improvementAgainstPrevious": "switches to continuous combat pressure and directional firing"
   },
@@ -295,5 +295,14 @@
     "readme": "games/20260224-1700-tempo-forge/README.md",
     "coreLoop": "cue-read-press-hold-release-judge-build-heat-forge-blades",
     "improvementAgainstPrevious": "Tether Crash 대비 (1) 테더 물리 충돌에서 리듬 판정 루프로 전환 (2) 패턴 기억 기반 hold/release 실행층 추가 (3) heat+integrity 이중 압박 운영층 도입"
+  },
+  {
+    "id": "20260224-1837-relay-ruins",
+    "slug": "relay-ruins",
+    "title": "Relay Ruins",
+    "path": "games/20260224-1837-relay-ruins/index.html",
+    "readme": "games/20260224-1837-relay-ruins/README.md",
+    "coreLoop": "jump-dash-activate-relays-extract",
+    "improvementAgainstPrevious": "Tempo Forge 대비 리듬 입력 중심에서 수직 플랫폼 이동+대시 숙련 루프로 전환, 3개 릴레이 활성화 후 탈출하는 다중 목표 구조 추가, 터치 방향/점프/대시 동시 입력 패리티 강화"
   }
 ]

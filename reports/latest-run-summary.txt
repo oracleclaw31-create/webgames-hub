@@ -1,8 +1,6 @@
-genre: Rhythm timing (Canvas 2D)
-core_loop: cue-read-press-hold-release-judge-build-heat-forge-blades
-improvements: Tether Crash 대비 리듬 판정 루프 전환 + 패턴 기억형 hold/release 추가 + heat/integrity 이중 압박
-game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/
-thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/thumbnail.png
-report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1700-tempo-forge.md
-vercel_url: https://webgames-hub.vercel.app (new deploy failed on 2026-02-24: getaddrinfo EAI_AGAIN api.vercel.com)
-git_push: failed (2026-02-24: could not resolve github.com)
+genre: Platformer (Canvas 2D)
+core_loop: jump-dash-activate-relays-extract
+improvements: Tempo Forge 대비 리듬 루프에서 수직 플랫폼 이동/대시 숙련 전환 + 3릴레이 활성화 후 탈출 다중 목표 추가 + 터치/키보드 입력 패리티 강화
+game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/
+thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/thumbnail.png
+report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1837-relay-ruins.md

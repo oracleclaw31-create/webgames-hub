@@ -1,0 +1,27 @@
+Game: Relay Ruins
+ID: 20260224-1837-relay-ruins
+Genre: Platformer (Canvas 2D)
+Core loop: jump-dash-activate-relays-extract
+
+Playtest pass 1 assumptions:
+- New players can clear first relay in under 45 seconds.
+- Keyboard jump/dash timing feels responsive.
+
+Playtest pass 1 checklist:
+- [x] Jump arc allows intended platform chain.
+- [x] Dash cooldown prevents spam but remains usable.
+- [x] Hazard respawn is immediate and readable.
+
+Playtest pass 2 assumptions:
+- Touch controls are stable on one-thumb hold inputs.
+- Objective state (relay count + exit lock) is clear without tutorial wall.
+
+Playtest pass 2 checklist:
+- [x] Pointer cancel/up clears stuck movement.
+- [x] Relay activation feedback color change is visible.
+- [x] Restart fully resets timer/deaths/relay state.
+
+Improvement checklist vs previous game:
+- [x] Different genre and non-overlapping core loop.
+- [x] At least 2 concrete improvements documented.
+- [x] Keyboard + touch parity implemented.

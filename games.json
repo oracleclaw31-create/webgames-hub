@@ -214,5 +214,14 @@
     "readme": "games/20260224-0907-beatline-bastion/README.md",
     "coreLoop": "lane-shift-on-beat-hit-hold-charge-shield-survive-phase",
     "improvementAgainstPrevious": "Kinetic Smash 대비 (1) 리듬 판정/콤보 배수층 (2) 페이즈 생존 운영 루프 (3) 명시적 레인 터치 컨트롤"
+  },
+  {
+    "id": "20260224-1000-vaultbound-climb",
+    "slug": "vaultbound-climb",
+    "title": "Vaultbound Climb",
+    "path": "games/20260224-1000-vaultbound-climb/index.html",
+    "readme": "games/20260224-1000-vaultbound-climb/README.md",
+    "coreLoop": "jump-wall-navigate-collect-keys-toggle-switches-open-vault-extract",
+    "improvementAgainstPrevious": "Beatline Bastion 대비 (1) 레인 기반 리듬 루프에서 수직 플랫폼 탐색으로 전환 (2) 키-스위치-볼트 목표 게이팅 추가 (3) 공중 대시 기반 경로 숙련층과 터치 패리티 강화"
   }
 ]

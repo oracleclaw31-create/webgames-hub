@@ -1,9 +1,9 @@
-Kinetic Smash is now deployed as a Canvas 2D physics-action game focused on charge-sling collisions and chain shard breaks.
-키네틱 스매시는 차지-슬링 충돌과 연쇄 파편 파괴에 집중한 Canvas 2D 피직스 액션 게임으로 배포되었습니다.
-Genre: Physics action
-Core loop: charge-sling-collide-shatter-chain-clear
-Previous vs Current Improvement: Neon Laststand 대비 (1) 수동 차지-슬링 물리 숙련 루프 전환 (2) 연쇄 충돌 점수층 추가 (3) 조준 터치 제스처 강화
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0800-kinetic-smash/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0800-kinetic-smash/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0800-kinetic-smash.md
-Vercel URL: https://webgames-hub.vercel.app
+Vaultbound Climb is now deployed as a Canvas 2D platformer focused on key collection, switch routing, and vault extraction.
+볼트바운드 클라임은 키 수집·스위치 경로 운영·볼트 탈출에 집중한 Canvas 2D 플랫폼 게임으로 배포되었습니다.
+Genre: Platformer
+Core loop: jump-wall-navigate-collect-keys-toggle-switches-open-vault-extract
+Previous vs Current Improvement: Beatline Bastion 대비 (1) 레인 리듬에서 공간 이동 플랫폼 루프로 전환 (2) 키-스위치-게이트 목표 구조 추가 (3) 공중 대시 + 터치 패리티 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1000-vaultbound-climb.md
+Vercel URL: pending

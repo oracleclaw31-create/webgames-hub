@@ -1,7 +1,7 @@
-genre: Top-down shooter (Canvas 2D)
-core_loop: escort-drone-seal-rifts-kite-fire-extract
-improvements: Relay Ruins 대비 (1) 플랫폼 이동 중심에서 드론 호위+균열 봉인 목표 루프로 전환 (2) 링크 미터/부스트로 리스크-회복 계층 추가 (3) FIRE/LINK 터치 액션으로 전투 입력 명확화
-game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1900-vault-lancers/
-thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1900-vault-lancers/thumbnail.png
-report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1900-vault-lancers.md
+genre: Puzzle (grid/logic, Canvas 2D)
+core_loop: push-crates-energize-switches-open-exit
+improvements: Vault Lancers 대비 (1) 실시간 슈팅에서 결정형 퍼즐 전환 (2) Undo/Reset UX 추가
+game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2001-switchyard-stacker/
+thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2001-switchyard-stacker/thumbnail.png
+report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2001-switchyard-stacker.md
 vercel_url: https://webgames-hub.vercel.app

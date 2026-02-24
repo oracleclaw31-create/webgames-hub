@@ -1,4 +1,4 @@
 # Latest Report
 
-- 20260224-1900-vault-lancers
-- ./reports/20260224-1900-vault-lancers.md
+- 20260224-2001-switchyard-stacker
+- ./reports/20260224-2001-switchyard-stacker.md

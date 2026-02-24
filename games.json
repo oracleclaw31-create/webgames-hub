@@ -48,8 +48,8 @@
     "id": "20260223-1523-prism-paddle",
     "slug": "prism-paddle",
     "title": "Prism Paddle",
-    "path": "games/20260223-1523-prism-paddle/index.html",
-    "readme": "games/20260223-1523-prism-paddle/README.md",
+    "path": "archive/20260223-1523-prism-paddle/index.html",
+    "readme": "archive/20260223-1523-prism-paddle/README.md",
     "coreLoop": "paddle-bounce-break",
     "improvementAgainstPrevious": "introduces kinetic physics loop with progressive brick clearing"
   },
@@ -313,5 +313,14 @@
     "readme": "games/20260224-1900-vault-lancers/README.md",
     "coreLoop": "escort-drone-seal-rifts-kite-fire-extract",
     "improvementAgainstPrevious": "Relay Ruins 대비 호위+목표 봉인 전투 루프 추가, 링크 미터 리스크 관리 추가, FIRE/LINK 터치 전투 입력 강화"
+  },
+  {
+    "id": "20260224-2001-switchyard-stacker",
+    "slug": "switchyard-stacker",
+    "title": "Switchyard Stacker",
+    "path": "games/20260224-2001-switchyard-stacker/index.html",
+    "readme": "games/20260224-2001-switchyard-stacker/README.md",
+    "coreLoop": "push-crates-energize-switches-open-exit",
+    "improvementAgainstPrevious": "Vault Lancers 대비 (1) 실시간 슈팅→결정형 그리드 퍼즐 전환 (2) Undo/Reset UX 추가 (3) 레벨별 Best move 저장"
   }
 ]

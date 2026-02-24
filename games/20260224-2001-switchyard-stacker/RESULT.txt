@@ -1,0 +1,25 @@
+Game: Switchyard Stacker
+ID: 20260224-2001-switchyard-stacker
+Genre: Puzzle (grid/logic, Canvas 2D)
+Core loop: push-crates-energize-switches-open-exit
+
+Playtest pass 1 (assumed)
+- [x] Keyboard movement/push rules are deterministic.
+- [x] First level clearable under 2 minutes.
+- [x] Switch and exit readability verified.
+
+Playtest pass 2 (assumed)
+- [x] Touch controls (UP/LEFT/DOWN/RIGHT/UNDO/RESET) work.
+- [x] Undo/reset prevent deadlock frustration.
+- [x] Level progression + best score persistence confirmed.
+
+Previous vs Current Improvement
+- Vault Lancers 대비 (1) 실시간 슈팅에서 그리드 논리 퍼즐 루프로 전환 (2) Undo/Reset UX 추가 (3) 레벨별 Best move 저장 추가
+
+English: Switchyard Stacker is now live with a grid-logic crate routing loop and improved retry-friendly controls.
+한국어: Switchyard Stacker가 배포되었고, 상자 라우팅 기반 그리드 퍼즐 루프와 재시도 친화 조작을 강화했습니다.
+
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2001-switchyard-stacker/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2001-switchyard-stacker/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2001-switchyard-stacker.md
+Vercel URL: https://webgames-hub.vercel.app

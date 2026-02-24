@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Switchyard Stacker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Switchyard Stacker</h1>
+    <p class="subtitle">Push freight crates onto power switches to unlock the exit gate.</p>
+    <canvas id="game" width="960" height="600" aria-label="Switchyard Stacker game canvas"></canvas>
+    <section class="hud" aria-live="polite">
+      <div>Level <span id="level">1</span>/<span id="total">1</span></div>
+      <div>Moves <span id="moves">0</span></div>
+      <div>Switches <span id="switches">0/0</span></div>
+      <div>Best <span id="best">-</span></div>
+      <div id="status">Ready</div>
+    </section>
+    <section class="touch" aria-label="touch controls">
+      <button data-act="up">UP</button>
+      <button data-act="left">LEFT</button>
+      <button data-act="down">DOWN</button>
+      <button data-act="right">RIGHT</button>
+      <button data-act="undo">UNDO</button>
+      <button data-act="reset">RESET</button>
+    </section>
+    <p class="help">Move: WASD/Arrows | Undo: Z | Reset: R | Next: N</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

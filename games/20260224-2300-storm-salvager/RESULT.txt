@@ -1,0 +1,26 @@
+Game: Storm Salvager
+ID: 20260224-2300-storm-salvager
+Genre: Survival arena (Canvas 2D)
+Core loop: move-sweep-emp-activate-beacons-survive
+
+Playtest pass 1 (assumed)
+- [x] Keyboard movement/sweep/EMP/activate responds
+- [x] Beacon activation and enemy spawn/chase work
+- [x] Win/lose conditions and HUD render correctly
+
+Playtest pass 2 (assumed)
+- [x] Touch buttons map to all major actions
+- [x] EMP cooldown and close-range sweep are readable
+- [x] No-build static hosting run verified
+
+Previous vs Current Improvement
+- Iron Bulwark 대비 (1) 타워 배치형 TD에서 실시간 생존 액션 루프로 전환
+- Iron Bulwark 대비 (2) Sweep+EMP 이중 스킬 운영과 3개 비컨 활성화 목표를 추가
+
+English: Storm Salvager is a Canvas 2D survival arena where you activate three beacons while balancing close-range sweep and EMP cooldown timing.
+한국어: 스톰 샐버저는 근접 스윕과 EMP 쿨타임을 운영하며 3개의 비컨을 활성화하는 Canvas 2D 생존 아레나 게임입니다.
+
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2300-storm-salvager.md
+Vercel URL: (pending)

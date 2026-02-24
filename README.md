@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260224-2200-iron-bulwark/index.html
-- Report: reports/20260224-2200-iron-bulwark.md
+- Game: games/20260224-2300-storm-salvager/index.html
+- Report: reports/20260224-2300-storm-salvager.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

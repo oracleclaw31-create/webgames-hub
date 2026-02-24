@@ -75,8 +75,8 @@
     "id": "20260223-1702-gravity-gauntlet",
     "slug": "gravity-gauntlet",
     "title": "Gravity Gauntlet",
-    "path": "games/20260223-1702-gravity-gauntlet/index.html",
-    "readme": "games/20260223-1702-gravity-gauntlet/README.md",
+    "path": "archive/20260223-1702-gravity-gauntlet/index.html",
+    "readme": "archive/20260223-1702-gravity-gauntlet/README.md",
     "coreLoop": "thrust-drift-ricochet-shatter-reactor-clear-extract",
     "improvementAgainstPrevious": "adds objective extraction mission, momentum ricochet mastery layer, and clearer instant-retry HUD flow"
   },
@@ -340,5 +340,14 @@
     "readme": "games/20260224-2200-iron-bulwark/README.md",
     "coreLoop": "place-upgrade-switch-target-priority-hold-waves",
     "improvementAgainstPrevious": "Prism Surge 대비 (1) 반사 단일 액션에서 다중 타워 전략/우선순위 운영 루프로 확장 (2) 웨이브 시작 타이밍 선택 + 업그레이드 경제 의사결정층 추가"
+  },
+  {
+    "id": "20260224-2300-storm-salvager",
+    "slug": "storm-salvager",
+    "title": "Storm Salvager",
+    "path": "games/20260224-2300-storm-salvager/index.html",
+    "readme": "games/20260224-2300-storm-salvager/README.md",
+    "coreLoop": "move-sweep-emp-activate-beacons-survive",
+    "improvementAgainstPrevious": "Iron Bulwark 대비 (1) 타워 배치형 TD에서 실시간 생존 액션 루프로 전환 (2) Sweep+EMP 이중 스킬 운영과 3개 비컨 활성화 목표 추가"
   }
 ]

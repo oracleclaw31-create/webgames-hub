@@ -1,0 +1,86 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a1218;
+  --panel: #13222b;
+  --ink: #dff5ff;
+  --accent: #5df2c4;
+  --warn: #ffcc66;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 10%, #143448 0%, var(--bg) 55%);
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 { margin: 4px 0; letter-spacing: 0.03em; }
+.tag { margin-top: 0; color: #a4ceda; }
+
+canvas {
+  width: 100%;
+  max-width: 960px;
+  border: 2px solid #264250;
+  border-radius: 10px;
+  background: #081015;
+  display: block;
+}
+
+.hud {
+  display: grid;
+  gap: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  background: color-mix(in oklab, var(--panel) 92%, black);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.touch {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dpad, .actions {
+  display: grid;
+  gap: 6px;
+}
+
+.dpad {
+  grid-template-columns: repeat(2, minmax(78px, 1fr));
+}
+
+.actions {
+  grid-template-columns: repeat(3, minmax(78px, 1fr));
+}
+
+button {
+  border: 1px solid #356275;
+  background: #1a3340;
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-weight: 700;
+}
+
+button:active,
+button.active {
+  transform: translateY(1px);
+  background: #275064;
+  border-color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .actions { grid-template-columns: repeat(3, 1fr); }
+  button { min-height: 44px; }
+}

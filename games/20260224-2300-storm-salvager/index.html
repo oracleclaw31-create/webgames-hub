@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Storm Salvager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Storm Salvager</h1>
+    <p class="tag">Activate 3 beacons and survive the ion storm.</p>
+    <canvas id="game" width="960" height="540" aria-label="Storm Salvager game canvas"></canvas>
+
+    <section class="hud" aria-label="status">
+      <div><strong>Move:</strong> WASD/Arrows or touch pad</div>
+      <div><strong>Sweep:</strong> Space | <strong>EMP:</strong> Shift</div>
+      <div><strong>Activate:</strong> E near beacon</div>
+    </section>
+
+    <section class="touch" aria-label="touch controls">
+      <div class="dpad">
+        <button data-key="ArrowUp">Up</button>
+        <button data-key="ArrowLeft">Left</button>
+        <button data-key="ArrowDown">Down</button>
+        <button data-key="ArrowRight">Right</button>
+      </div>
+      <div class="actions">
+        <button data-key="Space">Sweep</button>
+        <button data-key="ShiftLeft">EMP</button>
+        <button data-key="KeyE">Activate</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

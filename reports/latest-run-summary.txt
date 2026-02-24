@@ -1,1 +1,9 @@
-Built Number Nexus (20260224-1315-number-nexus) as a math puzzle game.\nCore loop: choose-number-operator-hit-target\nPath: games/20260224-1315-number-nexus/\n
+Built Cinder Sentinels (20260224-1400-cinder-sentinels), a Canvas 2D tower-defense-lite game with keyboard+touch parity and wave-based tactical economy.
+이번 실행에서는 캔버스 2D 타워디펜스 라이트 게임 Cinder Sentinels를 제작하고, 웨이브·자원·터렛 역할 기반 개선을 반영했습니다.
+Genre: Tower defense lite
+Core loop: place-upgrade-hold-lanes-between-waves
+Previous vs Current Improvement: Number Nexus 대비 실시간 웨이브 압박 + 2종 터렛 역할 분화 + 자원경제/터치배치 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1400-cinder-sentinels/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1400-cinder-sentinels/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1400-cinder-sentinels.md
+Vercel URL: https://webgames-hub.vercel.app

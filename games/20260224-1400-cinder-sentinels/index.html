@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Cinder Sentinels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud">
+      <h1>Cinder Sentinels</h1>
+      <p id="status">Protect the reactor from ember swarms.</p>
+      <div class="stats">
+        <span>Wave: <b id="wave">1</b></span>
+        <span>Core HP: <b id="life">20</b></span>
+        <span>Scrap: <b id="gold">120</b></span>
+      </div>
+    </header>
+
+    <canvas id="game" width="960" height="540" aria-label="Cinder Sentinels game area"></canvas>
+
+    <section class="panel">
+      <div class="legend">
+        <p><b>Keyboard</b>: Arrows move cursor, <kbd>1</kbd>/<kbd>2</kbd> turret, <kbd>Enter</kbd> place, <kbd>U</kbd> upgrade, <kbd>Space</kbd> send wave, <kbd>R</kbd> restart.</p>
+      </div>
+      <div class="buttons">
+        <button id="btnBolt">Bolt Turret (50)</button>
+        <button id="btnBlast">Blast Turret (80)</button>
+        <button id="btnUpgrade">Upgrade Selected</button>
+        <button id="btnWave">Send Wave</button>
+        <button id="btnRestart">Restart</button>
+      </div>
+      <p class="legend">Touch: Tap a build tile to place/select turret. Use buttons for type, upgrade, and wave control.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

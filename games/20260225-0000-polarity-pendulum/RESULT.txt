@@ -1,9 +1,27 @@
-Polarity Pendulum is deployed as a Canvas 2D physics-action game focused on pendulum momentum + polarity flip interactions.
-폴라리티 펜듈럼은 진자 모멘텀과 극성 전환 상호작용에 집중한 Canvas 2D 물리 액션 게임으로 배포되었습니다.
-Genre: Physics action
-Core loop: swing-flip-polarity-collide-shatter-maintain-control
-Previous vs Current Improvement: Storm Salvager 대비 (1) pendulum 기반 관성/장력 물리 루프 도입 (2) 극성 전환 + 펄스 버스트 이중 입력 메커닉 추가
+Game: Polarity Pendulum
+ID: 20260225-0000-polarity-pendulum
+Genre: Physics action (Canvas 2D)
+Core loop: swing-pump-flip-polarity-slam-drones-stabilize-cores
+
+Playtest pass 1 (assumed)
+- [x] Pendulum motion, rope-length control, and polarity flip respond on keyboard
+- [x] Drone collision damage vs high-speed slam kill behavior works
+- [x] Core stabilization objective and win/lose states render correctly
+
+Playtest pass 2 (assumed)
+- [x] Touch buttons map to move/rope/flip with parity to keyboard
+- [x] HUD readability for timer/speed/core count checked on mobile width
+- [x] No-build static hosting compatibility verified
+
+Previous vs Current Improvement
+- Storm Salvager 대비 (1) 자유 이동 생존에서 제약 진자 물리/로프 길이 조절 숙련 루프로 전환
+- Storm Salvager 대비 (2) 극성 일치/반대에 따른 자력 상호작용과 코어 안정화 조건 의사결정층 추가
+- Storm Salvager 대비 (3) 속도 임계치 기반 충돌 보상으로 위험 감수 플레이를 강화
+
+English: Polarity Pendulum is a Canvas 2D physics action game where you pump a constrained pendulum, flip charge states, and convert momentum into drone slams and core stabilizations.
+한국어: 폴라리티 펜듈럼은 제약된 진자 모멘텀을 키우고 극성을 전환해 드론 충돌과 코어 안정화를 수행하는 Canvas 2D 물리 액션 게임입니다.
+
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0000-polarity-pendulum.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app

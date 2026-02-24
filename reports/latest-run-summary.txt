@@ -4,4 +4,4 @@ improvements: Storm Salvager 대비 (1) pendulum 장력/관성 물리 루프 (2)
 game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/
 thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/thumbnail.png
 report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0000-polarity-pendulum.md
-vercel_url: pending
+vercel_url: https://webgames-hub.vercel.app

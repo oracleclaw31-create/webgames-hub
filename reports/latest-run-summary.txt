@@ -6,4 +6,4 @@ Previous vs Current Improvement: Void Bloom 대비 테더 스윙 물리 + 상대
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1601-tether-crash/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1601-tether-crash/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1601-tether-crash.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app (new deploy failed: DNS EAI_AGAIN)

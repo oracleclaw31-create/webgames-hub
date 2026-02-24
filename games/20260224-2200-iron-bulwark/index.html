@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Iron Bulwark</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud">
+      <h1>Iron Bulwark</h1>
+      <p id="stats">Loading...</p>
+    </header>
+    <canvas id="game" width="960" height="540" aria-label="Iron Bulwark game canvas"></canvas>
+    <section class="controls" aria-label="Touch Controls">
+      <div class="dpad">
+        <button data-act="up">Up</button>
+        <button data-act="left">Left</button>
+        <button data-act="right">Right</button>
+        <button data-act="down">Down</button>
+      </div>
+      <div class="actions">
+        <button data-act="build">Build/Upgrade</button>
+        <button data-act="type">Switch Type</button>
+        <button data-act="priority">Target Mode</button>
+        <button data-act="wave">Start Wave</button>
+      </div>
+    </section>
+    <p class="help">Keyboard: Arrows/WASD move cursor, Space build/upgrade, T switch type, P target mode, N start wave.</p>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

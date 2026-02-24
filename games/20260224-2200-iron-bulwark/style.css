@@ -1,0 +1,95 @@
+:root {
+  --bg: #101820;
+  --panel: #182732;
+  --text: #e8f0f4;
+  --accent: #ffb347;
+  --accent-2: #6ee7ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top, #1f3244, #0d141b 70%);
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.hud h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.hud p {
+  margin: 6px 0 10px;
+}
+
+canvas {
+  width: 100%;
+  border: 2px solid #355066;
+  border-radius: 8px;
+  background: #0d151c;
+  display: block;
+  touch-action: none;
+}
+
+.controls {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dpad,
+.actions {
+  background: var(--panel);
+  border: 1px solid #2d4558;
+  border-radius: 8px;
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.dpad {
+  grid-template-columns: repeat(2, minmax(80px, 1fr));
+  flex: 1 1 220px;
+}
+
+.actions {
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  flex: 2 1 360px;
+}
+
+button {
+  border: 1px solid #4a677f;
+  border-radius: 6px;
+  background: #243646;
+  color: var(--text);
+  font-size: 0.95rem;
+  padding: 10px;
+}
+
+button:active {
+  transform: translateY(1px);
+  background: #304a5f;
+}
+
+.help {
+  margin: 10px 0 0;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+  .actions {
+    grid-template-columns: 1fr;
+  }
+}

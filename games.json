@@ -66,8 +66,8 @@
     "id": "20260223-1601-rift-scrappers",
     "slug": "rift-scrappers",
     "title": "Rift Scrappers",
-    "path": "games/20260223-1601-rift-scrappers/index.html",
-    "readme": "games/20260223-1601-rift-scrappers/README.md",
+    "path": "archive/20260223-1601-rift-scrappers/index.html",
+    "readme": "archive/20260223-1601-rift-scrappers/README.md",
     "coreLoop": "kite-dash-scrap-pulse-upgrade-survive",
     "improvementAgainstPrevious": "adds direct dash combat, scrap-driven build choices, and timed pulse crowd control over slot-only tower placement"
   },
@@ -331,5 +331,14 @@
     "readme": "games/20260224-2104-prism-surge/README.md",
     "coreLoop": "charge-launch-angle-control-break-shield-waves",
     "improvementAgainstPrevious": "Switchyard Stacker 대비 (1) 실시간 차지 발사/반사 숙련 루프 추가 (2) 2HP 실드 브릭 + 페이즈 에스컬레이션 진행성 강화"
+  },
+  {
+    "id": "20260224-2200-iron-bulwark",
+    "slug": "iron-bulwark",
+    "title": "Iron Bulwark",
+    "path": "games/20260224-2200-iron-bulwark/index.html",
+    "readme": "games/20260224-2200-iron-bulwark/README.md",
+    "coreLoop": "place-upgrade-switch-target-priority-hold-waves",
+    "improvementAgainstPrevious": "Prism Surge 대비 (1) 반사 단일 액션에서 다중 타워 전략/우선순위 운영 루프로 확장 (2) 웨이브 시작 타이밍 선택 + 업그레이드 경제 의사결정층 추가"
   }
 ]

@@ -1,0 +1,18 @@
+Game: Iron Bulwark
+ID: 20260224-2200-iron-bulwark
+Genre: Tower defense lite (Canvas 2D)
+Core loop: place-upgrade-switch-target-priority-hold-waves
+
+Playtest pass 1 (assumed)
+- [x] Keyboard cursor/build/type/priority/wave controls respond.
+- [x] Enemy pathing and base HP reduction work.
+- [x] Bolt/Splash tower firing and upgrade scaling work.
+
+Playtest pass 2 (assumed)
+- [x] Touch buttons map to all major actions.
+- [x] Wave completion grants gold and next-wave scaling applies.
+- [x] UI stats and game-over messaging are readable.
+
+Previous vs Current Improvement
+- Prism Surge 대비 (1) 반사 단일 액션에서 다중 타워 전략/우선순위 운영 루프로 확장
+- Prism Surge 대비 (2) 웨이브 시작 타이밍 선택 + 업그레이드 경제 의사결정층 추가

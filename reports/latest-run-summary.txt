@@ -1,6 +1,6 @@
-genre: Brick-breaker (Canvas 2D)
-core_loop: charge-launch-angle-control-break-shield-waves
-improvements: Switchyard Stacker 대비 (1) 실시간 차지 발사/반사 숙련 루프 추가 (2) 2HP 실드 브릭 + 페이즈 에스컬레이션 진행성 강화
-game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2104-prism-surge/
-thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2104-prism-surge/thumbnail.png
-report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2104-prism-surge.md
+genre: Tower defense lite (Canvas 2D)
+core_loop: place-upgrade-switch-target-priority-hold-waves
+improvements: Prism Surge 대비 (1) 반사 단일 액션에서 다중 타워 전략/우선순위 운영 루프로 확장 (2) 웨이브 시작 타이밍 선택 + 업그레이드 경제 의사결정층 추가
+game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2200-iron-bulwark/
+thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2200-iron-bulwark/thumbnail.png
+report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2200-iron-bulwark.md

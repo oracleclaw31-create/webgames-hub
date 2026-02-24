@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aegis Junction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud">
+      <h1>Aegis Junction</h1>
+      <div id="stats">Wave 1 | Integrity 20 | Credits 140 | Score 0 | Blueprint Bolt</div>
+      <div id="status">Arrow keys to pick slots, B build, U upgrade, N wave, E EMP.</div>
+    </header>
+
+    <canvas id="game" width="900" height="560" aria-label="Aegis Junction game canvas"></canvas>
+
+    <section class="touch" aria-label="Touch controls">
+      <button data-act="prev">Prev Slot</button>
+      <button data-act="next">Next Slot</button>
+      <button data-act="blueprint">Blueprint</button>
+      <button data-act="build">Build</button>
+      <button data-act="upgrade">Upgrade</button>
+      <button data-act="wave">Start Wave</button>
+      <button data-act="emp">EMP</button>
+      <button data-act="restart">Restart</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

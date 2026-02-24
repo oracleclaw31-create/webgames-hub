@@ -1,0 +1,9 @@
+Run status: completed
+Playtest pass 1: Early waves too easy -> increased enemy HP scaling.
+Playtest pass 2: Economy felt tight -> increased kill gold and wave bonus.
+Checklist:
+- [x] Canvas 2D only
+- [x] Keyboard controls
+- [x] Touch controls
+- [x] >=2 improvements vs previous
+- [x] Non-duplicate core loop vs recent 5

@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260225-0600-ember-brick/index.html
-- Report: reports/20260225-0600-ember-brick.md
+- Game: games/20260225-0704-turret-tide/index.html
+- Report: reports/20260225-0704-turret-tide.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

@@ -138,8 +138,8 @@
     "id": "20260224-0000-pulse-bastion",
     "slug": "pulse-bastion",
     "title": "Pulse Bastion",
-    "path": "games/20260224-0000-pulse-bastion/index.html",
-    "readme": "games/20260224-0000-pulse-bastion/README.md",
+    "path": "archive/20260224-0000-pulse-bastion/index.html",
+    "readme": "archive/20260224-0000-pulse-bastion/README.md",
     "coreLoop": "plan-place-upgrade-hold-lane-economy-cycle",
     "improvementAgainstPrevious": "Hazard Serve 대비 전략 배치/경제/업그레이드 루프, 누수 압박 웨이브 구조, 전체 입력 패리티 추가"
   },
@@ -403,5 +403,14 @@
     "readme": "games/20260225-0600-ember-brick/README.md",
     "coreLoop": "steer-deflect-charge-overdrive-break-sectors",
     "improvementAgainstPrevious": "Circuit Shift 대비 (1) 결정형 그리드 퍼즐에서 실시간 반사 액션 루프로 전환 (2) overdrive 자원/버스트 타이밍 의사결정층 추가 (3) catch-relaunch 각도 설계로 회복 선택지 강화"
+  },
+  {
+    "id": "20260225-0704-turret-tide",
+    "slug": "turret-tide",
+    "title": "Turret Tide",
+    "path": "games/20260225-0704-turret-tide/index.html",
+    "readme": "games/20260225-0704-turret-tide/README.md",
+    "coreLoop": "place-upgrade-defend-earn-scale",
+    "improvementAgainstPrevious": "Ember Brick 대비 반사 액션에서 배치/업그레이드 전략 루프로 확장, 웨이브/자원 관리 메타 추가, 키보드+터치 커서 타게팅 동등 지원"
   }
 ]

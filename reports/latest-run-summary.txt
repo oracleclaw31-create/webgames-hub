@@ -1,9 +1,9 @@
-EN: Built Ember Brick, a Canvas 2D brick-breaker where players deflect, charge overdrive, and manage catch-relaunch control to clear ember sectors.
-KR: Ember Brick는 반사와 오버드라이브 충전, 캐치-재발사 제어로 섹터를 돌파하는 Canvas 2D 브릭브레이커로 제작되었습니다.
-Genre: Brick-breaker
-Core loop: steer-deflect-charge-overdrive-break-sectors
-Previous vs Current improvements: circuit-shift puzzle routing -> real-time rebound action; added overdrive burst resource layer; added catch-relaunch recovery planning
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0600-ember-brick/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0600-ember-brick/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0600-ember-brick.md
+EN: Built Turret Tide, a Canvas 2D tower-defense-lite game focused on placing and upgrading turrets to hold waves.
+KR: Turret Tide는 포탑 배치·업그레이드로 웨이브를 막아내는 Canvas 2D 타워디펜스 라이트 게임입니다.
+Genre: Tower defense lite
+Core loop: place-upgrade-defend-earn-scale
+Previous vs Current improvements: reflex brick rebound -> strategic placement+upgrade economy; added wave pacing/resource management; added grid cursor targeting parity for keyboard+touch
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0704-turret-tide/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0704-turret-tide/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0704-turret-tide.md
 Vercel URL: pending

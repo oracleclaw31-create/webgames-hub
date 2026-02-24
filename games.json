@@ -223,5 +223,14 @@
     "readme": "games/20260224-1000-vaultbound-climb/README.md",
     "coreLoop": "climb-bait-guard-loot-vault-extract",
     "improvementAgainstPrevious": "Beatline Bastion 대비 (1) 레인 리듬 판정 중심에서 수직 플랫폼 루트 최적화로 전환 (2) 경비 순찰 회피+시간 페널티 압박층 추가 (3) 이동/점프/드롭 4버튼 터치 조작 확장"
+  },
+  {
+    "id": "20260224-1103-signal-quarry",
+    "slug": "signal-quarry",
+    "title": "Signal Quarry",
+    "path": "games/20260224-1103-signal-quarry/index.html",
+    "readme": "games/20260224-1103-signal-quarry/README.md",
+    "coreLoop": "strafe-burst-secure-relays-extract",
+    "improvementAgainstPrevious": "Vaultbound Climb 대비 자유 조준 전투 전환 + 3개 릴레이 점령 목표층 + 명시적 Burst 터치 버튼 추가"
   }
 ]

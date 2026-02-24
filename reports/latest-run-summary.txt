@@ -1,11 +1,11 @@
-Logic Lantern shipped as a Canvas 2D grid-logic puzzle with deterministic beam routing and move-budget optimization.
-Logic Lantern은 결정론적 빔 라우팅과 이동 수 최적화를 갖춘 Canvas 2D 그리드 로직 퍼즐로 배포되었습니다.
+Orbit Breaker shipped as a Canvas 2D brick-breaker with pulse-timing control, combo pressure, and full keyboard/touch parity.
+Orbit Breaker는 Pulse 타이밍 조작과 콤보 압박, 키보드/터치 동등 입력을 갖춘 Canvas 2D 벽돌깨기 게임으로 배포되었습니다.
 
-Genre: Puzzle (grid/logic)
-Core loop: route-rotate-split-light-all-target-cores
-Previous vs Current Improvement: Replaced Signal Quarry real-time shooter combat with deterministic grid planning, added move-budget strategy layer, and introduced puzzle-specific touch control panel.
+Genre: Brick-breaker
+Core loop: deflect-pulse-break-chain-clear-stage
+Previous vs Current Improvement: Replaced Logic Lantern's deterministic move-budget puzzle flow with real-time rebound action, added pulse ability timing decisions, and introduced combo+stage escalation pressure.
 
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1200-logic-lantern/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1200-logic-lantern/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1200-logic-lantern.md
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1300-orbit-breaker/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1300-orbit-breaker/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1300-orbit-breaker.md
 Vercel URL: https://webgames-hub.vercel.app

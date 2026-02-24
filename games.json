@@ -241,5 +241,14 @@
     "readme": "games/20260224-1200-logic-lantern/README.md",
     "coreLoop": "route-rotate-split-light-all-target-cores",
     "improvementAgainstPrevious": "Signal Quarry 대비 (1) 실시간 슈팅에서 결정론적 그리드 로직 퍼즐로 전환 (2) move-budget 최적화 전략층 추가 (3) 퍼즐 전용 터치 조작 패널 명확화"
+  },
+  {
+    "id": "20260224-1300-orbit-breaker",
+    "slug": "orbit-breaker",
+    "title": "Orbit Breaker",
+    "path": "games/20260224-1300-orbit-breaker/index.html",
+    "readme": "games/20260224-1300-orbit-breaker/README.md",
+    "coreLoop": "deflect-pulse-break-chain-clear-stage",
+    "improvementAgainstPrevious": "Logic Lantern 대비 실시간 반사 액션 전환 + Pulse 능력 타이밍 의사결정 추가 + 콤보/스테이지 압박 루프 도입"
   }
 ]

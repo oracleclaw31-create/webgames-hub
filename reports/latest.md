@@ -1,6 +1,6 @@
 # Latest Report
 
-- Run: 20260224-1200-logic-lantern
-- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1200-logic-lantern/
-- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1200-logic-lantern.md
-- Summary: Logic Lantern shipped as a Canvas 2D grid-logic puzzle with keyboard+touch routing gameplay.
+- Run: 20260224-1300-orbit-breaker
+- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1300-orbit-breaker/
+- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1300-orbit-breaker.md
+- Summary: Orbit Breaker shipped as a Canvas 2D brick-breaker with keyboard+touch pulse control.

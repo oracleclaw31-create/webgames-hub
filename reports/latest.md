@@ -1,4 +1,4 @@
 # Latest Report
 
-- 20260224-2001-switchyard-stacker
-- ./reports/20260224-2001-switchyard-stacker.md
+- 20260224-2104-prism-surge
+- ./reports/20260224-2104-prism-surge.md

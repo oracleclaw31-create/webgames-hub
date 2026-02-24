@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prism Surge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Prism Surge</h1>
+    <p class="desc">2D Canvas brick-breaker with charge shot, shield bricks, and keyboard/touch controls.</p>
+    <canvas id="game" width="480" height="720" aria-label="Prism Surge game canvas"></canvas>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <span id="lives">Lives: 3</span>
+      <span id="phase">Phase: 1</span>
+    </div>
+    <div class="controls">
+      <button data-act="left">◀</button><button data-act="launch">⦿</button><button data-act="right">▶</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

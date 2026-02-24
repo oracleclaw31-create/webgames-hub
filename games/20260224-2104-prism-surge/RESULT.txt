@@ -1,0 +1,17 @@
+Game: Prism Surge
+ID: 20260224-2104-prism-surge
+Genre: Brick-breaker (Canvas 2D)
+Core loop: charge-launch-angle-control-break-shield-waves
+
+Playtest pass 1 (assumed)
+- [x] Keyboard controls (Arrow Left/Right + Space launch) work.
+- [x] Ball bounce and paddle angle influence verified.
+- [x] Shield brick HP behavior visible and consistent.
+
+Playtest pass 2 (assumed)
+- [x] Touch buttons left/right/launch responsive.
+- [x] Life loss/reset loop stable across retries.
+- [x] Phase clear correctly regenerates brick waves.
+
+Previous vs Current Improvement
+- Switchyard Stacker 대비 (1) 실시간 반사 액션 + 차지 발사 메커닉 추가 (2) 2HP 실드 브릭과 페이즈 에스컬레이션 도입

@@ -4,5 +4,5 @@ improvements: Tether Crash 대비 리듬 판정 루프 전환 + 패턴 기억형
 game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/
 thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/thumbnail.png
 report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1700-tempo-forge.md
-vercel_url: https://webgames-hub.vercel.app (pending new deploy)
-git_push: pending
+vercel_url: https://webgames-hub.vercel.app (new deploy failed on 2026-02-24: getaddrinfo EAI_AGAIN api.vercel.com)
+git_push: failed (2026-02-24: could not resolve github.com)

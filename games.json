@@ -277,5 +277,14 @@
     "readme": "games/20260224-1510-void-bloom/README.md",
     "coreLoop": "kite-autofire-dash-pick-perk-outscale-waves",
     "improvementAgainstPrevious": "Cinder Sentinels 대비 (1) 고정 배치 디펜스에서 직접 조작 생존 루프로 전환 (2) 대시 기동/오토파이어 숙련층 추가 (3) 런중 perk 선택으로 적응형 성장 추가"
+  },
+  {
+    "id": "20260224-1601-tether-crash",
+    "slug": "tether-crash",
+    "title": "Tether Crash",
+    "path": "games/20260224-1601-tether-crash/index.html",
+    "readme": "games/20260224-1601-tether-crash/README.md",
+    "coreLoop": "thrust-hook-sling-impact-detonate-before-timeout",
+    "improvementAgainstPrevious": "Void Bloom 대비 (1) 자유 카이팅에서 테더 스프링 물리 루프로 전환 (2) 상대 속도 기반 충돌 리스크/보상 전투층 추가 (3) 무한 웨이브 생존 대신 제한시간 코어 파괴 목표 루프 도입"
   }
 ]

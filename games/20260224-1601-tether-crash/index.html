@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tether Crash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Tether Crash</h1>
+    <p class="sub">Physics action • Grapple, sling, and crash unstable cores.</p>
+    <canvas id="game" width="960" height="540" aria-label="Tether Crash game canvas"></canvas>
+    <div class="hud">
+      <span id="time">Time 75.0s</span>
+      <span id="hp">HP 100</span>
+      <span id="cores">Cores 0/6</span>
+      <span id="speed">Speed 0</span>
+    </div>
+    <div class="controls">Keyboard: WASD/Arrows thrust · Hold Space grapple · Shift brake · R restart</div>
+    <div class="touch" aria-label="touch controls">
+      <button id="grappleBtn">GRAPPLE</button>
+      <button id="brakeBtn">BRAKE</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

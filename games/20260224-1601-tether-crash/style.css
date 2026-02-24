@@ -1,0 +1,12 @@
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui;background:radial-gradient(circle at 20% 10%,#1a233f,#090d1a 55%,#05070f);color:#e6eeff}
+.wrap{max-width:980px;margin:0 auto;padding:12px}
+h1{margin:6px 0}
+.sub{margin:0 0 8px;color:#9fb5ea}
+canvas{width:100%;height:auto;border:1px solid #31416f;background:#070d1f;border-radius:10px;touch-action:none}
+.hud{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0;font-weight:600}
+.controls{color:#9fb5ea;font-size:14px;margin-bottom:8px}
+.touch{display:flex;gap:10px}
+button{background:#1d2b52;color:#fff;border:1px solid #4f6ec8;padding:10px 14px;border-radius:8px;font-weight:700;min-width:112px}
+button:active,.active{background:#3554a8}

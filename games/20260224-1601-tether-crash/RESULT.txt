@@ -1,0 +1,8 @@
+Run: 20260224-1601-tether-crash
+Genre: Physics action
+Core loop: thrust-hook-sling-impact-detonate-before-timeout
+Playtest pass 1 (assumed): early collisions were too punishing at low speed; raised heavy-impact threshold and reduced chip damage.
+Playtest pass 2 (assumed): touch drag sensitivity and button hold states tuned for stable grapple/brake behavior on mobile.
+Known issues: no audio, no stage variety beyond core placement.
+Status: Built and hub-integrated.
+Completed at: 2026-02-24 16:01 KST

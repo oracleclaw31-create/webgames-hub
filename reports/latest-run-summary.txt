@@ -1,9 +1,9 @@
-Vaultbound Climb is now deployed as a Canvas 2D platformer focused on key collection, switch routing, and vault extraction.
-볼트바운드 클라임은 키 수집·스위치 경로 운영·볼트 탈출에 집중한 Canvas 2D 플랫폼 게임으로 배포되었습니다.
+Vaultbound Climb is now deployed as a Canvas 2D platformer focused on shard looting, guard avoidance, and timed vault extraction.
+볼트바운드 클라임은 샤드 수집, 경비 회피, 제한시간 탈출에 집중한 Canvas 2D 플랫폼 게임으로 배포되었습니다.
 Genre: Platformer
-Core loop: jump-wall-navigate-collect-keys-toggle-switches-open-vault-extract
-Previous vs Current Improvement: Beatline Bastion 대비 (1) 레인 리듬에서 공간 이동 플랫폼 루프로 전환 (2) 키-스위치-게이트 목표 구조 추가 (3) 공중 대시 + 터치 패리티 강화
+Core loop: climb-bait-guard-loot-vault-extract
+Previous vs Current Improvement: Beatline Bastion 대비 (1) 리듬 레인 판정에서 자유 이동 플랫폼 루프로 전환 (2) 경비 순찰 페널티 기반 잠입 압박 추가 (3) 이동/점프/드롭 터치 입력 확장
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1000-vaultbound-climb.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app

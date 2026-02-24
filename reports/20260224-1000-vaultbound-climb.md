@@ -40,4 +40,4 @@
 - [x] >=2 concrete improvements vs previous
 
 ## Deployment
-- Vercel URL: PENDING
+- Vercel URL: https://webgames-hub.vercel.app

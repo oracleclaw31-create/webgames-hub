@@ -6,4 +6,4 @@ Previous vs Current Improvement: Beatline Bastion 대비 (1) 리듬 레인 판�
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1000-vaultbound-climb/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1000-vaultbound-climb.md
-Vercel URL: PENDING
+Vercel URL: https://webgames-hub.vercel.app

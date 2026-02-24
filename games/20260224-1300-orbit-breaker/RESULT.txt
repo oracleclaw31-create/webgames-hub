@@ -4,5 +4,5 @@ Orbit Breaker (20260224-1300-orbit-breaker)
 - Playtest pass 1: improved rebound readability and paddle response
 - Playtest pass 2: validated touch hold inputs and pulse cooldown clarity
 - Hub/reports metadata updated
-- Git push: pending
-- Vercel deploy: pending
+- Git push: ok (origin/master)
+- Vercel deploy: ok (https://webgames-hub.vercel.app)

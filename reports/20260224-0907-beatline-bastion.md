@@ -28,4 +28,4 @@
 - [x] Improved touch ergonomics for lane-control rhythm play.
 
 ## Deployment
-- Vercel URL: pending
+- Vercel URL: https://webgames-hub.vercel.app

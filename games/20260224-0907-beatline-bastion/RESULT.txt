@@ -6,4 +6,4 @@ Previous vs Current Improvement: Kinetic Smash 대비 (1) 비트 판정/콤보 �
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0907-beatline-bastion/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0907-beatline-bastion/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0907-beatline-bastion.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app

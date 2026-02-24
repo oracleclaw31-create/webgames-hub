@@ -23,4 +23,4 @@ English: Storm Salvager is a Canvas 2D survival arena where you activate three b
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2300-storm-salvager.md
-Vercel URL: (pending)
+Vercel URL: https://webgames-hub.vercel.app

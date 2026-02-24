@@ -4,3 +4,4 @@ improvements: Iron Bulwark 대비 (1) 타워 배치형 TD에서 실시간 생존
 game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/
 thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-2300-storm-salvager/thumbnail.png
 report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-2300-storm-salvager.md
+vercel_url: https://webgames-hub.vercel.app

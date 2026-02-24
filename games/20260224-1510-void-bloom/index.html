@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Void Bloom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Void Bloom</h1>
+    <p class="sub">Survival arena • Move, auto-fire, dash, pick perks.</p>
+    <canvas id="game" width="960" height="540" aria-label="Void Bloom game canvas"></canvas>
+    <div class="hud">
+      <span id="time">Time 0.0s</span>
+      <span id="hp">HP 100</span>
+      <span id="score">Score 0</span>
+      <span id="dash">Dash Ready</span>
+    </div>
+    <div class="controls">Keyboard: WASD/Arrows move · Space dash · Enter perk pick · R restart</div>
+    <div id="touch" class="touch">
+      <button id="dashBtn">DASH</button>
+      <button id="perkBtn">PICK</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

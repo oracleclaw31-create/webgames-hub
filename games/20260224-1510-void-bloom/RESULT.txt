@@ -1,0 +1,8 @@
+Run: 20260224-1510-void-bloom
+Genre: Survival arena
+Core loop: kite-autofire-dash-pick-perk-outscale-waves
+Playtest pass 1 (assumed): tuned enemy hp/speed for readable first minute pressure.
+Playtest pass 2 (assumed): validated keyboard+touch parity and perk trigger clarity.
+Known issues: no audio, no persistent meta progression.
+Status: Built and hub-integrated.
+Completed at: 2026-02-24 15:10 KST

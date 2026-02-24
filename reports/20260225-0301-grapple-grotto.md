@@ -38,9 +38,9 @@ Active games exceeded 30, archived oldest active entries:
 - 20260223-2000-signal-breach
 
 ## Git
-commit: PENDING
-push: PENDING
+commit: 22b0743
+push: success (master -> origin/master)
 
 ## Vercel
-url: PENDING
-status: attempted after commit
+url: https://webgames-hub.vercel.app
+status: success

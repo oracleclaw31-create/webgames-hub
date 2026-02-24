@@ -1,5 +1,5 @@
-status: partial
+status: complete
 run_id: 20260225-0301-grapple-grotto
 game: Grapple Grotto
 report: ./reports/20260225-0301-grapple-grotto.md
-note: Build complete locally; push/deploy pending.
+note: Build, push, and Vercel production deployment all succeeded.

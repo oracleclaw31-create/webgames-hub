@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ember Brick</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud">
+      <h1>Ember Brick</h1>
+      <div id="stats">Score: 0 | Lives: 3 | Combo: x1 | Overdrive: 0%</div>
+      <div id="status">Arrow keys / A,D to move. Space to launch/pulse. C to catch.</div>
+    </header>
+
+    <canvas id="game" width="900" height="560" aria-label="Ember Brick canvas game"></canvas>
+
+    <section class="touch" aria-label="Touch controls">
+      <button data-act="left">Left</button>
+      <button data-act="right">Right</button>
+      <button data-act="launch">Launch / Pulse</button>
+      <button data-act="catch">Catch</button>
+      <button data-act="restart">Restart</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

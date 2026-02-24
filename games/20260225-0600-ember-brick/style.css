@@ -1,0 +1,61 @@
+:root {
+  --bg: #071221;
+  --panel: #10213a;
+  --ink: #eaf4ff;
+  --accent: #ff8740;
+  --accent2: #79d8ff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 20% 10%, #1d365f 0%, transparent 38%),
+    radial-gradient(circle at 80% 20%, #3c1d3f 0%, transparent 34%),
+    var(--bg);
+}
+.wrap {
+  min-height: 100vh;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+.hud {
+  background: color-mix(in oklab, var(--panel), black 12%);
+  border: 1px solid #2f4f79;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.hud h1 { margin: 0 0 6px; font-size: 1.4rem; }
+#stats, #status { font-size: 0.95rem; }
+#game {
+  width: 100%;
+  height: auto;
+  border: 1px solid #2f4f79;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #08101c, #11233d);
+  touch-action: none;
+}
+.touch {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+button {
+  border: 1px solid #31557f;
+  background: linear-gradient(180deg, #17345d, #142743);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 10px 8px;
+  font-size: 0.92rem;
+}
+button:active {
+  transform: translateY(1px);
+  background: linear-gradient(180deg, #204d87, #19365f);
+}
+@media (max-width: 760px) {
+  .touch { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

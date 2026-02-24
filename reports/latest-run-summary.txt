@@ -1,9 +1,9 @@
-EN: Built Circuit Shift, a Canvas 2D grid-logic puzzle with route-planning, node rotation, and core-power extraction flow, then updated hub/archive metadata and published the latest run.
-KR: 경로 계획과 노드 회전을 중심으로 한 Canvas 2D 그리드 퍼즐 Circuit Shift를 제작하고, 허브/아카이브 메타데이터까지 갱신해 최신 실행으로 반영했습니다.
-Genre: Puzzle (grid/logic)
-Core loop: push-rotate-route-power-core-exit
-Improvements: deterministic planning with undo/reset + clearer puzzle readability/status feedback + lower reaction burden touch parity
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0500-circuit-shift/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0500-circuit-shift/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0500-circuit-shift.md
+EN: Built Ember Brick, a Canvas 2D brick-breaker where players deflect, charge overdrive, and manage catch-relaunch control to clear ember sectors.
+KR: Ember Brick는 반사와 오버드라이브 충전, 캐치-재발사 제어로 섹터를 돌파하는 Canvas 2D 브릭브레이커로 제작되었습니다.
+Genre: Brick-breaker
+Core loop: steer-deflect-charge-overdrive-break-sectors
+Previous vs Current improvements: circuit-shift puzzle routing -> real-time rebound action; added overdrive burst resource layer; added catch-relaunch recovery planning
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0600-ember-brick/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0600-ember-brick/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0600-ember-brick.md
 Vercel URL: pending

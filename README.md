@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260225-0500-circuit-shift/index.html
-- Report: reports/20260225-0500-circuit-shift.md
+- Game: games/20260225-0600-ember-brick/index.html
+- Report: reports/20260225-0600-ember-brick.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

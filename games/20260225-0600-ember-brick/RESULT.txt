@@ -1,0 +1,6 @@
+Implemented Ember Brick (Canvas 2D Brick-breaker) with keyboard+touch parity.
+- Core loop: steer-deflect-charge-overdrive-break-sectors.
+- Improvements vs 20260225-0500-circuit-shift:
+  1) Real-time rebound/combo action loop instead of deterministic tile routing.
+  2) Overdrive resource/timing system with burst-state gameplay.
+  3) Catch-and-relaunch control option for intentional angle planning.

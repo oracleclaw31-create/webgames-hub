@@ -1,29 +1,29 @@
-# 20260225-0500-circuit-shift
+# 20260225-0600-ember-brick
 
 ## Genre
-Puzzle (grid/logic), Canvas 2D
+Brick-breaker, Canvas 2D
 
 ## Core loop
-push-rotate-route-power-core-exit
+steer-deflect-charge-overdrive-break-sectors
 
 ## Recent-5 constraint analysis
 Recent five loops:
-1. move-sweep-emp-activate-beacons-survive
-2. swing-flip-polarity-collide-shatter-maintain-control
-3. read-cue-time-lane-hits-build-focus-maintain-stability
-4. run-jump-grapple-route-relic-extract
-5. sweep-shoot-rescue-escort-extract
+1. swing-flip-polarity-collide-shatter-maintain-control
+2. read-cue-time-lane-hits-build-focus-maintain-stability
+3. run-jump-grapple-route-relic-extract
+4. sweep-shoot-rescue-escort-extract
+5. push-rotate-route-power-core-exit
 
-New loop is deterministic route planning + node rotation puzzle, non-duplicate and not lane-dodger/runner.
+New loop is rebound-based paddle action with overdrive resource timing, non-duplicate and not lane-dodger/runner.
 
 ## Lean market research
-- Trends (3): short-session logic puzzles, mobile-first touch UI, low-stress strategic gameplay.
-- References (2): Baba Is You (rule-driven puzzle readability), Pipe Mania (route optimization pressure).
-- Target (1): 18-34 players who want 2-5 minute cerebral runs between tasks.
+- Trends (3): short-session arcade replay loops, classic+modern modifier hybrids, touch parity UX.
+- References (2): Shatter, Arkanoid.
+- Target (1): 15-35 players seeking 2-6 minute score-chasing runs.
 
 ## Quality check (assumed 2 playtests)
-- Pass 1: verified keyboard + touch parity, objective comprehension, win/fail messaging.
-- Pass 2: tuned readability and move counter clarity; confirmed undo/reset reliability.
+- Pass 1: keyboard responsiveness, combo/overdrive loop, state transitions.
+- Pass 2: touch hold-and-action reliability, HUD readability on mobile.
 
 Checklist:
 - [x] Canvas 2D only

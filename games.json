@@ -129,8 +129,8 @@
     "id": "20260223-2300-hazard-serve",
     "slug": "hazard-serve",
     "title": "Hazard Serve",
-    "path": "games/20260223-2300-hazard-serve/index.html",
-    "readme": "games/20260223-2300-hazard-serve/README.md",
+    "path": "archive/20260223-2300-hazard-serve/index.html",
+    "readme": "archive/20260223-2300-hazard-serve/README.md",
     "coreLoop": "charge-angle-serve-chain-hazard-rows-perk-draft",
     "improvementAgainstPrevious": "adds real-time arcade execution pressure, streak-based scoring momentum, and between-wave perk adaptation over static puzzle pacing"
   },
@@ -394,5 +394,14 @@
     "readme": "games/20260225-0500-circuit-shift/README.md",
     "coreLoop": "push-rotate-route-power-core-exit",
     "improvementAgainstPrevious": "Signal Evac 대비 (1) 반응속도 중심 슈팅에서 결정형 그리드 계획 퍼즐로 전환 (2) Undo/Reset 기반 move 효율 최적화 층 추가 (3) 코어 에너지/목표 상태 가시성 강화"
+  },
+  {
+    "id": "20260225-0600-ember-brick",
+    "slug": "ember-brick",
+    "title": "Ember Brick",
+    "path": "games/20260225-0600-ember-brick/index.html",
+    "readme": "games/20260225-0600-ember-brick/README.md",
+    "coreLoop": "steer-deflect-charge-overdrive-break-sectors",
+    "improvementAgainstPrevious": "Circuit Shift 대비 (1) 결정형 그리드 퍼즐에서 실시간 반사 액션 루프로 전환 (2) overdrive 자원/버스트 타이밍 의사결정층 추가 (3) catch-relaunch 각도 설계로 회복 선택지 강화"
   }
 ]

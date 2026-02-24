@@ -1,27 +1,33 @@
 # Tempo Forge
 
-- Genre: Rhythm/timing (Canvas 2D)
-- Core loop: hold-charge-release-on-beat-forge-chain
-- Session: ~2-4 minutes
+- Genre: Rhythm timing / forging (Canvas 2D)
+- Core loop: cue-read-press-hold-release-judge-build-heat-forge-blades
+- Session: ~2-5 minutes
 
 ## Controls
-- Keyboard: Hold `Space`, release on beat, `R` restart.
-- Touch: Hold `HOLD`, then tap `RELEASE` on beat windows.
+- Keyboard: hold/release `Space` on rhythm cues, `R` restart.
+- Touch: hold/release `FORGE` button (or press directly on canvas), `RESTART` to restart.
 
-## Lean market research
+## Gameplay Rules
+- Follow pattern steps in order: `TAP`, `HOLD n`, `RELEASE`.
+- Timing judgment uses a beat window; tighter hits give better score and combo.
+- Keep forge heat up and integrity intact; misses damage integrity and reduce heat.
+- Fill blade meter and finish patterns to forge blades and accelerate tempo.
+
+## Improvements vs previous game (20260224-1601-tether-crash)
+1. Replaced physics collision combat with deterministic rhythm windows (tap/hold/release), adding clearer skill measurement.
+2. Added explicit pattern-memory + timing execution loop instead of freeform sling routing.
+3. Added dual failure pressures (`heat decay` + `integrity`) for strategic pacing beyond single timer demolition.
+
+## Lean Market Research
 ### Trends (3)
-1. Short-session rhythm runs with instant retry loops perform well on web portals.
-2. Touch+keyboard parity increases replay across mobile/desktop.
-3. Clear timing grades (Perfect/Good/Miss) improve retention through mastery feedback.
+1. Browser rhythm games with short rounds and instant retry are favored for repeat sessions.
+2. Press/hold/release mechanics improve expression on both keyboard and touch.
+3. Clear judgment tiers (`Perfect/Great/Good/Miss`) correlate with stronger retention feedback loops.
 
 ### References (2)
-- itch.io HTML5 rhythm/timing microgames trends.
-- CrazyGames quick-session skill game category patterns.
+1. itch.io HTML5 rhythm tag browsing patterns (short-run score attack loops).
+2. CrazyGames music/rhythm category patterns (readable judgment feedback and escalating BPM pressure).
 
-### Target persona (1)
-- Commuter/mobile player wanting 2-3 minute score-chasing challenge with clear skill growth.
-
-## Improvements vs previous game (Tether Crash)
-1. Added explicit rhythm judgment windows (Perfect/Good/Miss) with combo scoring for learnable mastery.
-2. Added overheat resource management layer on top of timing, introducing strategic hold duration decisions.
-3. Simplified touch-first two-button interaction to reduce control friction versus tether physics complexity.
+### Target Persona (1)
+- A mobile+desktop commuter player who wants 3-minute high-focus runs with visible mastery progression.

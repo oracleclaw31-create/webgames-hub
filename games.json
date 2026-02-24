@@ -3,8 +3,8 @@
     "id": "20260223-1417-relay-grid",
     "slug": "relay-grid",
     "title": "Relay Grid",
-    "path": "games/20260223-1417-relay-grid/index.html",
-    "readme": "games/20260223-1417-relay-grid/README.md",
+    "path": "archive/20260223-1417-relay-grid/index.html",
+    "readme": "archive/20260223-1417-relay-grid/README.md",
     "coreLoop": "route-and-toggle",
     "improvementAgainstPrevious": "playable game + reporting"
   },
@@ -12,8 +12,8 @@
     "id": "20260223-1501-neon-harvest",
     "slug": "neon-harvest",
     "title": "Neon Harvest",
-    "path": "games/20260223-1501-neon-harvest/index.html",
-    "readme": "games/20260223-1501-neon-harvest/README.md",
+    "path": "archive/20260223-1501-neon-harvest/index.html",
+    "readme": "archive/20260223-1501-neon-harvest/README.md",
     "coreLoop": "collect-evade-bank",
     "improvementAgainstPrevious": "higher action pacing, risk-reward banking, clearer feedback loop"
   },
@@ -293,7 +293,7 @@
     "title": "Tempo Forge",
     "path": "games/20260224-1700-tempo-forge/index.html",
     "readme": "games/20260224-1700-tempo-forge/README.md",
-    "coreLoop": "hold-charge-release-on-beat-forge-chain",
-    "improvementAgainstPrevious": "Tether Crash 대비 (1) 판정 기반 리듬 숙련 루프 추가 (2) 과열 자원관리 의사결정층 추가 (3) 터치 2버튼 입력 단순화"
+    "coreLoop": "cue-read-press-hold-release-judge-build-heat-forge-blades",
+    "improvementAgainstPrevious": "Tether Crash 대비 (1) 테더 물리 충돌에서 리듬 판정 루프로 전환 (2) 패턴 기억 기반 hold/release 실행층 추가 (3) heat+integrity 이중 압박 운영층 도입"
   }
 ]

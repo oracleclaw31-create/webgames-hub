@@ -1,8 +1,8 @@
-genre: Rhythm/timing
-core_loop: hold-charge-release-on-beat-forge-chain
-improvements: rhythm judgments + heat resource management + simplified touch controls
+genre: Rhythm timing (Canvas 2D)
+core_loop: cue-read-press-hold-release-judge-build-heat-forge-blades
+improvements: Tether Crash 대비 리듬 판정 루프 전환 + 패턴 기억형 hold/release 추가 + heat/integrity 이중 압박
 game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/
 thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1700-tempo-forge/thumbnail.png
 report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1700-tempo-forge.md
-vercel_url: https://webgames-hub.vercel.app
-git_push:    03bb704..bd85563  master -> master
+vercel_url: https://webgames-hub.vercel.app (pending new deploy)
+git_push: pending

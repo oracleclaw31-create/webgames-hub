@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tempo Forge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Tempo Forge</h1>
+    <p class="sub">Forge pulses by holding and releasing on beat windows.</p>
+    <canvas id="game" width="960" height="540"></canvas>
+    <div class="hud">
+      <span>HP: <b id="hp">5</b></span>
+      <span>Heat: <b id="heat">0</b></span>
+      <span>Combo: <b id="combo">0</b></span>
+      <span>Score: <b id="score">0</b></span>
+      <span>Time: <b id="time">90</b>s</span>
+    </div>
+    <div class="controls">
+      <button id="holdBtn">HOLD</button>
+      <button id="releaseBtn">RELEASE</button>
+    </div>
+    <p class="help">Keyboard: Hold <b>Space</b>, release on beat. Press <b>R</b> to restart.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

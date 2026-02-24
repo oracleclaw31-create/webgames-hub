@@ -21,8 +21,8 @@
     "id": "20260223-1520-skybound-sprint",
     "slug": "skybound-sprint",
     "title": "Skybound Sprint",
-    "path": "games/20260223-1520-skybound-sprint/index.html",
-    "readme": "games/20260223-1520-skybound-sprint/README.md",
+    "path": "archive/20260223-1520-skybound-sprint/index.html",
+    "readme": "archive/20260223-1520-skybound-sprint/README.md",
     "coreLoop": "run-jump-collect-finish",
     "improvementAgainstPrevious": "adds vertical traversal and jump timing with a clear objective gate"
   },
@@ -286,5 +286,14 @@
     "readme": "games/20260224-1601-tether-crash/README.md",
     "coreLoop": "thrust-hook-sling-impact-detonate-before-timeout",
     "improvementAgainstPrevious": "Void Bloom 대비 (1) 자유 카이팅에서 테더 스프링 물리 루프로 전환 (2) 상대 속도 기반 충돌 리스크/보상 전투층 추가 (3) 무한 웨이브 생존 대신 제한시간 코어 파괴 목표 루프 도입"
+  },
+  {
+    "id": "20260224-1700-tempo-forge",
+    "slug": "tempo-forge",
+    "title": "Tempo Forge",
+    "path": "games/20260224-1700-tempo-forge/index.html",
+    "readme": "games/20260224-1700-tempo-forge/README.md",
+    "coreLoop": "hold-charge-release-on-beat-forge-chain",
+    "improvementAgainstPrevious": "Tether Crash 대비 (1) 판정 기반 리듬 숙련 루프 추가 (2) 과열 자원관리 의사결정층 추가 (3) 터치 2버튼 입력 단순화"
   }
 ]

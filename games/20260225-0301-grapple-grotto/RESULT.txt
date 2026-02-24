@@ -1,0 +1,5 @@
+status: complete-local
+id: 20260225-0301-grapple-grotto
+genre: Platformer
+core_loop: run-jump-grapple-route-relic-extract
+controls: keyboard+touch

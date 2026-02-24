@@ -1,0 +1,5 @@
+body{margin:0;background:#0b1020;color:#e8ecff;font-family:system-ui;display:grid;place-items:center;min-height:100vh}
+main{width:min(980px,95vw)}
+canvas{width:100%;height:auto;border:2px solid #37406a;background:#101935;border-radius:8px}
+#touch{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+button{padding:10px 14px;border:0;border-radius:8px;background:#2f3d77;color:#fff;font-weight:700}

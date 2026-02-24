@@ -1,5 +1,5 @@
 status: partial
-run_id: 20260225-0201-reactor-rhythm
-game: Reactor Rhythm
-report: ./reports/20260225-0201-reactor-rhythm.md
-note: Build complete locally; push/deploy blocked by DNS resolution failures to github.com/vercel.com.
+run_id: 20260225-0301-grapple-grotto
+game: Grapple Grotto
+report: ./reports/20260225-0301-grapple-grotto.md
+note: Build complete locally; push/deploy pending.

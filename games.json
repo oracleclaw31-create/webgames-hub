@@ -84,8 +84,8 @@
     "id": "20260223-1822-phase-vault",
     "slug": "phase-vault",
     "title": "Phase Vault",
-    "path": "games/20260223-1822-phase-vault/index.html",
-    "readme": "games/20260223-1822-phase-vault/README.md",
+    "path": "archive/20260223-1822-phase-vault/index.html",
+    "readme": "archive/20260223-1822-phase-vault/README.md",
     "coreLoop": "jump-wallkick-phase-toggle-relic-extract",
     "improvementAgainstPrevious": "adds authored platform route, A/B phase-state puzzle traversal, and simpler touch-first control mapping"
   },
@@ -102,8 +102,8 @@
     "id": "20260223-2000-signal-breach",
     "slug": "signal-breach",
     "title": "Signal Breach",
-    "path": "games/20260223-2000-signal-breach/index.html",
-    "readme": "games/20260223-2000-signal-breach/README.md",
+    "path": "archive/20260223-2000-signal-breach/index.html",
+    "readme": "archive/20260223-2000-signal-breach/README.md",
     "coreLoop": "strafe-mark-detonate-hack-extract",
     "improvementAgainstPrevious": "adds mark-detonate tactical chain, explicit dual-relay hack extraction objective, and clearer touch-first control segmentation"
   },
@@ -367,5 +367,14 @@
     "readme": "games/20260225-0201-reactor-rhythm/README.md",
     "coreLoop": "read-cue-time-lane-hits-build-focus-maintain-stability",
     "improvementAgainstPrevious": "Polarity Pendulum 대비 박자 판정 중심 리듬 루프 + Focus 자원 운영 + 터치 레인 피드백 강화"
+  },
+  {
+    "id": "20260225-0301-grapple-grotto",
+    "slug": "grapple-grotto",
+    "title": "Grapple Grotto",
+    "path": "games/20260225-0301-grapple-grotto/index.html",
+    "readme": "games/20260225-0301-grapple-grotto/README.md",
+    "coreLoop": "run-jump-grapple-route-relic-extract",
+    "improvementAgainstPrevious": "Reactor Rhythm 대비 (1) 레인 타이밍에서 공간 플랫폼 경로 계획으로 전환 (2) 그래플 이동 메커닉과 점프 복구 의사결정층 추가 (3) 물리 착지/낙하 리스크 관리 루프 도입"
   }
 ]

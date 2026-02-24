@@ -4,3 +4,5 @@ improvements: Tempo Forge 대비 리듬 루프에서 수직 플랫폼 이동/대
 game_folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/
 thumbnail: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1837-relay-ruins/thumbnail.png
 report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1837-relay-ruins.md
+vercel_url: https://webgames-hub.vercel.app
+git_push: success (master -> master, 811ca3a)

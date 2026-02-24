@@ -42,6 +42,6 @@
 - Active count control: archived oldest active game `games/20260223-1822-phase-vault` -> `archive/20260223-1822-phase-vault`.
 
 ## 6) Git / Deploy
-- Git commit: completed locally.
-- Git push: attempted (see command output).
-- Vercel deploy: attempted (see command output).
+- Git commit: `fae7a49` (latest; includes finalized Vercel URL).
+- Git push: success to `master`.
+- Vercel deploy: success, production alias `https://webgames-hub.vercel.app`. 

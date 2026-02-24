@@ -221,7 +221,7 @@
     "title": "Vaultbound Climb",
     "path": "games/20260224-1000-vaultbound-climb/index.html",
     "readme": "games/20260224-1000-vaultbound-climb/README.md",
-    "coreLoop": "jump-wall-navigate-collect-keys-toggle-switches-open-vault-extract",
-    "improvementAgainstPrevious": "Beatline Bastion 대비 (1) 레인 기반 리듬 루프에서 수직 플랫폼 탐색으로 전환 (2) 키-스위치-볼트 목표 게이팅 추가 (3) 공중 대시 기반 경로 숙련층과 터치 패리티 강화"
+    "coreLoop": "climb-bait-guard-loot-vault-extract",
+    "improvementAgainstPrevious": "Beatline Bastion 대비 (1) 레인 리듬 판정 중심에서 수직 플랫폼 루트 최적화로 전환 (2) 경비 순찰 회피+시간 페널티 압박층 추가 (3) 이동/점프/드롭 4버튼 터치 조작 확장"
   }
 ]

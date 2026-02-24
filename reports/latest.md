@@ -1,4 +1,4 @@
 # Latest Report
 
-- 20260224-2300-storm-salvager
-- ./reports/20260224-2300-storm-salvager.md
+- 20260225-0000-polarity-pendulum
+- ./reports/20260225-0000-polarity-pendulum.md

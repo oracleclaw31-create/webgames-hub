@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Polarity Pendulum</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Polarity Pendulum</h1>
+    <p class="tag">Pump swing, flip charge, slam drones, stabilize volatile cores.</p>
+    <canvas id="game" width="960" height="540" aria-label="Polarity Pendulum game canvas"></canvas>
+
+    <section class="hud" aria-label="controls">
+      <div><strong>Move/Pump:</strong> Left/Right or A/D</div>
+      <div><strong>Rope:</strong> Up/Down or W/S</div>
+      <div><strong>Flip Polarity:</strong> Space / F</div>
+    </section>
+
+    <section class="touch" aria-label="touch controls">
+      <button data-key="ArrowLeft">Left</button>
+      <button data-key="ArrowRight">Right</button>
+      <button data-key="ArrowUp">Shorten</button>
+      <button data-key="ArrowDown">Lengthen</button>
+      <button data-action="flip">Flip</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

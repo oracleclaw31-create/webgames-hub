@@ -349,5 +349,14 @@
     "readme": "games/20260224-2300-storm-salvager/README.md",
     "coreLoop": "move-sweep-emp-activate-beacons-survive",
     "improvementAgainstPrevious": "Iron Bulwark 대비 (1) 타워 배치형 TD에서 실시간 생존 액션 루프로 전환 (2) Sweep+EMP 이중 스킬 운영과 3개 비컨 활성화 목표 추가"
+  },
+  {
+    "id": "20260225-0000-polarity-pendulum",
+    "slug": "polarity-pendulum",
+    "title": "Polarity Pendulum",
+    "path": "games/20260225-0000-polarity-pendulum/index.html",
+    "readme": "games/20260225-0000-polarity-pendulum/README.md",
+    "coreLoop": "swing-flip-polarity-collide-shatter-maintain-control",
+    "improvementAgainstPrevious": "Storm Salvager 대비 (1) pendulum 장력/관성 물리 루프 (2) polarity flip + pulse burst 이중 메커닉"
   }
 ]

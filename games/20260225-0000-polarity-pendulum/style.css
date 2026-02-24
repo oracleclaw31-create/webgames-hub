@@ -1,0 +1,85 @@
+:root {
+  --bg: #08131a;
+  --panel: #122732;
+  --ink: #d9f1ff;
+  --plus: #ff627d;
+  --minus: #62d8ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 15% 0%, #16313f 0%, #08131a 55%);
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 6px 0;
+  letter-spacing: 0.03em;
+}
+
+.tag {
+  margin-top: 0;
+  color: #9ec8d8;
+}
+
+canvas {
+  width: 100%;
+  max-width: 960px;
+  border: 2px solid #284858;
+  border-radius: 10px;
+  background: #0b161d;
+  display: block;
+}
+
+.hud {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: grid;
+  gap: 4px;
+  background: #122732;
+  font-size: 14px;
+}
+
+.touch {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(5, minmax(88px, 1fr));
+}
+
+button {
+  border: 1px solid #3b6478;
+  background: #173442;
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-weight: 700;
+}
+
+button.active,
+button:active {
+  transform: translateY(1px);
+  border-color: #8de4ff;
+  background: #245167;
+}
+
+@media (max-width: 740px) {
+  .touch {
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+  }
+
+  button {
+    min-height: 44px;
+  }
+}

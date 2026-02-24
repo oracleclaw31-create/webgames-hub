@@ -1,0 +1,9 @@
+Polarity Pendulum is deployed as a Canvas 2D physics-action game focused on pendulum momentum + polarity flip interactions.
+폴라리티 펜듈럼은 진자 모멘텀과 극성 전환 상호작용에 집중한 Canvas 2D 물리 액션 게임으로 배포되었습니다.
+Genre: Physics action
+Core loop: swing-flip-polarity-collide-shatter-maintain-control
+Previous vs Current Improvement: Storm Salvager 대비 (1) pendulum 기반 관성/장력 물리 루프 도입 (2) 극성 전환 + 펄스 버스트 이중 입력 메커닉 추가
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0000-polarity-pendulum/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0000-polarity-pendulum.md
+Vercel URL: pending

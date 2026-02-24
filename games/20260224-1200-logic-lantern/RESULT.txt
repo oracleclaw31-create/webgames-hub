@@ -1,0 +1,6 @@
+Logic Lantern (20260224-1200-logic-lantern)
+- Canvas 2D puzzle implemented with keyboard+touch controls
+- Core loop validated: route/rotate/split to light all targets within move budget
+- Playtest pass 1: beam readability too low on dark cells -> increased beam brightness
+- Playtest pass 2: touch actions unclear -> split Rotate and Toggle buttons + persistent status guidance
+- Outcome: playable 3-stage prototype complete

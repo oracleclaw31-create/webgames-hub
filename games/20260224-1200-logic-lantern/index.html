@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Logic Lantern</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Logic Lantern</h1>
+    <p class="hint">Rotate mirrors and splitters to route all beams into target cores before moves run out.</p>
+    <canvas id="game" width="960" height="540" aria-label="Logic Lantern game canvas"></canvas>
+    <section class="hud">
+      <span>Stage: <b id="stage">1</b></span>
+      <span>Moves: <b id="moves">0</b></span>
+      <span>Targets Lit: <b id="lit">0/0</b></span>
+      <button id="resetBtn">Reset Stage</button>
+    </section>
+    <section class="touch">
+      <button data-act="up">↑</button>
+      <button data-act="left">←</button>
+      <button data-act="right">→</button>
+      <button data-act="down">↓</button>
+      <button data-act="rotate">Rotate</button>
+      <button data-act="toggle">Toggle</button>
+    </section>
+    <p id="status">Keyboard: Arrow keys/WASD move cursor, Space/Enter rotate, Shift toggles splitter mode.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

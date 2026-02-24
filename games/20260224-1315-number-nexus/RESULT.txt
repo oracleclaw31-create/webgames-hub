@@ -1,0 +1,6 @@
+Run: 20260224-1315-number-nexus
+Genre: Puzzle (math)
+Core loop: choose-number -> choose-operator -> hit-target-in-limited-moves
+Improvements vs previous: shifted from reflex brick-breaker pacing to deterministic arithmetic planning with 3-move optimization pressure and touch/keyboard parity.
+Status: Built and integrated.
+Vercel URL: https://webgames-hub.vercel.app

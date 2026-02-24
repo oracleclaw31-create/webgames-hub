@@ -250,5 +250,14 @@
     "readme": "games/20260224-1300-orbit-breaker/README.md",
     "coreLoop": "deflect-pulse-break-chain-clear-stage",
     "improvementAgainstPrevious": "Logic Lantern 대비 실시간 반사 액션 전환 + Pulse 능력 타이밍 의사결정 추가 + 콤보/스테이지 압박 루프 도입"
+  },
+  {
+    "id": "20260224-1315-number-nexus",
+    "slug": "number-nexus",
+    "title": "Number Nexus",
+    "path": "games/20260224-1315-number-nexus/index.html",
+    "readme": "games/20260224-1315-number-nexus/README.md",
+    "coreLoop": "choose-number-operator-hit-target",
+    "improvementAgainstPrevious": "Orbit Breaker 대비 실시간 반사 액션에서 수학 연산 최적화 퍼즐 루프로 전환"
   }
 ]

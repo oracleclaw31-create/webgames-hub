@@ -1,11 +1,1 @@
-Orbit Breaker shipped as a Canvas 2D brick-breaker with pulse-timing control, combo pressure, and full keyboard/touch parity.
-Orbit Breaker는 Pulse 타이밍 조작과 콤보 압박, 키보드/터치 동등 입력을 갖춘 Canvas 2D 벽돌깨기 게임으로 배포되었습니다.
-
-Genre: Brick-breaker
-Core loop: deflect-pulse-break-chain-clear-stage
-Previous vs Current Improvement: Replaced Logic Lantern's deterministic move-budget puzzle flow with real-time rebound action, added pulse ability timing decisions, and introduced combo+stage escalation pressure.
-
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1300-orbit-breaker/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1300-orbit-breaker/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1300-orbit-breaker.md
-Vercel URL: https://webgames-hub.vercel.app
+Built Number Nexus (20260224-1315-number-nexus) as a math puzzle game.\nCore loop: choose-number-operator-hit-target\nPath: games/20260224-1315-number-nexus/\n

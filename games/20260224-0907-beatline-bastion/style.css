@@ -1,0 +1,9 @@
+:root{color-scheme:dark}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:#070b1a;color:#ecf1ff}
+.wrap{max-width:980px;margin:0 auto;padding:16px}
+.hint{color:#a9b8f0}
+canvas{width:100%;height:auto;border:1px solid #3250a2;border-radius:10px;background:linear-gradient(#0d1531,#070b1a)}
+.hud{margin-top:10px;font-weight:700}
+.touch{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;max-width:360px;margin-top:10px}
+.touch button{padding:12px;border-radius:8px;border:1px solid #4066cb;background:#1a2f67;color:#fff;font-weight:800}
+@media (min-width:900px){.touch{opacity:.75}}

@@ -1,6 +1,6 @@
 # Latest Report
 
-- Run: 20260224-0800-kinetic-smash
-- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0800-kinetic-smash/
-- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0800-kinetic-smash.md
-- Summary: Kinetic Smash shipped as a Canvas 2D physics action game with keyboard+touch sling controls and chain-collision scoring.
+- Run: 20260224-0907-beatline-bastion
+- Game: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0907-beatline-bastion/
+- Report: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0907-beatline-bastion.md
+- Summary: Beatline Bastion shipped as a Canvas 2D rhythm/timing game with keyboard+touch lane timing controls.

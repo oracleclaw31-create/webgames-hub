@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatline Bastion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Beatline Bastion</h1>
+    <p class="hint">Hit notes on beat to charge shield and survive phases. Keyboard: A/D or ◀/▶ move lane, Space hit, R restart. Touch: left/right + HIT.</p>
+    <canvas id="game" width="960" height="540" aria-label="Beatline Bastion canvas game"></canvas>
+    <div id="hud" class="hud"></div>
+    <div class="touch" id="touch">
+      <button data-move="left">◀</button>
+      <button data-hit="1">HIT</button>
+      <button data-move="right">▶</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

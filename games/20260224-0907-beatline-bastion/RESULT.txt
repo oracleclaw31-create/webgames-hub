@@ -1,0 +1,9 @@
+Beatline Bastion has been shipped as a Canvas 2D rhythm/timing game with lane timing, hold-note sustain, and phase survival.
+비트라인 바스티온은 레인 타이밍·홀드노트 유지·페이즈 생존 루프를 갖춘 Canvas 2D 리듬/타이밍 게임으로 출시되었습니다.
+Genre: Rhythm/timing
+Core loop: lane-shift-on-beat-hit-hold-charge-shield-survive-phase
+Previous vs Current Improvement: Kinetic Smash 대비 (1) 비트 판정/콤보 배수 도입 (2) 페이즈+생명력 운영의 장기 루프 추가 (3) 좌/우/HIT 분리 터치 UX 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0907-beatline-bastion/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-0907-beatline-bastion/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-0907-beatline-bastion.md
+Vercel URL: pending

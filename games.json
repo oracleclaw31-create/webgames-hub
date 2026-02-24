@@ -120,8 +120,8 @@
     "id": "20260223-2200-circuit-weaver",
     "slug": "circuit-weaver",
     "title": "Circuit Weaver",
-    "path": "games/20260223-2200-circuit-weaver/index.html",
-    "readme": "games/20260223-2200-circuit-weaver/README.md",
+    "path": "archive/20260223-2200-circuit-weaver/index.html",
+    "readme": "archive/20260223-2200-circuit-weaver/README.md",
     "coreLoop": "inspect-route-rotate-power-all-terminals-before-move-limit",
     "improvementAgainstPrevious": "adds deterministic multi-board logic progression, explicit move-economy planning pressure, and direct tap-to-rotate puzzle interaction"
   },
@@ -385,5 +385,14 @@
     "readme": "games/20260225-0401-signal-evac/README.md",
     "coreLoop": "sweep-shoot-rescue-escort-extract",
     "improvementAgainstPrevious": "dual-axis shooting + escort extraction objective + dash resource layer"
+  },
+  {
+    "id": "20260225-0500-circuit-shift",
+    "slug": "circuit-shift",
+    "title": "Circuit Shift",
+    "path": "games/20260225-0500-circuit-shift/index.html",
+    "readme": "games/20260225-0500-circuit-shift/README.md",
+    "coreLoop": "push-rotate-route-power-core-exit",
+    "improvementAgainstPrevious": "Signal Evac 대비 (1) 반응속도 중심 슈팅에서 결정형 그리드 계획 퍼즐로 전환 (2) Undo/Reset 기반 move 효율 최적화 층 추가 (3) 코어 에너지/목표 상태 가시성 강화"
   }
 ]

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Circuit Shift</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Circuit Shift</h1>
+    <canvas id="game" width="720" height="540" aria-label="Circuit Shift game canvas"></canvas>
+    <div class="hud">
+      <span id="moves">Moves: 0</span>
+      <span id="energy">Energy: 0</span>
+      <span id="status">Route power to core, then exit.</span>
+    </div>
+    <div class="touch">
+      <button data-a="up">▲</button>
+      <button data-a="left">◀</button>
+      <button data-a="down">▼</button>
+      <button data-a="right">▶</button>
+      <button data-a="rotate">⟳ Rotate</button>
+      <button data-a="undo">↶ Undo</button>
+      <button data-a="reset">Reset</button>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

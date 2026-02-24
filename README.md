@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260225-0401-signal-evac/index.html
-- Report: reports/20260225-0401-signal-evac.md
+- Game: games/20260225-0500-circuit-shift/index.html
+- Report: reports/20260225-0500-circuit-shift.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

@@ -1,5 +1,9 @@
-status: complete
-run_id: 20260225-0401-signal-evac
-game: Signal Evac
-report: ./reports/20260225-0401-signal-evac.md
-note: Build completed; git push/deploy status captured in this run output.
+EN: Built Circuit Shift, a Canvas 2D grid-logic puzzle with route-planning, node rotation, and core-power extraction flow, then updated hub/archive metadata and published the latest run.
+KR: 경로 계획과 노드 회전을 중심으로 한 Canvas 2D 그리드 퍼즐 Circuit Shift를 제작하고, 허브/아카이브 메타데이터까지 갱신해 최신 실행으로 반영했습니다.
+Genre: Puzzle (grid/logic)
+Core loop: push-rotate-route-power-core-exit
+Improvements: deterministic planning with undo/reset + clearer puzzle readability/status feedback + lower reaction burden touch parity
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0500-circuit-shift/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0500-circuit-shift/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0500-circuit-shift.md
+Vercel URL: pending

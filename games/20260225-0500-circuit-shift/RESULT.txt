@@ -1,0 +1,8 @@
+run_id: 20260225-0500-circuit-shift
+status: complete
+canvas_2d_only: yes
+keyboard_controls: yes
+touch_controls: yes
+recent5_loop_duplicate: no
+improvements_vs_previous_count: 3
+notes: puzzle genre rotation applied; non-runner/lane-dodger

@@ -6,4 +6,4 @@ Previous vs Current Improvement: From grid tower placement to direct kiting/dash
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0925-neon-quarantine/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0925-neon-quarantine/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0925-neon-quarantine.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app

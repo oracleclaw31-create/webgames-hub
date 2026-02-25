@@ -1,7 +1,7 @@
-# 20260225-0704-turret-tide
+# 20260225-0925-neon-quarantine
 
 ## Genre
-Tower defense lite, Canvas 2D
+Survival arena, Canvas 2D
 
 ## Core loop
-place-upgrade-defend-earn-scale
+dash-kite-charge-nodes-release-shockwave-survive

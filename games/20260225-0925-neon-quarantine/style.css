@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #090a12; color: #e7ecff; font-family: Inter, system-ui, sans-serif; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 16px; text-align: center; }
+h1 { margin: 4px 0; }
+.sub { margin: 0 0 12px; color: #9fb3ff; }
+canvas { width: 100%; max-width: 960px; border: 1px solid #25306a; border-radius: 12px; background: radial-gradient(circle at 50% 50%, #101533, #070911 65%); touch-action: none; }
+.help { color: #a6add3; font-size: 14px; }
+.touch { display: inline-flex; flex-direction: column; gap: 6px; margin-top: 10px; user-select: none; }
+.row { display: flex; justify-content: center; gap: 6px; }
+button { min-width: 64px; min-height: 42px; border: 1px solid #3548a2; border-radius: 10px; color: #edf1ff; background: #16205a; }
+button:active { transform: translateY(1px); background: #22318b; }

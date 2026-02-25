@@ -147,8 +147,8 @@
     "id": "20260224-0100-switchback-signal",
     "slug": "switchback-signal",
     "title": "Switchback Signal",
-    "path": "games/20260224-0100-switchback-signal/index.html",
-    "readme": "games/20260224-0100-switchback-signal/README.md",
+    "path": "archive/20260224-0100-switchback-signal/index.html",
+    "readme": "archive/20260224-0100-switchback-signal/README.md",
     "coreLoop": "jump-dash-stabilize-relays-extract",
     "improvementAgainstPrevious": "Pulse Bastion 대비 정적 배치에서 동적 플랫폼 이동/대시 숙련 루프로 전환하고, 코요테 타임+점프 버퍼 및 위험 구간 리플레이 피드백을 추가"
   },
@@ -412,5 +412,15 @@
     "readme": "games/20260225-0704-turret-tide/README.md",
     "coreLoop": "place-upgrade-defend-earn-scale",
     "improvementAgainstPrevious": "Ember Brick 대비 반사 액션에서 배치/업그레이드 전략 루프로 확장, 웨이브/자원 관리 메타 추가, 키보드+터치 커서 타게팅 동등 지원"
+  },
+  {
+    "id": "20260225-0925-neon-quarantine",
+    "slug": "neon-quarantine",
+    "title": "Neon Quarantine",
+    "path": "games/20260225-0925-neon-quarantine/index.html",
+    "readme": "games/20260225-0925-neon-quarantine/README.md",
+    "coreLoop": "dash-kite-charge-nodes-release-shockwave-survive",
+    "improvementAgainstPrevious": "direct kiting + dash timing, node-charge objective with pulse resource management, stronger keyboard/touch action parity",
+    "genre": "Survival arena"
   }
 ]

@@ -1,9 +1,9 @@
-EN: Built Turret Tide, a Canvas 2D tower-defense-lite game focused on placing and upgrading turrets to hold waves.
-KR: Turret Tide는 포탑 배치·업그레이드로 웨이브를 막아내는 Canvas 2D 타워디펜스 라이트 게임입니다.
-Genre: Tower defense lite
-Core loop: place-upgrade-defend-earn-scale
-Previous vs Current improvements: reflex brick rebound -> strategic placement+upgrade economy; added wave pacing/resource management; added grid cursor targeting parity for keyboard+touch
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0704-turret-tide/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0704-turret-tide/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0704-turret-tide.md
+EN: A new Canvas 2D survival arena game was shipped with node-charge shockwave gameplay, hub/report refresh, and deployment updates.
+KR: 노드 충전-충격파 루프를 중심으로 한 신규 Canvas 2D 서바이벌 아레나 게임을 제작하고 허브/리포트/배포를 갱신했습니다.
+Genre: Survival arena
+Core loop: dash-kite-charge-nodes-release-shockwave-survive
+Previous vs Current Improvement: From grid tower placement to direct kiting/dash control, plus node-charge objective and pulse energy management.
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0925-neon-quarantine/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-0925-neon-quarantine/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-0925-neon-quarantine.md
 Vercel URL: pending

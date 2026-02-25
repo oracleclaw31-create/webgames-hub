@@ -1,0 +1,10 @@
+Run status: completed
+Playtest pass 1: Enemy spawn ramp spiked too early -> reduced early spawn probability and added smoother scaling.
+Playtest pass 2: Pulse felt spammy and trivialized danger -> increased pulse energy cost and reduced radius impact.
+Checklist:
+- [x] Canvas 2D only
+- [x] Keyboard controls
+- [x] Touch controls
+- [x] >=2 improvements vs previous
+- [x] Non-duplicate core loop vs recent 5
+- [x] Non lane-dodger/runner continuity

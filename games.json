@@ -210,8 +210,8 @@
     "id": "20260224-0907-beatline-bastion",
     "slug": "beatline-bastion",
     "title": "Beatline Bastion",
-    "path": "games/20260224-0907-beatline-bastion/index.html",
-    "readme": "games/20260224-0907-beatline-bastion/README.md",
+    "path": "archive/20260224-0907-beatline-bastion/index.html",
+    "readme": "archive/20260224-0907-beatline-bastion/README.md",
     "coreLoop": "lane-shift-on-beat-hit-hold-charge-shield-survive-phase",
     "improvementAgainstPrevious": "Kinetic Smash 대비 (1) 리듬 판정/콤보 배수층 (2) 페이즈 생존 운영 루프 (3) 명시적 레인 터치 컨트롤"
   },
@@ -480,5 +480,19 @@
     "coreLoop": "place-synergize-pulse-defend-upgrade-through-waves",
     "improvementAgainstPrevious": "Reactor Ricochet 대비 (1) 반사 액션 중심에서 배치/경제 전략 루프로 전환 (2) 능동 EMP 타이밍 레이어 추가 (3) 터치 배치 조작 완전 지원",
     "genre": "Tower defense lite"
+  },
+  {
+    "id": "20260225-1815-quarantine-orbit",
+    "slug": "quarantine-orbit",
+    "title": "Quarantine Orbit",
+    "genre": "Survival arena",
+    "path": "games/20260225-1815-quarantine-orbit/index.html",
+    "readme": "games/20260225-1815-quarantine-orbit/README.md",
+    "thumbnail": "games/20260225-1815-quarantine-orbit/thumbnail.png",
+    "report": "reports/20260225-1815-quarantine-orbit.md",
+    "coreLoop": "kite-collect-charge-pulse-survive-scaling-swarms",
+    "improvementAgainstPrevious": "shifted from static tower placement to direct movement combat; added pickup-heal economy and charge-based pulse clutch timing",
+    "vercelUrl": "https://webgames-hub.vercel.app",
+    "status": "done"
   }
 ]

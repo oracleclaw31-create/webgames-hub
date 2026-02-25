@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quarantine Orbit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Quarantine Orbit</h1>
+    <p>Survival arena (Canvas 2D) — dodge swarms, gather cells, trigger pulse.</p>
+    <canvas id="game" width="960" height="540" aria-label="game canvas"></canvas>
+    <div id="hud">HP <span id="hp">100</span> · Score <span id="score">0</span> · Time <span id="time">0.0</span>s · Pulse <span id="pulse">0%</span></div>
+    <div id="touch">
+      <button data-k="ArrowUp">↑</button>
+      <button data-k="ArrowLeft">←</button>
+      <button data-k="ArrowDown">↓</button>
+      <button data-k="ArrowRight">→</button>
+      <button data-k="Space">PULSE</button>
+    </div>
+    <p>Keyboard: WASD/Arrow keys move, Space pulse, R restart.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

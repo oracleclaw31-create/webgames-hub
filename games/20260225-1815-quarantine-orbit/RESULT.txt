@@ -1,0 +1,6 @@
+Status: DONE
+Genre: Survival arena
+Core loop: kite-collect-charge-pulse-survive-scaling-swarms
+Improvements: Direct movement combat loop; charge-based pulse and pickup-heal cycle vs previous tower-defense placement loop.
+Playtest: 2 assumed passes reflected in balancing + touch UI updates.
+Vercel: https://webgames-hub.vercel.app

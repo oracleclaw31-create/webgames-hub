@@ -1,0 +1,6 @@
+Run ID: 20260225-1900-reactor-drift
+Genre: Physics action
+Core loop: charge-tractor-sling-debris-chain-reactor-stabilize
+Improvements vs previous: (1) objective-driven reactor stabilization (2) charge+sling chain execution depth (3) stronger touch parity with stick + action buttons
+Status: done
+Vercel URL: https://webgames-hub.vercel.app

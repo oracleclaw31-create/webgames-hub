@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reactor Drift</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Reactor Drift</h1>
+      <p>Charge tractor, capture debris, sling chain-cooling reactions.</p>
+    </header>
+
+    <section class="hud" aria-live="polite">
+      <div id="status">Stabilize all reactors for 120s.</div>
+      <div id="metrics">Time 120.0 | Score 0 | Chains 0 | Heat -</div>
+      <div id="controlsHint">Move: WASD/Arrows or touch stick | Hold Space/Charge | Shift/Sling</div>
+    </section>
+
+    <canvas id="game" width="960" height="540" aria-label="Reactor Drift game canvas"></canvas>
+
+    <section class="touch" id="touchControls">
+      <div class="stick-zone" id="stickZone">
+        <div class="stick-base"></div>
+        <div class="stick-knob" id="stickKnob"></div>
+      </div>
+      <div class="buttons">
+        <button id="chargeBtn">Charge</button>
+        <button id="slingBtn">Sling</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

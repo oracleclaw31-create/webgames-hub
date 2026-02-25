@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vaultbound Climb</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Vaultbound Climb</h1>
+      <p>Reach the vault, steal all key shards, and escape while guards lock your route.</p>
+    </header>
+
+    <section class="hud" aria-live="polite">
+      <div>Level: <span id="level">1</span></div>
+      <div>Shards: <span id="shards">0/3</span></div>
+      <div>Time: <span id="time">60.0</span>s</div>
+      <div>Status: <span id="status">Climb to begin.</span></div>
+    </section>
+
+    <canvas id="game" width="960" height="540" aria-label="Vaultbound Climb game canvas"></canvas>
+
+    <section class="controls">
+      <p><strong>Keyboard:</strong> A/D or Left/Right to move, W/Space/Up to jump, S/Down to drop through.</p>
+      <div class="touch">
+        <button data-touch="left">Left</button>
+        <button data-touch="right">Right</button>
+        <button data-touch="jump">Jump</button>
+        <button data-touch="down">Drop</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -219,8 +219,8 @@
     "id": "20260224-1000-vaultbound-climb",
     "slug": "vaultbound-climb",
     "title": "Vaultbound Climb",
-    "path": "games/20260224-1000-vaultbound-climb/index.html",
-    "readme": "games/20260224-1000-vaultbound-climb/README.md",
+    "path": "archive/20260224-1000-vaultbound-climb/index.html",
+    "readme": "archive/20260224-1000-vaultbound-climb/README.md",
     "coreLoop": "climb-bait-guard-loot-vault-extract",
     "improvementAgainstPrevious": "Beatline Bastion 대비 (1) 레인 리듬 판정 중심에서 수직 플랫폼 루트 최적화로 전환 (2) 경비 순찰 회피+시간 페널티 압박층 추가 (3) 이동/점프/드롭 4버튼 터치 조작 확장"
   },
@@ -492,6 +492,20 @@
     "report": "reports/20260225-1815-quarantine-orbit.md",
     "coreLoop": "kite-collect-charge-pulse-survive-scaling-swarms",
     "improvementAgainstPrevious": "shifted from static tower placement to direct movement combat; added pickup-heal economy and charge-based pulse clutch timing",
+    "vercelUrl": "https://webgames-hub.vercel.app",
+    "status": "done"
+  },
+  {
+    "id": "20260225-1900-reactor-drift",
+    "slug": "reactor-drift",
+    "title": "Reactor Drift",
+    "genre": "Physics action",
+    "path": "games/20260225-1900-reactor-drift/index.html",
+    "readme": "games/20260225-1900-reactor-drift/README.md",
+    "thumbnail": "games/20260225-1900-reactor-drift/thumbnail.png",
+    "report": "reports/20260225-1900-reactor-drift.md",
+    "coreLoop": "charge-tractor-sling-debris-chain-reactor-stabilize",
+    "improvementAgainstPrevious": "shifted from swarm-kiting survival to reactor-stabilization objective loop; added charge tractor+sling chain execution; added multi-reactor heat prioritization",
     "vercelUrl": "https://webgames-hub.vercel.app",
     "status": "done"
   }

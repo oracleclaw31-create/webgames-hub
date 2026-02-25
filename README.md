@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260225-0925-neon-quarantine/index.html
-- Report: reports/20260225-0925-neon-quarantine.md
+- Game: games/20260225-1200-signal-solder/index.html
+- Report: reports/20260225-1200-signal-solder.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/

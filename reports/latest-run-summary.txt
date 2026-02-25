@@ -1,9 +1,9 @@
-EN: A new Canvas 2D top-down shooter, Jam Break Protocol, is live with wave combat, heat management, and full hub/report/deploy refresh.
-KR: 웨이브 전투와 히트 관리가 포함된 신규 Canvas 2D 탑다운 슈터 Jam Break Protocol을 제작하고 허브/리포트/배포를 모두 갱신했습니다.
-Genre: Top-down shooter
-Core loop: kite-shoot-clear-waves-manage-heat
-Previous vs Current Improvement: Skyhook Bastion 대비 플랫폼 퍼즐에서 실시간 웨이브 전투로 전환, score+wave 재플레이성 추가, heat/dash 자원 관리층 도입.
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1102-jam-break-protocol/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1102-jam-break-protocol/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1102-jam-break-protocol.md
-Vercel URL: https://webgames-hub.vercel.app
+EN: A new Canvas 2D puzzle game, Signal Solder, is added with rotate-lock relay synchronization and full hub/report updates.
+KR: 회전/잠금 기반 릴레이 동기화 루프를 가진 신규 Canvas 2D 퍼즐 Signal Solder를 추가하고 허브/리포트를 갱신했습니다.
+Genre: Puzzle (grid/logic)
+Core loop: select-rotate-lock-synchronize-relays-within-move-budget
+Previous vs Current Improvement: Jam Break Protocol 대비 실시간 슈팅에서 결정형 퍼즐로 전환, Undo/Reset+move-budget 최적화 추가, 터치 입력 단순화.
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1200-signal-solder.md
+Vercel URL: pending

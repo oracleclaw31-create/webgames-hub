@@ -1,0 +1,9 @@
+Genre: Puzzle (grid/logic), Canvas 2D
+Core loop: select-rotate-lock-synchronize-relays-within-move-budget
+Previous vs Current improvements:
+1) Jam Break Protocol's real-time wave shooter loop -> deterministic grid logic planning with undo/reset safety.
+2) Added move-budget + best-score optimization layer for replayable mastery.
+3) Simplified touch interaction to single-tap rotate/lock with full keyboard parity.
+Controls: Keyboard (WASD/Arrows, Space/Enter, Q, U, R, N) + Touch (tap grid + Undo/Reset/New buttons)
+Known issues: single board topology with shuffled rotations limits long-term variety.
+Vercel URL: pending

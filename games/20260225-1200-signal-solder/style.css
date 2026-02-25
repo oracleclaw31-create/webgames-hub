@@ -1,0 +1,126 @@
+:root {
+  color-scheme: dark;
+  --bg: #09141a;
+  --panel: #10232d;
+  --ink: #d6eef9;
+  --accent: #5de2c4;
+  --warn: #f4bf57;
+  --danger: #ef6f6c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 30% 20%, #153242, #05090d 70%);
+  color: var(--ink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.game-shell {
+  width: min(94vw, 840px);
+  background: linear-gradient(180deg, rgba(16, 35, 45, 0.95), rgba(8, 19, 26, 0.95));
+  border: 1px solid rgba(93, 226, 196, 0.24);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.45);
+}
+
+.hud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.95rem;
+}
+
+#game {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-top: 10px;
+  background: #071017;
+  border-radius: 12px;
+  border: 1px solid rgba(93, 226, 196, 0.22);
+  touch-action: manipulation;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+button {
+  border: 1px solid rgba(93, 226, 196, 0.45);
+  background: #143041;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  background: #1a3d52;
+  outline: none;
+}
+
+.touch-help {
+  color: #b8d7e4;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.touch-help p {
+  margin: 0;
+}
+
+.message {
+  min-height: 24px;
+  margin-top: 8px;
+  color: var(--warn);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .game-shell {
+    padding: 10px;
+  }
+
+  .stats {
+    gap: 8px;
+    font-size: 0.86rem;
+  }
+
+  button {
+    flex: 1;
+  }
+}

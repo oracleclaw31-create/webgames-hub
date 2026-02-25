@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Flux Bricks</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud-top">
+      <h1>Flux Bricks</h1>
+      <p>Move, curve, and shatter charged walls.</p>
+    </header>
+
+    <section class="game-shell">
+      <canvas id="game" width="900" height="600" aria-label="Flux Bricks game canvas"></canvas>
+
+      <div class="hud-row">
+        <div class="stat"><span>Score</span><strong id="score">0</strong></div>
+        <div class="stat"><span>Lives</span><strong id="lives">3</strong></div>
+        <div class="stat"><span>Stage</span><strong id="stage">1</strong></div>
+        <div class="stat"><span>Magnet</span><strong id="magnet">READY</strong></div>
+      </div>
+
+      <p class="controls">
+        Keyboard: <kbd>Left</kbd>/<kbd>Right</kbd> move, <kbd>Space</kbd> pulse magnet, <kbd>R</kbd> restart.
+      </p>
+
+      <div class="touch-controls" aria-label="Touch controls">
+        <button id="touch-left" type="button">Left</button>
+        <button id="touch-magnet" type="button">Magnet</button>
+        <button id="touch-right" type="button">Right</button>
+        <button id="touch-restart" type="button">Restart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

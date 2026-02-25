@@ -1,7 +1,7 @@
-# 20260225-1102-jam-break-protocol
+# 20260225-1200-signal-solder
 
 ## Genre
-Top-down shooter, Canvas 2D
+Puzzle (grid/logic), Canvas 2D
 
 ## Core loop
-kite-shoot-clear-waves-manage-heat
+select-rotate-lock-synchronize-relays-within-move-budget

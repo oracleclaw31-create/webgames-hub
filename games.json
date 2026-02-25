@@ -174,8 +174,8 @@
     "id": "20260224-0500-flux-bricks",
     "slug": "flux-bricks",
     "title": "Flux Bricks",
-    "path": "games/20260224-0500-flux-bricks/index.html",
-    "readme": "games/20260224-0500-flux-bricks/README.md",
+    "path": "archive/20260224-0500-flux-bricks/index.html",
+    "readme": "archive/20260224-0500-flux-bricks/README.md",
     "coreLoop": "position-pulse-curve-break-chain-clear-stage",
     "improvementAgainstPrevious": "Lumen Lock 대비 (1) 격자 토글 퍼즐에서 연속 물리 반사 액션 루프로 전환 (2) 쿨다운 기반 magnet pulse 샷-커브 숙련층 추가 (3) 버튼+드래그 터치 조작 동시 지원"
   },
@@ -440,5 +440,15 @@
     "readme": "games/20260225-1102-jam-break-protocol/README.md",
     "coreLoop": "kite-shoot-clear-waves-manage-heat",
     "improvementAgainstPrevious": "Skyhook Bastion 대비 (1) 플랫폼 이동 퍼즐에서 웨이브 슈팅 전투 루프로 전환 (2) wave escalation+score로 반복 플레이성 강화 (3) heat/dash 자원 관리 의사결정층 추가"
+  },
+  {
+    "id": "20260225-1200-signal-solder",
+    "slug": "signal-solder",
+    "title": "Signal Solder",
+    "path": "games/20260225-1200-signal-solder/index.html",
+    "readme": "games/20260225-1200-signal-solder/README.md",
+    "coreLoop": "select-rotate-lock-synchronize-relays-within-move-budget",
+    "improvementAgainstPrevious": "Jam Break Protocol 대비 (1) 실시간 웨이브 슈팅에서 결정형 그리드 퍼즐 루프로 전환 (2) Undo/Reset + move-budget 최적화 계층 추가 (3) 단일 탭 중심 터치 입력으로 접근성 강화",
+    "genre": "Puzzle (grid/logic)"
   }
 ]

@@ -1,7 +1,7 @@
-# 20260225-1000-skyhook-bastion
+# 20260225-1102-jam-break-protocol
 
 ## Genre
-Platformer, Canvas 2D
+Top-down shooter, Canvas 2D
 
 ## Core loop
-wall-jump-hook-switch-gate-extract
+kite-shoot-clear-waves-manage-heat

@@ -1,9 +1,9 @@
-EN: A new Canvas 2D platformer, Skyhook Bastion, shipped with hook-driven traversal, gated objectives, and full hub/report/deploy refresh.
-KR: 훅 이동과 게이트 목표를 중심으로 한 신규 Canvas 2D 플랫폼 게임 Skyhook Bastion을 제작하고 허브/리포트/배포를 갱신했습니다.
-Genre: Platformer
-Core loop: wall-jump-hook-switch-gate-extract
-Previous vs Current Improvement: Neon Quarantine 대비 생존 웨이브에서 플랫폼 퍼즐 진행으로 전환, 2중 스위치 게이트 목표 추가, 훅 버스트/드롭스루 조작 심화.
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1000-skyhook-bastion/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1000-skyhook-bastion/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1000-skyhook-bastion.md
+EN: A new Canvas 2D top-down shooter, Jam Break Protocol, is live with wave combat, heat management, and full hub/report/deploy refresh.
+KR: 웨이브 전투와 히트 관리가 포함된 신규 Canvas 2D 탑다운 슈터 Jam Break Protocol을 제작하고 허브/리포트/배포를 모두 갱신했습니다.
+Genre: Top-down shooter
+Core loop: kite-shoot-clear-waves-manage-heat
+Previous vs Current Improvement: Skyhook Bastion 대비 플랫폼 퍼즐에서 실시간 웨이브 전투로 전환, score+wave 재플레이성 추가, heat/dash 자원 관리층 도입.
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1102-jam-break-protocol/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1102-jam-break-protocol/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1102-jam-break-protocol.md
 Vercel URL: https://webgames-hub.vercel.app

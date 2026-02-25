@@ -165,8 +165,8 @@
     "id": "20260224-0400-lumen-lock",
     "slug": "lumen-lock",
     "title": "Lumen Lock",
-    "path": "games/20260224-0400-lumen-lock/index.html",
-    "readme": "games/20260224-0400-lumen-lock/README.md",
+    "path": "archive/20260224-0400-lumen-lock/index.html",
+    "readme": "archive/20260224-0400-lumen-lock/README.md",
     "coreLoop": "scan-target-navigate-cursor-timed-cross-toggle-clear-pattern-gain-time",
     "improvementAgainstPrevious": "Ion Drift Siege 대비 (1) 목표 상태 기반 논리 퍼즐 루프 도입 (2) 타이머+보너스 시간으로 리듬 압박 추가 (3) 보드 직접 터치 상호작용 강화"
   },
@@ -431,5 +431,14 @@
     "readme": "games/20260225-1000-skyhook-bastion/README.md",
     "coreLoop": "wall-jump-hook-switch-gate-extract",
     "improvementAgainstPrevious": "Neon Quarantine 대비 (1) 생존 웨이브 중심에서 퍼즐 플랫폼 진행으로 전환 (2) 2중 스위치-게이트 목표 구조 추가 (3) 갈고리 이동+드롭스루로 조작 깊이 강화"
+  },
+  {
+    "id": "20260225-1102-jam-break-protocol",
+    "slug": "jam-break-protocol",
+    "title": "Jam Break Protocol",
+    "path": "games/20260225-1102-jam-break-protocol/index.html",
+    "readme": "games/20260225-1102-jam-break-protocol/README.md",
+    "coreLoop": "kite-shoot-clear-waves-manage-heat",
+    "improvementAgainstPrevious": "Skyhook Bastion 대비 (1) 플랫폼 이동 퍼즐에서 웨이브 슈팅 전투 루프로 전환 (2) wave escalation+score로 반복 플레이성 강화 (3) heat/dash 자원 관리 의사결정층 추가"
   }
 ]

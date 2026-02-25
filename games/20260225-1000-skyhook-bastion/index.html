@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skyhook Bastion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Skyhook Bastion</h1>
+    <p class="sub">Platformer · Canvas 2D</p>
+    <canvas id="game" width="960" height="540" aria-label="Skyhook Bastion game canvas"></canvas>
+    <section id="touch" class="touch" aria-label="Touch controls">
+      <div class="row"><button data-k="left">◀</button><button data-k="right">▶</button><button data-k="jump">Jump</button><button data-k="hook">Hook</button></div>
+      <div class="row"><button data-k="drop">Drop</button><button id="restart">Restart</button></div>
+    </section>
+    <p class="help">Keyboard: ←/→ move · Z jump · X hook dash · ↓ drop-through · R restart</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

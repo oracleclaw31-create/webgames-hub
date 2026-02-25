@@ -1,0 +1,9 @@
+Run status: completed
+Playtest pass 1 (assumed): Hook pull was too weak on touch -> increased hook acceleration and nearest-hook snap.
+Playtest pass 2 (assumed): Exit was reachable before puzzle completion -> added 2-switch gate dependency.
+Improvement checklist:
+- [x] Canvas 2D only
+- [x] Keyboard + touch controls
+- [x] >=2 improvements vs previous game
+- [x] Distinct core loop vs recent 5
+- [x] Non lane-dodger/runner continuity

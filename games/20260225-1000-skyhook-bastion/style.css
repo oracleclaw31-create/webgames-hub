@@ -1,0 +1,5 @@
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#080b16;color:#eaf0ff;font-family:Inter,system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:16px;text-align:center}canvas{width:100%;max-width:960px;border:1px solid #2a366d;border-radius:12px;background:linear-gradient(#10193a,#06090f);touch-action:none}
+.sub,.help{color:#a9b7e8}.touch{display:inline-flex;flex-direction:column;gap:6px;margin-top:10px}.row{display:flex;justify-content:center;gap:6px}
+button{min-width:66px;min-height:42px;border:1px solid #3f57c4;background:#1b2a73;color:#fff;border-radius:10px}
+button:active{transform:translateY(1px)}

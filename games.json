@@ -228,8 +228,8 @@
     "id": "20260224-1103-signal-quarry",
     "slug": "signal-quarry",
     "title": "Signal Quarry",
-    "path": "games/20260224-1103-signal-quarry/index.html",
-    "readme": "games/20260224-1103-signal-quarry/README.md",
+    "path": "archive/20260224-1103-signal-quarry/index.html",
+    "readme": "archive/20260224-1103-signal-quarry/README.md",
     "coreLoop": "strafe-burst-secure-relays-extract",
     "improvementAgainstPrevious": "Vaultbound Climb 대비 자유 조준 전투 전환 + 3개 릴레이 점령 목표층 + 명시적 Burst 터치 버튼 추가"
   },
@@ -506,6 +506,20 @@
     "report": "reports/20260225-1900-reactor-drift.md",
     "coreLoop": "charge-tractor-sling-debris-chain-reactor-stabilize",
     "improvementAgainstPrevious": "shifted from swarm-kiting survival to reactor-stabilization objective loop; added charge tractor+sling chain execution; added multi-reactor heat prioritization",
+    "vercelUrl": "https://webgames-hub.vercel.app",
+    "status": "done"
+  },
+  {
+    "id": "20260225-2000-sync-smith",
+    "slug": "sync-smith",
+    "title": "Sync Smith",
+    "genre": "Rhythm/timing",
+    "path": "games/20260225-2000-sync-smith/index.html",
+    "readme": "games/20260225-2000-sync-smith/README.md",
+    "thumbnail": "games/20260225-2000-sync-smith/thumbnail.png",
+    "report": "reports/20260225-2000-sync-smith.md",
+    "coreLoop": "rotate-align-hit-on-beat-forge-segments-complete-song",
+    "improvementAgainstPrevious": "Reactor Drift 대비 (1) 물리 충돌/슬링 중심에서 비트 정합 타이밍 루프로 전환 (2) 명시적 판정 윈도우+콤보 피드백으로 숙련 가시성 강화 (3) 좌/히트/우 3버튼 터치 입력으로 모바일 즉시 플레이성 개선",
     "vercelUrl": "https://webgames-hub.vercel.app",
     "status": "done"
   }

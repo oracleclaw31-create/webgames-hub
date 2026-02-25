@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signal Quarry</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Signal Quarry</h1>
+    <p class="subtitle">Top-down shooter · Secure relays before overload.</p>
+    <canvas id="game" width="960" height="540" aria-label="Signal Quarry game canvas"></canvas>
+    <section class="hud">
+      <span>HP: <b id="hp">100</b></span>
+      <span>Relays: <b id="relays">0/3</b></span>
+      <span>Time: <b id="time">90</b>s</span>
+      <span>Score: <b id="score">0</b></span>
+    </section>
+    <p id="status">WASD/Arrow move, mouse or touch aim, Space/tap burst.</p>
+    <div class="touch" aria-label="touch controls">
+      <button data-k="left">◀</button><button data-k="up">▲</button><button data-k="down">▼</button><button data-k="right">▶</button>
+      <button data-k="fire" class="fire">BURST</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

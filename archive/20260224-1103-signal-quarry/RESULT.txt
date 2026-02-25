@@ -1,0 +1,9 @@
+Signal Quarry has been deployed as a Canvas 2D top-down shooter focused on relay capture under combat pressure.
+시그널 쿼리는 전투 압박 속 릴레이 점령에 집중한 Canvas 2D 탑다운 슈터로 배포되었습니다.
+Genre: Top-down shooter
+Core loop: strafe-burst-secure-relays-extract
+Previous vs Current Improvement: Vaultbound Climb 대비 (1) 플랫폼 점프 중심에서 자유 조준 전투 루프로 전환 (2) 3개 릴레이 점령 목표와 적 방해 압박 추가 (3) 4방향+Burst 터치 입력으로 모바일 즉시성 강화
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1103-signal-quarry/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260224-1103-signal-quarry/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260224-1103-signal-quarry.md
+Vercel URL: https://webgames-hub.vercel.app

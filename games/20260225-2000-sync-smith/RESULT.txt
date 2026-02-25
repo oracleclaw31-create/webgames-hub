@@ -1,0 +1,6 @@
+Run ID: 20260225-2000-sync-smith
+Genre: Rhythm/timing
+Core loop: rotate-align-hit-on-beat-forge-segments-complete-song
+Improvements vs previous: (1) physics sling loop -> beat-alignment mastery loop (2) strict timing windows + combo readability (3) stronger single-hand touch controls
+Status: done
+Vercel URL: https://webgames-hub.vercel.app

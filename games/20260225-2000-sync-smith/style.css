@@ -1,0 +1,4 @@
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#0e1018;color:#e8ecff}
+main{max-width:980px;margin:0 auto;padding:16px}h1{margin:0 0 8px}canvas{width:100%;border:1px solid #2a355d;border-radius:12px;background:#090d1a}
+.controls{display:flex;gap:12px;margin:12px 0}.controls button{flex:1;padding:12px;font-size:18px;border:0;border-radius:10px;background:#1c2750;color:#fff}
+.controls button:active{transform:scale(.98);background:#2d3c7a}

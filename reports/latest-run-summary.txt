@@ -1,9 +1,10 @@
-EN: Reactor Drift is a new Physics Action run where you charge a tractor field and sling debris to stabilize overheating reactors.
-KR: Reactor Drift는 트랙터 필드를 충전해 파편을 슬링으로 날려 과열 원자로를 안정화하는 신규 피직스 액션 게임입니다.
-Genre: Physics action
-Core loop: charge-tractor-sling-debris-chain-reactor-stabilize
-Previous vs Current Improvement: Quarantine Orbit 대비 (1) 단순 생존 카이팅에서 목표형 원자로 안정화 루프로 전환 (2) charge+tractor+sling 체인 실행 숙련층 추가 (3) 다중 원자로 열 우선순위 운영층 추가
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1900-reactor-drift
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1900-reactor-drift/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1900-reactor-drift.md
-Vercel URL: https://webgames-hub.vercel.app
+EN: Sync Smith is a new rhythm-timing Canvas game where you rotate a forge ring and strike on beat to complete a song.
+KO: Sync Smith는 포지 링을 회전해 박자에 맞춰 타격하며 곡을 완성하는 신규 리듬/타이밍 캔버스 게임입니다.
+GENRE: Rhythm/timing
+CORE_LOOP: rotate-align-hit-on-beat-forge-segments-complete-song
+IMPROVEMENTS: Reactor Drift 대비 (1) 물리 슬링 루프에서 비트 정합 루프로 전환 (2) 판정 윈도우/콤보 가시성 강화 (3) 3버튼 터치 조작 단순화
+GAME_FOLDER: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2000-sync-smith
+THUMBNAIL_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2000-sync-smith/thumbnail.png
+REPORT_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-2000-sync-smith.md
+VERCEL_URL: https://webgames-hub.vercel.app
+STATUS: done

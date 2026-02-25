@@ -1,6 +1,6 @@
-# 20260225-2104-pulse-parkour
+# 20260225-2200-vector-rescue
 
 Latest run completed.
 
-- Game: `games/20260225-2104-pulse-parkour/index.html`
-- Report: `reports/20260225-2104-pulse-parkour.md`
+- Game: `games/20260225-2200-vector-rescue/index.html`
+- Report: `reports/20260225-2200-vector-rescue.md`

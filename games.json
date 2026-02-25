@@ -246,8 +246,8 @@
     "id": "20260224-1300-orbit-breaker",
     "slug": "orbit-breaker",
     "title": "Orbit Breaker",
-    "path": "games/20260224-1300-orbit-breaker/index.html",
-    "readme": "games/20260224-1300-orbit-breaker/README.md",
+    "path": "archive/20260224-1300-orbit-breaker/index.html",
+    "readme": "archive/20260224-1300-orbit-breaker/README.md",
     "coreLoop": "deflect-pulse-break-chain-clear-stage",
     "improvementAgainstPrevious": "Logic Lantern 대비 실시간 반사 액션 전환 + Pulse 능력 타이밍 의사결정 추가 + 콤보/스테이지 압박 루프 도입"
   },
@@ -532,5 +532,15 @@
     "coreLoop": "run-jump-dash-collect-cells-open-gate-escape",
     "improvementAgainstPrevious": "Sync Smith 대비 (1) 리듬 단일 타이밍 루프에서 점프+대시 기반 공간 플랫폼 루프로 전환 (2) 수직 지형/충돌/낙하 리셋으로 난이도 곡선 강화 (3) 키보드·터치 동등 조작 유지",
     "genre": "Platformer"
+  },
+  {
+    "id": "20260225-2200-vector-rescue",
+    "slug": "vector-rescue",
+    "title": "Vector Rescue",
+    "path": "games/20260225-2200-vector-rescue/index.html",
+    "readme": "games/20260225-2200-vector-rescue/README.md",
+    "coreLoop": "move-aim-shoot-rescue-civilians-activate-beacon-extract",
+    "improvementAgainstPrevious": "Pulse Parkour 대비 (1) 순수 이동 플랫폼 루프에서 전투+구조+탈출 목표 루프로 확장 (2) 적 추적 AI와 시민 보호 실패조건 추가 (3) HP/점수/비콘 진행으로 전술 의사결정 강화",
+    "genre": "Top-down shooter"
   }
 ]

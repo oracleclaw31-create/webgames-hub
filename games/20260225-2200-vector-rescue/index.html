@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vector Rescue</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Vector Rescue</h1>
+    <p class="meta">Top-down shooter · Canvas 2D · Keyboard + Touch</p>
+    <canvas id="game" width="960" height="540" aria-label="Vector Rescue"></canvas>
+    <p id="hud">Rescue 3 civilians, then extract at the beacon.</p>
+    <div class="touch">
+      <button data-k="up">▲</button>
+      <button data-k="left">◀</button>
+      <button data-k="down">▼</button>
+      <button data-k="right">▶</button>
+      <button data-k="shoot">FIRE</button>
+      <button data-k="dash">DASH</button>
+    </div>
+    <p class="help">Keyboard: WASD / Arrow move · Space shoot · Shift dash · R restart</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

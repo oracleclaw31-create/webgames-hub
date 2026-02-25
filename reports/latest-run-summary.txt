@@ -1,10 +1,10 @@
-EN: Pulse Parkour is a new Canvas platformer where you dash and jump to collect cells before escaping through the gate.
-KO: Pulse Parkour는 대시와 점프로 에너지 셀을 모아 게이트로 탈출하는 신규 캔버스 플랫폼 게임입니다.
-GENRE: Platformer
-CORE_LOOP: run-jump-dash-collect-cells-open-gate-escape
-IMPROVEMENTS: Sync Smith 대비 (1) 리듬 단일 타이밍 루프에서 공간 플랫폼 루프로 전환 (2) 수직 지형/충돌/낙하 리셋 추가 (3) 대시 이동 표현과 터치 동등성 강화
-GAME_FOLDER: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2104-pulse-parkour
-THUMBNAIL_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2104-pulse-parkour/thumbnail.png
-REPORT_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-2104-pulse-parkour.md
+EN: Vector Rescue is a new Canvas top-down shooter where you protect and rescue civilians before extracting at an activated beacon.
+KO: Vector Rescue는 시민을 보호·구출한 뒤 활성화된 비콘으로 탈출하는 신규 캔버스 탑다운 슈터입니다.
+GENRE: Top-down shooter
+CORE_LOOP: move-aim-shoot-rescue-civilians-activate-beacon-extract
+IMPROVEMENTS: Pulse Parkour 대비 (1) 이동 중심 플랫폼 루프에서 전투+구조+탈출 목표 루프로 확장 (2) 적 추적 AI/시민 보호 실패조건 추가 (3) HP·점수·비콘 진행으로 전술 깊이 강화
+GAME_FOLDER: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2200-vector-rescue
+THUMBNAIL_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2200-vector-rescue/thumbnail.png
+REPORT_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-2200-vector-rescue.md
 VERCEL_URL: https://webgames-hub.vercel.app
 STATUS: done

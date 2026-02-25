@@ -1,0 +1,9 @@
+Objective: Rescue all 3 civilians and extract at the beacon.
+Controls: Keyboard (WASD/Arrows, Space shoot, Shift dash, R restart) + touch buttons.
+Playtest pass #1 (assumed): enemy rush too steep early -> spawn cadence eased and cap applied.
+Playtest pass #2 (assumed): extraction clarity weak -> added beacon activation state + HUD callout.
+Improvements vs previous (Pulse Parkour):
+1) Platform traversal-only loop -> top-down shooter with rescue/extract objectives.
+2) Added enemy pursuit AI + civilian-loss fail condition.
+3) Added HP/score/beacon progression for tactical pacing and replay.
+Known issues: No sound and limited enemy variety for this hourly build.

@@ -6,4 +6,4 @@ Previous vs Current Improvement: Jam Break Protocol 대비 실시간 슈팅에�
 Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/
 Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/thumbnail.png
 Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1200-signal-solder.md
-Vercel URL: pending
+Vercel URL: https://webgames-hub.vercel.app (existing alias; deploy blocked on 2026-02-25)

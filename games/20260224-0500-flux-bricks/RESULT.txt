@@ -1,8 +1,0 @@
-Run: 20260224-0500-flux-bricks
-Status: DONE
-Game: games/20260224-0500-flux-bricks/
-Genre: Brick-breaker
-Core loop: position-pulse-curve-break-chain-clear-stage
-Controls: Keyboard + Touch
-Vercel URL: https://webgames-hub.vercel.app
-Notes: Hub/report artifacts updated, deployment complete.

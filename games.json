@@ -201,8 +201,8 @@
     "id": "20260224-0800-kinetic-smash",
     "slug": "kinetic-smash",
     "title": "Kinetic Smash",
-    "path": "games/20260224-0800-kinetic-smash/index.html",
-    "readme": "games/20260224-0800-kinetic-smash/README.md",
+    "path": "archive/20260224-0800-kinetic-smash/index.html",
+    "readme": "archive/20260224-0800-kinetic-smash/README.md",
     "coreLoop": "charge-sling-collide-shatter-chain-clear",
     "improvementAgainstPrevious": "Neon Laststand 대비 (1) 투사체 자동사격 생존에서 수동 차지-슬링 물리 충돌 숙련 루프로 전환 (2) 연쇄 충돌/잔해 활용 점수층 추가 (3) 조준 슬링 터치 제스처로 입력 표현력 강화"
   },
@@ -470,5 +470,15 @@
     "coreLoop": "aim-deflect-break-shields-charge-pulse-clear-phases",
     "improvementAgainstPrevious": "Signal Solder 대비 (1) 결정형 퍼즐에서 실시간 반사 액션 루프로 전환 (2) 콤보+차지 펄스 자원 의사결정 층 추가 (3) 실드 브릭+3페이즈 타이머 압박으로 템포 상승",
     "genre": "Brick-breaker"
+  },
+  {
+    "id": "20260225-1700-pulse-rampart",
+    "slug": "pulse-rampart",
+    "title": "Pulse Rampart",
+    "path": "games/20260225-1700-pulse-rampart/index.html",
+    "readme": "games/20260225-1700-pulse-rampart/README.md",
+    "coreLoop": "place-synergize-pulse-defend-upgrade-through-waves",
+    "improvementAgainstPrevious": "Reactor Ricochet 대비 (1) 반사 액션 중심에서 배치/경제 전략 루프로 전환 (2) 능동 EMP 타이밍 레이어 추가 (3) 터치 배치 조작 완전 지원",
+    "genre": "Tower defense lite"
   }
 ]

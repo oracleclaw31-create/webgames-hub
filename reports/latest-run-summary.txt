@@ -1,9 +1,9 @@
-EN: Added Reactor Ricochet, a new Canvas 2D brick-breaker with timed phases, combo scoring, and charge pulse shield-pierce mechanics.
-KR: 타이머 페이즈, 콤보 점수, 실드 관통 차지 펄스를 갖춘 신규 Canvas 2D 브릭브레이커 Reactor Ricochet를 추가했습니다.
-Genre: Brick-breaker
-Core loop: aim-launch-charge-pulse-break-shields-clear-phases
-Previous vs Current Improvement: Signal Solder 대비 결정형 퍼즐에서 실시간 액션으로 전환, phase timer+combo multiplier 추가, charge pulse 실드 관통 메커닉 추가.
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1300-reactor-ricochet/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1300-reactor-ricochet/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1300-reactor-ricochet.md
+EN: Pulse Rampart is a new Tower Defense Lite run featuring dual-turret synergy and an active EMP pulse layer.
+KR: Pulse Rampart는 듀얼 터렛 시너지와 능동 EMP 스킬 레이어를 넣은 신규 타워 디펜스 라이트 게임입니다.
+Genre: Tower defense lite
+Core loop: place-synergize-pulse-defend-upgrade-through-waves
+Previous vs Current Improvement: Reactor Ricochet 대비 (1) 반사 액션 중심에서 배치/경제 전략 루프로 전환 (2) 능동 EMP 타이밍 레이어 추가 (3) 터치 배치 조작 완전 지원
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1700-pulse-rampart
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1700-pulse-rampart/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1700-pulse-rampart.md
 Vercel URL: https://webgames-hub.vercel.app

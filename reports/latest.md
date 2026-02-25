@@ -1,7 +1,6 @@
-# 20260225-1300-reactor-ricochet
+# 20260225-1700-pulse-rampart
 
-## Genre
-Brick-breaker, Canvas 2D
+Latest run completed.
 
-## Core loop
-aim-launch-charge-pulse-break-shields-clear-phases
+- Game: `games/20260225-1700-pulse-rampart/index.html`
+- Report: `reports/20260225-1700-pulse-rampart.md`

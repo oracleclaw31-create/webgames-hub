@@ -1,0 +1,6 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: Inter, system-ui, sans-serif; background:#0b1120; color:#dbecff; }
+.wrap { max-width: 980px; margin: 12px auto; padding: 8px; }
+h1 { margin: 0 0 8px; font-size: 1.2rem; }
+canvas { width: 100%; height: auto; border: 1px solid #2f4368; border-radius: 12px; background: radial-gradient(circle at 30% 30%, #1a2742, #0b1120 70%); touch-action:none; }
+.hud { font-size: 0.95rem; color:#b9d2ff; }

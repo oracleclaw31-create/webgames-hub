@@ -1,0 +1,9 @@
+Status: COMPLETE
+Genre: Tower defense lite
+Core loop: place-synergize-pulse-defend-upgrade-through-waves
+Playtest pass 1: Early waves too easy; increased spawn scaling and reduced free gold.
+Playtest pass 2: Pulse felt weak; increased slow duration and radius clarity.
+Improvement checklist:
+[x] Added active EMP skill layer (vs previous pure paddle deflection)
+[x] Added dual-tower synergy choices (slow + sniper) and placement economy
+[x] Added full touch parity for placement, preserving keyboard actions

@@ -1,0 +1,9 @@
+Objective: Collect 3 energy cells and enter the exit gate.
+Controls: Keyboard (A/D or ←/→, Space jump, Shift dash, R restart) + touch buttons.
+Playtest pass #1 (assumed): jump arc too floaty -> reduced air drift and clearer platform heights.
+Playtest pass #2 (assumed): dash readability low -> added stronger dash burst and HUD progress cue.
+Improvements vs previous (Sync Smith):
+1) Single-beat timing loop -> spatial traversal + route planning platform loop.
+2) Added vertical level topology with collision grounding and fail-state restart flow.
+3) Stronger movement expression (jump + dash + momentum) while keeping touch parity.
+Known issues: No audio; enemy hazards intentionally omitted for this lite run.

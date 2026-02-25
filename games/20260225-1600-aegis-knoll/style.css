@@ -1,0 +1,102 @@
+:root {
+  --bg: #0b1020;
+  --panel: #121b34;
+  --ink: #e8f0ff;
+  --accent: #62d2ff;
+  --warn: #ff8b70;
+  --ok: #84f28d;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 10%, #1a2950 0%, var(--bg) 60%);
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.hud h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.meta {
+  margin: 2px 0 8px;
+  opacity: 0.9;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.stats span {
+  background: rgba(18, 27, 52, 0.8);
+  border: 1px solid #2e447f;
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+#game {
+  width: 100%;
+  height: auto;
+  border: 2px solid #294582;
+  border-radius: 10px;
+  background: #071022;
+  display: block;
+}
+
+.controls {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+button {
+  border: 1px solid #34579f;
+  background: linear-gradient(#1d2c56, #182646);
+  color: var(--ink);
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.legend {
+  margin-top: 10px;
+  background: rgba(18, 27, 52, 0.75);
+  border: 1px solid #2e447f;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.legend p {
+  margin: 4px 0;
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    padding: 10px;
+  }
+
+  button {
+    flex: 1 1 calc(50% - 6px);
+  }
+}

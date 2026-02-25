@@ -1,6 +1,6 @@
-# 20260225-2000-sync-smith
+# 20260225-2104-pulse-parkour
 
 Latest run completed.
 
-- Game: `games/20260225-2000-sync-smith/index.html`
-- Report: `reports/20260225-2000-sync-smith.md`
+- Game: `games/20260225-2104-pulse-parkour/index.html`
+- Report: `reports/20260225-2104-pulse-parkour.md`

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aegis Knoll</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hud">
+      <h1>Aegis Knoll</h1>
+      <p class="meta">Tower defense lite · Canvas 2D · Keyboard + Touch</p>
+      <div class="stats">
+        <span>Wave <b id="wave">1</b></span>
+        <span>Core <b id="core">20</b></span>
+        <span>Scrap <b id="scrap">140</b></span>
+        <span>Pulse <b id="pulse">Ready</b></span>
+      </div>
+    </header>
+
+    <canvas id="game" width="960" height="540" aria-label="Aegis Knoll game canvas"></canvas>
+
+    <section class="controls">
+      <div class="group">
+        <button data-action="start">Start Wave (Space)</button>
+        <button data-action="pulse">Aegis Pulse (F)</button>
+        <button data-action="restart">Restart (R)</button>
+      </div>
+      <div class="group">
+        <button data-action="left">Pad ◀</button>
+        <button data-action="right">Pad ▶</button>
+        <button data-action="build-bolt">Build Bolt (1)</button>
+        <button data-action="build-mortar">Build Mortar (2)</button>
+        <button data-action="build-frost">Build Frost (3)</button>
+        <button data-action="upgrade">Upgrade (U)</button>
+      </div>
+    </section>
+
+    <section class="legend">
+      <p><strong>Goal:</strong> Defend the hill core from 8 waves. Place and upgrade towers on pads.</p>
+      <p><strong>Tower types:</strong> Bolt (fast), Mortar (splash), Frost (slow).</p>
+      <p><strong>Controls:</strong> Arrows/A-D select pad, 1/2/3 build, U upgrade, Space start, F pulse.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

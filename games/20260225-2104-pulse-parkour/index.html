@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pulse Parkour</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Pulse Parkour</h1>
+    <p class="meta">Platformer · Canvas 2D · Keyboard + Touch</p>
+    <canvas id="game" width="960" height="540" aria-label="Pulse Parkour"></canvas>
+    <div class="hud">
+      <span id="status">Collect 3 cells, then reach the gate.</span>
+    </div>
+    <div class="touch" aria-hidden="false">
+      <button id="leftBtn">◀</button>
+      <button id="jumpBtn">⤒</button>
+      <button id="dashBtn">⚡</button>
+      <button id="rightBtn">▶</button>
+    </div>
+    <p class="controls">Keys: A/D or ←/→ move · Space jump · Shift dash · R restart</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

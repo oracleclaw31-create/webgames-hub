@@ -1,10 +1,10 @@
-EN: Sync Smith is a new rhythm-timing Canvas game where you rotate a forge ring and strike on beat to complete a song.
-KO: Sync Smith는 포지 링을 회전해 박자에 맞춰 타격하며 곡을 완성하는 신규 리듬/타이밍 캔버스 게임입니다.
-GENRE: Rhythm/timing
-CORE_LOOP: rotate-align-hit-on-beat-forge-segments-complete-song
-IMPROVEMENTS: Reactor Drift 대비 (1) 물리 슬링 루프에서 비트 정합 루프로 전환 (2) 판정 윈도우/콤보 가시성 강화 (3) 3버튼 터치 조작 단순화
-GAME_FOLDER: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2000-sync-smith
-THUMBNAIL_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2000-sync-smith/thumbnail.png
-REPORT_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-2000-sync-smith.md
+EN: Pulse Parkour is a new Canvas platformer where you dash and jump to collect cells before escaping through the gate.
+KO: Pulse Parkour는 대시와 점프로 에너지 셀을 모아 게이트로 탈출하는 신규 캔버스 플랫폼 게임입니다.
+GENRE: Platformer
+CORE_LOOP: run-jump-dash-collect-cells-open-gate-escape
+IMPROVEMENTS: Sync Smith 대비 (1) 리듬 단일 타이밍 루프에서 공간 플랫폼 루프로 전환 (2) 수직 지형/충돌/낙하 리셋 추가 (3) 대시 이동 표현과 터치 동등성 강화
+GAME_FOLDER: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2104-pulse-parkour
+THUMBNAIL_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-2104-pulse-parkour/thumbnail.png
+REPORT_PATH: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-2104-pulse-parkour.md
 VERCEL_URL: https://webgames-hub.vercel.app
 STATUS: done

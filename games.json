@@ -237,8 +237,8 @@
     "id": "20260224-1200-logic-lantern",
     "slug": "logic-lantern",
     "title": "Logic Lantern",
-    "path": "games/20260224-1200-logic-lantern/index.html",
-    "readme": "games/20260224-1200-logic-lantern/README.md",
+    "path": "archive/20260224-1200-logic-lantern/index.html",
+    "readme": "archive/20260224-1200-logic-lantern/README.md",
     "coreLoop": "route-rotate-split-light-all-target-cores",
     "improvementAgainstPrevious": "Signal Quarry 대비 (1) 실시간 슈팅에서 결정론적 그리드 로직 퍼즐로 전환 (2) move-budget 최적화 전략층 추가 (3) 퍼즐 전용 터치 조작 패널 명확화"
   },
@@ -522,5 +522,15 @@
     "improvementAgainstPrevious": "Reactor Drift 대비 (1) 물리 충돌/슬링 중심에서 비트 정합 타이밍 루프로 전환 (2) 명시적 판정 윈도우+콤보 피드백으로 숙련 가시성 강화 (3) 좌/히트/우 3버튼 터치 입력으로 모바일 즉시 플레이성 개선",
     "vercelUrl": "https://webgames-hub.vercel.app",
     "status": "done"
+  },
+  {
+    "id": "20260225-2104-pulse-parkour",
+    "slug": "pulse-parkour",
+    "title": "Pulse Parkour",
+    "path": "games/20260225-2104-pulse-parkour/index.html",
+    "readme": "games/20260225-2104-pulse-parkour/README.md",
+    "coreLoop": "run-jump-dash-collect-cells-open-gate-escape",
+    "improvementAgainstPrevious": "Sync Smith 대비 (1) 리듬 단일 타이밍 루프에서 점프+대시 기반 공간 플랫폼 루프로 전환 (2) 수직 지형/충돌/낙하 리셋으로 난이도 곡선 강화 (3) 키보드·터치 동등 조작 유지",
+    "genre": "Platformer"
   }
 ]

@@ -1,7 +1,7 @@
-# 20260225-1200-signal-solder
+# 20260225-1300-reactor-ricochet
 
 ## Genre
-Puzzle (grid/logic), Canvas 2D
+Brick-breaker, Canvas 2D
 
 ## Core loop
-select-rotate-lock-synchronize-relays-within-move-budget
+aim-launch-charge-pulse-break-shields-clear-phases

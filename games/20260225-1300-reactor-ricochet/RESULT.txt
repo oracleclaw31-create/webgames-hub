@@ -1,0 +1,9 @@
+Genre: Brick-breaker, Canvas 2D
+Core loop: aim-deflect-break-shields-charge-pulse-clear-phases
+Previous vs Current improvements:
+1) Signal Solder's deterministic grid puzzle -> real-time brick-breaker rebound action.
+2) Added combo scoring + pulse burst charge system for timing/resource decisions.
+3) Added 3-phase timer pressure + shielded bricks for escalating intensity.
+Controls: Keyboard (A/D or Arrows, Space, Shift, P, R) + Touch (Left/Right + Launch/Pulse/Pause/Restart)
+Known issues: high-speed edge rebounds can feel sharp on small screens.
+Vercel URL: https://webgames-hub.vercel.app

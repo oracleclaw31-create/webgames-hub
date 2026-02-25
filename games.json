@@ -183,8 +183,8 @@
     "id": "20260224-0601-overclock-outpost",
     "slug": "overclock-outpost",
     "title": "Overclock Outpost",
-    "path": "games/20260224-0601-overclock-outpost/index.html",
-    "readme": "games/20260224-0601-overclock-outpost/README.md",
+    "path": "archive/20260224-0601-overclock-outpost/index.html",
+    "readme": "archive/20260224-0601-overclock-outpost/README.md",
     "coreLoop": "place-aim-manage-heat-overclock-vent-hold-wave",
     "improvementAgainstPrevious": "Flux Bricks 대비 전략적 웨이브 준비 루프 도입 + 터렛 열관리(오버클럭/벤트) 의사결정층 추가 + 터치 전술 액션 패널 강화"
   },
@@ -192,8 +192,8 @@
     "id": "20260224-0703-neon-laststand",
     "slug": "neon-laststand",
     "title": "Neon Laststand",
-    "path": "games/20260224-0703-neon-laststand/index.html",
-    "readme": "games/20260224-0703-neon-laststand/README.md",
+    "path": "archive/20260224-0703-neon-laststand/index.html",
+    "readme": "archive/20260224-0703-neon-laststand/README.md",
     "coreLoop": "kite-dash-autoaim-survive-waves-upgrade-tempo",
     "improvementAgainstPrevious": "faster survival pacing + dash mobility + tighter touch parity"
   },
@@ -450,5 +450,25 @@
     "coreLoop": "select-rotate-lock-synchronize-relays-within-move-budget",
     "improvementAgainstPrevious": "Jam Break Protocol 대비 (1) 실시간 웨이브 슈팅에서 결정형 그리드 퍼즐 루프로 전환 (2) Undo/Reset + move-budget 최적화 계층 추가 (3) 단일 탭 중심 터치 입력으로 접근성 강화",
     "genre": "Puzzle (grid/logic)"
+  },
+  {
+    "id": "20260225-1300-reactor-ricochet",
+    "slug": "reactor-ricochet",
+    "title": "Reactor Ricochet",
+    "path": "games/20260225-1300-reactor-ricochet/index.html",
+    "readme": "games/20260225-1300-reactor-ricochet/README.md",
+    "coreLoop": "aim-launch-charge-pulse-break-shields-clear-phases",
+    "improvementAgainstPrevious": "Signal Solder 대비 (1) 결정형 퍼즐에서 실시간 반사 액션 루프로 전환 (2) phase timer+combo multiplier 압박층 추가 (3) charge pulse로 실드 관통 선택지 제공",
+    "genre": "Brick-breaker"
+  },
+  {
+    "id": "20260225-1300-reactor-ricochet",
+    "slug": "reactor-ricochet",
+    "title": "Reactor Ricochet",
+    "path": "games/20260225-1300-reactor-ricochet/index.html",
+    "readme": "games/20260225-1300-reactor-ricochet/README.md",
+    "coreLoop": "aim-deflect-break-shields-charge-pulse-clear-phases",
+    "improvementAgainstPrevious": "Signal Solder 대비 (1) 결정형 퍼즐에서 실시간 반사 액션 루프로 전환 (2) 콤보+차지 펄스 자원 의사결정 층 추가 (3) 실드 브릭+3페이즈 타이머 압박으로 템포 상승",
+    "genre": "Brick-breaker"
   }
 ]

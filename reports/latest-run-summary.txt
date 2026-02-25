@@ -1,9 +1,9 @@
-EN: A new Canvas 2D puzzle game, Signal Solder, is added with rotate-lock relay synchronization and full hub/report updates.
-KR: 회전/잠금 기반 릴레이 동기화 루프를 가진 신규 Canvas 2D 퍼즐 Signal Solder를 추가하고 허브/리포트를 갱신했습니다.
-Genre: Puzzle (grid/logic)
-Core loop: select-rotate-lock-synchronize-relays-within-move-budget
-Previous vs Current Improvement: Jam Break Protocol 대비 실시간 슈팅에서 결정형 퍼즐로 전환, Undo/Reset+move-budget 최적화 추가, 터치 입력 단순화.
-Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/
-Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1200-signal-solder/thumbnail.png
-Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1200-signal-solder.md
-Vercel URL: https://webgames-hub.vercel.app (existing alias; deploy blocked on 2026-02-25)
+EN: Added Reactor Ricochet, a new Canvas 2D brick-breaker with timed phases, combo scoring, and charge pulse shield-pierce mechanics.
+KR: 타이머 페이즈, 콤보 점수, 실드 관통 차지 펄스를 갖춘 신규 Canvas 2D 브릭브레이커 Reactor Ricochet를 추가했습니다.
+Genre: Brick-breaker
+Core loop: aim-launch-charge-pulse-break-shields-clear-phases
+Previous vs Current Improvement: Signal Solder 대비 결정형 퍼즐에서 실시간 액션으로 전환, phase timer+combo multiplier 추가, charge pulse 실드 관통 메커닉 추가.
+Game folder: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1300-reactor-ricochet/
+Thumbnail path: /home/ubuntu/.openclaw/workspace/webgames-hub/games/20260225-1300-reactor-ricochet/thumbnail.png
+Report path: /home/ubuntu/.openclaw/workspace/webgames-hub/reports/20260225-1300-reactor-ricochet.md
+Vercel URL: https://webgames-hub.vercel.app

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reactor Ricochet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Reactor Ricochet</h1>
+    <canvas id="game" width="960" height="540" aria-label="Reactor Ricochet game canvas"></canvas>
+    <section class="hud" id="hudText"></section>
+    <section class="controls">
+      <button id="pauseBtn">Pause (P)</button>
+      <button id="restartBtn">Restart (R)</button>
+    </section>
+    <section id="touch" class="touch" aria-label="touch controls">
+      <button data-k="left">◀ Left</button>
+      <button data-k="right">Right ▶</button>
+      <button data-k="launch">Launch</button>
+      <button data-k="pulse">Pulse</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -3,8 +3,8 @@
 Auto-generated web game hub.
 
 ## Latest
-- Game: games/20260225-1200-signal-solder/index.html
-- Report: reports/20260225-1200-signal-solder.md
+- Game: games/20260225-1300-reactor-ricochet/index.html
+- Report: reports/20260225-1300-reactor-ricochet.md
 
 ## Structure
 - games/YYYYMMDD-HHmm-slug/
